@@ -1,5 +1,5 @@
 ---
-title: "Repair, Mods & Hacks"
+title: "🛠 Repair, Mods & Hacks"
 weight: 80
 bookCollapseSection: true
 ---

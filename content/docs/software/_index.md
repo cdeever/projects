@@ -1,5 +1,5 @@
 ---
-title: "Software"
+title: "🧠 Software"
 weight: 10
 bookCollapseSection: true
 ---
