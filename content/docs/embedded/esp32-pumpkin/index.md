@@ -5,7 +5,7 @@ weight: 10
 
 # ESP32 Pumpkin
 
-A Halloween decoration project combining animated lighting with motion-activated audio. An ESP32 drives a strip of WS2812B LEDs to create a realistic flickering flame effect inside the pumpkin, while a PIR motion sensor triggers an evil laugh when trick-or-treaters approach.
+A Halloween decoration project combining animated lighting with motion-activated audio. An ESP32 drives a strip of WS2812B LEDs to create a realistic flickering flame effect inside the pumpkin, while a PIR motion sensor triggers a strobe effect and evil laugh when trick-or-treaters approach.
 
 Written in C with the ESP-IDF, the implementation uses FreeRTOS to run the LED animation and I2S audio playback as separate tasks, keeping everything smooth and responsive. Different sounds can be swapped in for variety.
 
