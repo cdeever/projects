@@ -1,5 +1,5 @@
 ---
-title: "Retro & Classic Systems"
+title: "🕹 Retro & Classic Systems"
 weight: 50
 bookCollapseSection: true
 ---

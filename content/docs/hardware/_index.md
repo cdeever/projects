@@ -1,5 +1,5 @@
 ---
-title: "Hardware & Electronics"
+title: "🧱 Hardware & Electronics"
 weight: 40
 bookCollapseSection: true
 ---

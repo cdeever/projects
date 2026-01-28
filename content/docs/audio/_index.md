@@ -1,5 +1,5 @@
 ---
-title: "Audio & Hi-Fi"
+title: "🔊 Audio & Hi-Fi"
 weight: 70
 bookCollapseSection: true
 ---
