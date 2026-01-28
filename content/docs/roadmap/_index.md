@@ -1,11 +1,9 @@
 ---
 title: "Roadmap"
-weight: 20
+weight: 90
 bookCollapseSection: true
 ---
 
-# Consolidated Roadmap
+# Roadmap
 
-This section tracks the unified roadmap across all projects.
-
-<!-- Add roadmap phases, milestones, and timeline entries below -->
+What's in progress, what's planned, and what's on the horizon.
