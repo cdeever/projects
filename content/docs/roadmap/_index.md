@@ -1,5 +1,5 @@
 ---
-title: "Roadmap"
+title: "🗺 Roadmap"
 weight: 90
 bookCollapseSection: true
 ---
