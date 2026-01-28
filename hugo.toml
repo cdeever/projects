@@ -25,6 +25,6 @@ enableGitInfo = true
 
 [menu]
   [[menu.before]]
-    name = "Home"
+    name = "🏠 Home"
     url = "/"
     weight = 1
