@@ -1,0 +1,5 @@
+{{- $dot := .Inner -}}
+{{- $encoded := $dot | base64Encode -}}
+<figure class="graphviz">
+  <img src="https://kroki.io/graphviz/svg/{{ $encoded }}" alt="Graphviz diagram" />
+</figure>
