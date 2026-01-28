@@ -1,0 +1,30 @@
+baseURL = 'https://cdeever.github.io/projects/'
+languageCode = 'en-us'
+title = 'Project Navigator'
+theme = 'hugo-book'
+
+# enableGitInfo = true
+
+[params]
+  BookMenuBundleSection = 'docs'
+  BookSection = 'docs'
+  BookToC = true
+  BookTheme = 'auto'
+  BookSearch = true
+  BookDateFormat = 'January 2, 2006'
+  # BookRepo = 'https://github.com/your-org/your-repo'
+  # BookEditPath = 'edit/main/'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+
+[menu]
+  [[menu.before]]
+    name = "Home"
+    url = "/"
+    weight = 1
