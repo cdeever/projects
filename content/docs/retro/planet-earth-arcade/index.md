@@ -5,7 +5,7 @@ weight: 10
 
 # Planet Earth Arcade
 
-<img src="planet-earth-arcade.jpg" alt="Planet Earth Arcade" style="float: right; max-width: 300px; margin: 0 0 1em 1em;">
+![Planet Earth Arcade](planet-earth-arcade.jpg)
 
 This upright arcade cabinet project is based on a North Coast Custom Ultimate Arcade II upright cabinet. The theme was inspired by the Planet Earth Arcade that operated in Kenton, Ohio in the early 1980s. The machine features custom Earth and space themed artwork, RGB buttons, and an authentic 29" CRT.
 
