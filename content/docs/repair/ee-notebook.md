@@ -9,3 +9,4 @@ A learning journal and reference manual covering electronics engineering techniq
 
 **Links:**
 - [Documentation](https://cdeever.github.io/ee-notebook)
+- [GitHub Repository](https://github.com/cdeever/ee-notebook)
