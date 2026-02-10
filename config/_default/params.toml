@@ -1,0 +1,40 @@
+# Blowfish params configuration
+
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+[homepage]
+  layout = "custom"
+  showRecent = false
+
+[article]
+  showDate = true
+  showDateUpdated = true
+  showAuthor = false
+  showBreadcrumbs = true
+  showTableOfContents = true
+  showHero = true
+  heroStyle = "background"
+
+[list]
+  showCards = true
+  cardView = true
+  cardViewScreenWidth = false
+  groupByYear = false
+
+[taxonomy]
+  showTermCount = true
+
+[sitemap]
+  excludedKinds = []
+
+[header]
+  layout = "basic"
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true

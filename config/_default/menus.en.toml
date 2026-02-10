@@ -1,0 +1,29 @@
+[[main]]
+  name = "Electronics"
+  pageRef = "electronics"
+  weight = 10
+
+[[main]]
+  name = "Home Improvement"
+  pageRef = "home-improvement"
+  weight = 20
+
+[[main]]
+  name = "Car Projects"
+  pageRef = "car-projects"
+  weight = 30
+
+[[main]]
+  name = "IT"
+  pageRef = "it"
+  weight = 40
+
+[[main]]
+  name = "Maker"
+  pageRef = "maker"
+  weight = 50
+
+[[main]]
+  name = "Learning"
+  pageRef = "learning"
+  weight = 60

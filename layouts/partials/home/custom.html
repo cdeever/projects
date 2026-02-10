@@ -1,0 +1,39 @@
+<div class="max-w-6xl mx-auto px-4 py-8">
+  <div class="mb-8 text-center">
+    <h1 class="text-4xl font-bold mb-4">{{ .Site.Title }}</h1>
+    {{ with .Content }}
+      <div class="prose dark:prose-invert mx-auto">
+        {{ . }}
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {{ range where .Site.Sections "Kind" "section" }}
+      {{ if ne .Params.hidden true }}
+        <a href="{{ .RelPermalink }}" class="group block rounded-lg border border-neutral-200 dark:border-neutral-700 overflow-hidden hover:shadow-lg transition-shadow duration-200 bg-neutral-50 dark:bg-neutral-800">
+          {{ $featureImage := .Resources.GetMatch "feature*" }}
+          {{ with $featureImage }}
+            <div class="aspect-video overflow-hidden">
+              <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" />
+            </div>
+          {{ else }}
+            <div class="aspect-video bg-primary-100 dark:bg-primary-900 flex items-center justify-center">
+              <span class="text-4xl">{{ with $.Params.icon }}{{ . }}{{ else }}📁{{ end }}</span>
+            </div>
+          {{ end }}
+          <div class="p-4">
+            <h2 class="text-xl font-semibold mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">{{ .Title }}</h2>
+            {{ with .Description }}
+              <p class="text-sm text-neutral-600 dark:text-neutral-400">{{ . }}</p>
+            {{ end }}
+            {{ $count := len .RegularPages }}
+            {{ if gt $count 0 }}
+              <p class="text-xs text-neutral-500 dark:text-neutral-500 mt-2">{{ $count }} {{ if eq $count 1 }}project{{ else }}projects{{ end }}</p>
+            {{ end }}
+          </div>
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

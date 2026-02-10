@@ -1,0 +1,7 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+
+[params.author]
+  name = "Chris Deever"
+  headline = "Builder & Tinkerer"

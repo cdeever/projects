@@ -1,0 +1,14 @@
+baseURL = 'https://cdeever.github.io/projects/'
+languageCode = 'en-us'
+title = 'Project Navigator'
+theme = 'blowfish'
+
+enableGitInfo = true
+enableRobotsTXT = true
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
