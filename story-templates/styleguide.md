@@ -73,6 +73,15 @@ Each story type has a template that defines the section headings and narrative f
 | Repair | `repair-story-template.md` |
 | Learning | `learning-story-template.md` |
 
+### Long-form vs. short-form
+
+Each template offers two variants:
+
+- **Long-form** — for deep, multi-phase projects with real narrative arc. Use when the project has enough history, decisions, and surprises to sustain detailed sections.
+- **Short-form** — for focused, single-purpose builds, quick fixes, or small experiments. Covers the same narrative beats (why, what, surprise, result, lessons) in a compact format.
+
+Pick the form that fits the project. A weekend Halloween build doesn't need ten sections; a multi-year infrastructure platform does. Both forms use the same voice, tone, and opening orientation paragraph.
+
 Not every section needs to be long — some may be a single sentence — but keep the headings so stories stay scannable and consistent.
 
 ---
