@@ -2,23 +2,36 @@
 
 Use this template for projects focused on fixing, restoring, or modifying existing equipment.
 
-<!-- TODO: Fill in section descriptions and guidance -->
 
-## What Broke
+## The situation
+What broke or needed attention?
 
-<!-- TODO: The problem — what failed, symptoms, context -->
+## Why it mattered
+Safety? Annoyance? Cost? Pride?
 
-## Diagnosis
+## Initial assessment
+What you thought it would be
 
-<!-- TODO: Troubleshooting process, measurements, root cause analysis -->
+## The plan
+Best guess before starting
 
-## The Fix
+## The adventure
+What actually happened step-by-step
 
-<!-- TODO: Repair procedure, parts used, techniques applied -->
+## The turning point
+Where things got interesting
 
-## Results
+## The fix
+How it was ultimately solved
 
-<!-- TODO: Outcome — what works now, lessons learned -->
+## Result
+Working? Better? Good enough?
+
+## Lessons learned
+What you'd do differently
+
+## If I had to do it again
+Tools, time, parts, shortcuts
 
 ## Links
 

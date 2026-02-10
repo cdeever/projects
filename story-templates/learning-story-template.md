@@ -2,23 +2,33 @@
 
 Use this template for skill acquisition, learning journals, and experimental projects.
 
-<!-- TODO: Fill in section descriptions and guidance -->
+## The question
+What am I trying to understand?
 
-## What I'm Learning
+## Why this matters
+Why I care (practical or curiosity)
 
-<!-- TODO: The subject area, motivation, goals -->
+## What I think I know
+Initial assumptions or theory
 
-## Approach
+## Experiment / exploration
+What I did to test or learn
 
-<!-- TODO: Resources, courses, tools, methodology -->
+## Observations
+What actually happened
 
-## Progress
+## Surprise factor
+What didn’t behave as expected
 
-<!-- TODO: What's been covered, key insights, milestones -->
+## What I understand now
+Updated mental model
 
-## What's Next
+## Practical takeaway
+How this changes future builds/repairs
 
-<!-- TODO: Upcoming topics, goals, planned experiments -->
+## Next questions
+Where this leads next
+
 
 ## Links
 

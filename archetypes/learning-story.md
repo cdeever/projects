@@ -10,21 +10,41 @@ showHero: true
 heroStyle: "background"
 ---
 
-## What I'm Learning
+## The question
 
-<!-- The subject area, motivation, goals -->
+<!-- What am I trying to understand? -->
 
-## Approach
+## Why this matters
 
-<!-- Resources, courses, tools, methodology -->
+<!-- Why I care (practical or curiosity) -->
 
-## Progress
+## What I think I know
 
-<!-- What's been covered, key insights, milestones -->
+<!-- Initial assumptions or theory -->
 
-## What's Next
+## Experiment / exploration
 
-<!-- Upcoming topics, goals, planned experiments -->
+<!-- What I did to test or learn -->
+
+## Observations
+
+<!-- What actually happened -->
+
+## Surprise factor
+
+<!-- What didn't behave as expected -->
+
+## What I understand now
+
+<!-- Updated mental model -->
+
+## Practical takeaway
+
+<!-- How this changes future builds/repairs -->
+
+## Next questions
+
+<!-- Where this leads next -->
 
 ## Links
 

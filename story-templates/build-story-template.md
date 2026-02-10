@@ -2,23 +2,36 @@
 
 Use this template for projects where you're building something new from scratch.
 
-<!-- TODO: Fill in section descriptions and guidance -->
+## The itch
+What made you want this to exist?
 
-## The Idea
+## The idea
+Early concept or vision
 
-<!-- TODO: What sparked this project? What problem does it solve? -->
+## Constraints
+Time, money, space, tech limits
 
-## Design & Planning
+## Design approach
+How you decided to solve it
 
-<!-- TODO: Key design decisions, architecture, component selection -->
+## Build log
+Major phases (not every screw)
 
-## The Build
+## Challenges
+Where reality fought back
 
-<!-- TODO: Implementation details, challenges encountered, solutions found -->
+## Breakthrough moment
+When it started working
 
-## Where It Stands
+## Current state
+Working? Prototype? Evolving?
 
-<!-- TODO: Current state — what works, what's next -->
+## What’s next
+Future improvements or v2
+
+## Lessons learned
+What this taught you
+
 
 ## Links
 

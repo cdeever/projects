@@ -10,21 +10,45 @@ showHero: true
 heroStyle: "background"
 ---
 
-## What Broke
+## The situation
 
-<!-- The problem — what failed, symptoms, context -->
+<!-- What broke or needed attention? -->
 
-## Diagnosis
+## Why it mattered
 
-<!-- Troubleshooting process, measurements, root cause analysis -->
+<!-- Safety? Annoyance? Cost? Pride? -->
 
-## The Fix
+## Initial assessment
 
-<!-- Repair procedure, parts used, techniques applied -->
+<!-- What you thought it would be -->
 
-## Results
+## The plan
 
-<!-- Outcome — what works now, lessons learned -->
+<!-- Best guess before starting -->
+
+## The adventure
+
+<!-- What actually happened step-by-step -->
+
+## The turning point
+
+<!-- Where things got interesting -->
+
+## The fix
+
+<!-- How it was ultimately solved -->
+
+## Result
+
+<!-- Working? Better? Good enough? -->
+
+## Lessons learned
+
+<!-- What you'd do differently -->
+
+## If I had to do it again
+
+<!-- Tools, time, parts, shortcuts -->
 
 ## Links
 

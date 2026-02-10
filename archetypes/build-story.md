@@ -10,21 +10,45 @@ showHero: true
 heroStyle: "background"
 ---
 
-## The Idea
+## The itch
 
-<!-- What sparked this project? What problem does it solve? -->
+<!-- What made you want this to exist? -->
 
-## Design & Planning
+## The idea
 
-<!-- Key design decisions, architecture, component selection -->
+<!-- Early concept or vision -->
 
-## The Build
+## Constraints
 
-<!-- Implementation details, challenges encountered, solutions found -->
+<!-- Time, money, space, tech limits -->
 
-## Where It Stands
+## Design approach
 
-<!-- Current state — what works, what's next -->
+<!-- How you decided to solve it -->
+
+## Build log
+
+<!-- Major phases (not every screw) -->
+
+## Challenges
+
+<!-- Where reality fought back -->
+
+## Breakthrough moment
+
+<!-- When it started working -->
+
+## Current state
+
+<!-- Working? Prototype? Evolving? -->
+
+## What's next
+
+<!-- Future improvements or v2 -->
+
+## Lessons learned
+
+<!-- What this taught you -->
 
 ## Links
 
