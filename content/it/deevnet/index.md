@@ -2,6 +2,7 @@
 title: "Deevnet"
 description: "Infrastructure automation ecosystem using IaC and CaC"
 summary: "A fully rebuildable infrastructure platform — all hosts are stateless, all configuration lives in code"
+date: 2025-09-04
 tags: ["infrastructure", "ansible", "terraform", "packer", "pxe", "iac"]
 status: "in progress"
 showHero: true

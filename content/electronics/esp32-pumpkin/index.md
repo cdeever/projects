@@ -2,6 +2,7 @@
 title: "ESP32 Pumpkin"
 description: "Halloween decoration with NeoPixel LED animation and PIR motion-triggered audio"
 summary: "An ESP32-driven Halloween pumpkin with flickering flame LEDs and motion-activated evil laugh audio"
+date: 2024-09-26
 tags: ["esp32", "esp-idf", "neopixel", "led", "halloween", "freertos"]
 status: "complete"
 showHero: true

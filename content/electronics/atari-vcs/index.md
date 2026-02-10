@@ -2,6 +2,7 @@
 title: "Atari VCS"
 description: "6502 assembly programming for the Atari VCS"
 summary: "Hands-on 6502 assembly coding for the Atari VCS, blending retro gaming nostalgia with low-level programming"
+date: 2024-07-13
 tags: ["6502", "assembly", "retro", "atari", "gaming"]
 status: ""
 showHero: true

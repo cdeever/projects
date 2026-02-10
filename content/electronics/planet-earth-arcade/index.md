@@ -2,6 +2,7 @@
 title: "Planet Earth Arcade"
 description: "Arcade cabinet restoration with custom artwork and classic game library"
 summary: "Upright arcade cabinet restoration themed after a 1980s Ohio arcade, featuring custom artwork and a classic game library"
+date: 2011-12-01
 tags: ["arcade", "retro", "gaming", "restoration"]
 status: ""
 showHero: true
