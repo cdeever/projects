@@ -1,8 +1,8 @@
 ---
 title: "ESP32 Pumpkin"
-description: "Halloween decoration with WS2812B LED animation and PIR motion-triggered audio"
+description: "Halloween decoration with NeoPixel LED animation and PIR motion-triggered audio"
 summary: "An ESP32-driven Halloween pumpkin with flickering flame LEDs and motion-activated evil laugh audio"
-tags: ["esp32", "esp-idf", "ws2812b", "led", "halloween", "freertos"]
+tags: ["esp32", "esp-idf", "neopixel", "led", "halloween", "freertos"]
 status: "complete"
 showHero: true
 heroStyle: "background"
@@ -16,7 +16,7 @@ I stumbled across a project video by Bitluni where he built a screaming pumpkin 
 
 ## What I did
 
-An ESP32 drives a strip of WS2812B LEDs for a realistic flickering flame effect inside the pumpkin. A PIR motion sensor detects approaching trick-or-treaters and triggers a strobe effect plus an evil laugh played through I2S audio. The whole thing is written in C with the ESP-IDF framework, using FreeRTOS to run the LED animation and audio playback as separate tasks. Different sounds can be swapped in for variety.
+An ESP32 drives a strip of NeoPixel LEDs for a realistic flickering flame effect inside the pumpkin. A PIR motion sensor detects approaching trick-or-treaters and triggers a strobe effect plus an evil laugh played through I2S audio. The whole thing is written in C with the ESP-IDF framework, using FreeRTOS to run the LED animation and audio playback as separate tasks. Different sounds can be swapped in for variety.
 
 ## What surprised me
 
@@ -24,7 +24,7 @@ It took a lot more than a few hours — even with vibe coding. FreeRTOS timing w
 
 ## Result
 
-Fully working. The pumpkin looks fantastic at idle with the flickering flame, and the motion-triggered strobe plus evil laugh gets a solid reaction from trick-or-treaters. Future plan: build two more in different size pumpkins, each with their own voice, for an evil pumpkin family.
+Fully working. The pumpkin looks fantastic at idle with the flickering flame, and the motion-triggered strobe plus evil laugh gets a solid reaction from trick-or-treaters. Future plan for next Halloween: build an evil pumpkin family — multiple pumpkins in different sizes, each with their own evil laugh that matches the size and character of the pumpkin.
 
 ## Takeaways
 
@@ -32,6 +32,7 @@ Fully working. The pumpkin looks fantastic at idle with the flickering flame, an
 - FreeRTOS is impressive — real multitasking on a microcontroller — but the timing coordination has a real learning curve
 - "A couple hours" on YouTube can easily become days in practice, and that's fine
 - Vibe coding gets you started fast but embedded timing issues still require hands-on debugging
+- The I2S board and small speaker aren't loud enough — the next version needs a sound upgrade
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
   <img src="pumpkin-glow.jpg" alt="Pumpkin glowing" style="max-width: 250px;">
