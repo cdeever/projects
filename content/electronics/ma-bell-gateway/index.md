@@ -16,5 +16,5 @@ The system delivers authentic telephone-line characteristics: proper DC voltage 
 Lift the handset, get a dial tone, pulse dial a number, and make a call over Bluetooth. Incoming calls ring the actual bell.
 
 **Links:**
-- [GitHub Repository](https://github.com/cdeever/esp32-ma-bell-gateway)
-- [Documentation Site](https://cdeever.github.io/esp32-ma-bell-gateway/)
+- [Check out the docs](https://cdeever.github.io/esp32-ma-bell-gateway/)
+- [Check out the code](https://github.com/cdeever/esp32-ma-bell-gateway)

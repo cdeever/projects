@@ -18,4 +18,4 @@ The toolchain includes DASM assembler, Stella emulator for testing, and resource
 Currently features one demo, with more demos and possibly a game or two planned.
 
 **Links:**
-- [GitHub Repository](https://github.com/cdeever/atari-vcs)
+- [Check out the code](https://github.com/cdeever/atari-vcs)

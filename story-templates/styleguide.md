@@ -114,15 +114,17 @@ Every post uses Blowfish front matter in YAML format. Required and optional fiel
 
 ## Link Conventions
 
-Every post should end with a `## Links` section containing bulleted markdown links to relevant external resources. Use clear labels:
+Every post should end with a `## Links` section containing bulleted markdown links to relevant external resources. Use conversational labels:
 
 ```markdown
 ## Links
 
-- [GitHub Repository](https://github.com/user/project)
-- [Documentation Site](https://project.docs.example.com)
+- [Check out the docs](https://project.docs.example.com)
+- [Check out the code](https://github.com/user/project)
 - [Service Manual (PDF)](https://example.com/manual.pdf)
 - [Related Project — Widget Controller](../widget-controller/)
 ```
+
+Use "Check out the docs" for documentation sites and "Check out the code" for GitHub repositories. For other link types (manuals, related projects, etc.) use clear descriptive labels.
 
 Omit the section entirely if there are genuinely no external links, but most projects will have at least a repo link.

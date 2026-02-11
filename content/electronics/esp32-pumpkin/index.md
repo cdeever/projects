@@ -42,4 +42,4 @@ Fully working. The pumpkin looks fantastic at idle with the flickering flame, an
 
 ## Links
 
-- [GitHub Repository](https://github.com/cdeever/esp32-pumpkin)
+- [Check out the code](https://github.com/cdeever/esp32-pumpkin)

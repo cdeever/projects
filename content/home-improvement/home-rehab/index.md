@@ -1,5 +1,5 @@
 ---
-title: "Home Rehab"
+title: "Home Rehab Tracker"
 description: "Hugo-based renovation tracker for a whole-house rehab project"
 summary: "A static site tracking 647 renovation tasks across a 1990s-era house — built in under 24 hours with AI-assisted development"
 date: 2026-01-05
@@ -9,11 +9,11 @@ showHero: true
 heroStyle: "background"
 ---
 
-A Hugo-based project tracking site for a whole-house renovation — hundreds of tasks across three floors, with progress indicators showing what's done, what's in progress, and what's left. Built entirely through conversation with Claude Code in under 24 hours, auto-published to GitHub Pages on every commit.
+A Hugo-based project tracking site for a whole-house renovation — scores of projects across three floors, each broken into individual tasks, resulting in hundreds of distinct work items with progress indicators showing what's done, what's in progress, and what's left. Built entirely through conversation with Claude Code in under 24 hours, auto-published to GitHub Pages on every commit.
 
 ## The itch
 
-Two things converged. First, I have a 1990s-era house with years of in-progress renovation work and significant projects still ahead before the place is fully up to date — way too much to keep track of in my head. Second, after building the Deevnet docs site and seeing how easy it was to use Claude Code to generate a Hugo site that auto-publishes on commit, I wanted to apply that same pattern to the renovation.
+I have a 1990s-era house — good bones, built better than many modern houses, with larger bedrooms and 9-foot ceilings downstairs — but it needed a major cosmetic renovation and some convenience upgrades. That's a lot of projects to keep track of in my head. After building the Deevnet docs site and seeing how easy it was to use Claude Code to generate a Hugo site that auto-publishes on commit, I wanted to apply that same pattern to the renovation.
 
 ## What I did
 
@@ -22,6 +22,8 @@ I started after dinner on a Sunday night and spent several hours brain-dumping e
 ## What surprised me
 
 Once I started the site, it became addictive. Talking to the AI and getting all the tasks accounted for had a momentum to it — each round of review surfaced more things I'd forgotten or hadn't properly scoped. The site went from a quick experiment to a genuinely comprehensive renovation roadmap faster than I expected.
+
+With multiple projects currently in flight including the master bathroom overhaul, I had been feeling a bit of anxiety and the sense of "will this house ever be done." After capturing all the tasks, I felt very good about the progress made over the years — and now it gives a better sense of control seeing the path to the finish line.
 
 ## Result
 

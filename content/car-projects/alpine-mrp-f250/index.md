@@ -14,5 +14,5 @@ A documentation site for repairing the Alpine MRP-F250 4-channel power amplifier
 The documentation draws from the Alpine Service Manual and includes block diagrams, component-level explanations, systematic testing procedures with expected measurements, and reference data.
 
 **Links:**
-- [GitHub Repository](https://github.com/cdeever/repair-alpine-mrp-f250)
-- [Documentation Site](https://cdeever.github.io/repair-alpine-mrp-f250/)
+- [Check out the docs](https://cdeever.github.io/repair-alpine-mrp-f250/)
+- [Check out the code](https://github.com/cdeever/repair-alpine-mrp-f250)

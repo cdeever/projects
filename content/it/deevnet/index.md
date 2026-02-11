@@ -79,5 +79,5 @@ And the AI-assisted workflow itself has been a revelation. The combination of us
 
 ## Links
 
-- [GitHub Organization](https://github.com/deevnet)
-- [Documentation Site](https://deevnet.github.io/deevnet-docs/)
+- [Check out the docs](https://deevnet.github.io/deevnet-docs/)
+- [Check out the code](https://github.com/deevnet)
