@@ -43,3 +43,4 @@ Fully working. The pumpkin looks fantastic at idle with the flickering flame, an
 ## Links
 
 - [Check out the code](https://github.com/cdeever/esp32-pumpkin)
+- [Bitluni's original screaming pumpkin video](https://youtu.be/VfbikvNPwM0?si=KBZA4zo6PuiKAc8z)
