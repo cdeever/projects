@@ -25,7 +25,7 @@ Once I started the site, it became addictive. Talking to the AI and getting all 
 
 ## Result
 
-Fully working and actively used. The site tracks 647 items across first floor, second floor, and non-living spaces (garage, basement, exterior), with completion status on every task. It auto-publishes on commit and serves as the single source of truth for what's done and what's next.
+Fully working and actively used. The site tracks 647 items across first floor, second floor, and non-living spaces (garage, basement, exterior), with completion status on every task. Progress bars are nested — individual tasks roll up to progress for a room or area, rooms roll up to a floor, and floors roll up to overall renovation progress on the main landing page. Each task also carries a level-of-effort weight (not visible on the site) so the AI can calculate effort-weighted progress rather than just counting checkboxes. It auto-publishes on commit and serves as the single source of truth for what's done and what's next.
 
 ## Takeaways
 
