@@ -11,7 +11,7 @@ heroStyle: "background"
 
 A Halloween pumpkin powered by an ESP32 — flickering flame LEDs at idle, then a strobe and evil laugh triggered by motion when trick-or-treaters walk up. Built in C with ESP-IDF and FreeRTOS, inspired by a [Bitluni YouTube video](https://youtu.be/VfbikvNPwM0?si=KBZA4zo6PuiKAc8z) that made it look easy. It was not easy, but it works great.
 
-## The itch
+## The spark
 
 I needed a simple project to get a better understanding of working with the ESP32, and Bitluni's screaming pumpkin looked very accessible and fun. I figured I'd spin up my own version with a few twists — an evil laugh instead of a scream, and a nice flickering flame effect at idle.
 

@@ -11,7 +11,7 @@ heroStyle: "background"
 
 A Hugo-based project tracking site for a whole-house renovation — scores of projects across three floors, each broken into individual tasks, resulting in hundreds of distinct work items with progress indicators showing what's done, what's in progress, and what's left. Built entirely through conversation with Claude Code in under 24 hours, auto-published to GitHub Pages on every commit.
 
-## The itch
+## The spark
 
 I have a 1990s-era house — good bones, built better than many modern houses, with larger bedrooms and 9-foot ceilings downstairs — but it needed a major cosmetic renovation and some convenience upgrades. That's a lot of projects to keep track of in my head. After building the Deevnet docs site and seeing how easy it was to use Claude Code to generate a Hugo site that auto-publishes on commit, I wanted to apply that same pattern to the renovation.
 

@@ -10,7 +10,7 @@ showHero: true
 heroStyle: "background"
 ---
 
-## The itch
+## The spark
 
 <!-- What made you want this to exist? -->
 

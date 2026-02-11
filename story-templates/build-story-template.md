@@ -7,7 +7,7 @@ Choose long-form for deep, multi-phase projects or short-form for focused, singl
 
 ## Long-form
 
-### The itch
+### The spark
 What made you want this to exist?
 
 ### The idea
@@ -45,7 +45,7 @@ What this taught you
 
 ## Short-form
 
-### The itch
+### The spark
 Why this needed doing (1–3 sentences)
 
 ### What I did
