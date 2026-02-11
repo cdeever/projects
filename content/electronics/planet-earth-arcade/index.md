@@ -1,16 +1,59 @@
 ---
 title: "Planet Earth Arcade"
-description: "Arcade cabinet restoration with custom artwork and classic game library"
-summary: "Upright arcade cabinet restoration themed after a 1980s Ohio arcade, featuring custom artwork and a classic game library"
+description: "Full-size arcade cabinet build themed after a 1980s Ohio arcade"
+summary: "A full-size upright arcade cabinet built from a kit, themed after the Planet Earth Arcade in Kenton, Ohio — featuring a real CRT, RGB controls, and a library of late-70s and 80s classics"
 date: 2011-12-01
 tags: ["arcade", "retro", "gaming", "restoration"]
-status: ""
+status: "complete"
 showHero: true
 heroStyle: "background"
 ---
 
 ![Planet Earth Arcade](planet-earth-arcade.jpg)
 
-This upright arcade cabinet project is based on a North Coast Custom Ultimate Arcade II upright cabinet. The theme was inspired by the Planet Earth Arcade that operated in Kenton, Ohio in the early 1980s. The machine features custom Earth and space themed artwork, RGB buttons, and an authentic 29" CRT.
+A full-size upright arcade cabinet built from a North Coast Custom Ultimate Arcade II kit, themed after the Planet Earth Arcade that operated in Kenton, Ohio in the early 1980s. The machine features custom Earth and space themed artwork, RGB buttons and joysticks, a spinner, trackball, and an authentic 29" CRT. Inside, it runs Windows XP with Hyperspin as the navigator, selecting from a library of classics from the late 70s and 80s.
 
-Inside, it still runs Windows XP with Hyperspin as the navigator, selecting from a library of games from the late 70s and 80s.
+## The spark
+
+As a member of Gen X growing up in the 70s and 80s, the golden age of arcades was all around — and I was old enough to ride my bike to Planet Earth Arcade with a pocket full of quarters. All the classics were there: Asteroids, Space Invaders, Pac-Man, Frogger, Donkey Kong — you name it. If current me could have told young me "One day you'll have this in your house," I might have said — wow! Really! How?
+
+## The idea
+
+Ever since seeing MAME running on a PC, faithfully reproducing the old games in their perfect form, I knew I needed to recreate that experience in my own cabinet — and Planet Earth, as an homage to my childhood hometown arcade, was the perfect theme. By 2010, CRT manufacturing was winding down, so if I wanted to build a new arcade cabinet with an authentic CRT, it was now or never.
+
+## Design approach
+
+I looked online and saw a lot of different cabinet designs — some were great, some were not so great. I wanted to build one, but I knew with my skills and tool set there was no way I was going to build one that looked like it came straight out of the arcade factory. Then I found North Coast Custom and discovered the Ultimate Arcade II was available as a kit. Perfect. The control panel layout includes a spinner, trackball, two-player joysticks and buttons — and the RGB buttons and joysticks looked cooler than even the games looked back in the day.
+
+## Build log
+
+**Sourcing.** The cabinet kit gave the machine its shape, but I still needed the CRT, coin door, buttons, joysticks, trackball, spinner, wiring, control board, light controller, sound system, lights, and artwork. I was able to get most everything from [Ultimarc](https://www.ultimarc.com/) and [Suzo-Happ](https://na.suzohapp.com/). A few more odds and ends came from the local Radio Shack and Best Buy — including car speakers to go along with a nice subwoofer, so Space Invaders would make a satisfying thump thump thump as they launch their attack.
+
+**Artwork.** With Planet Earth as the theme, I went with "Planet Earth" in the Planet of the Apes font on a starfield background featuring both the Earth and the Moon — easy enough for my skill level. The Ultimate Arcade marquee and control panel templates were available from a supplier, and I was able to apply the images to the templates in Photoshop for a nice marquee and control panel. I deferred the side art at first since I wasn't sure what I wanted.
+
+**Cabinet assembly.** Lucky for me, my Uncle Pete had a long career in construction, and this many-step build was a nice project for the two of us to work on. We were able to get the cabinet assembled in pretty much one day.
+
+**Components and wiring.** With all the buttons, plus the power on/off, volume control for the speaker system, coin door lighting, and coin activation, there was plenty to wire up. The marquee lighting also had to be tied in to the computer power supply. I found a power strip that worked by detecting power on one device — the computer — and enabling the other outlets to activate, powering the monitor, sound system, and USB distribution. That gave me single-button on/off.
+
+## Challenges
+
+Finding joysticks with the RGB lights was not easy. The online suppliers were out of them and weren't getting new stock. I went back to North Coast Custom and they helped me out — they could get them custom made. They looked great, but they didn't fit exactly into the off-the-shelf joystick housings I had. I had to take the plastic washers and make them much thinner so the sticks would fit into the opening. The only way I could think to make the plastic thinner was to sand them down until they fit, which is exactly what I did. Tedious process, but in the end it worked out.
+
+## Breakthrough moment
+
+With everything in the cabinet — the lights behind the marquee, coin door ready to light up, and the CRT behind the plexiglass — the machine looks legit. It looks like it would fit right in with any other early 80s cabinet. After launching MAME with one of the games — wow.
+
+## Current state
+
+Late in 2018, after about seven years and many, many hours of Millipede and other games, the CRT was exhibiting no signs of life. Many life changes were also happening, and in 2019 I moved to a new house — disassembling the cabinet and getting it relocated was certainly not trivial. After settling into the new house with the CRT in a non-functional state, I had the machine rigged up in a partially assembled state with a temporary flatscreen so I could get my fix, but I dreamed of getting the cabinet restored back to its original glory.
+
+Lucky me — my girlfriend surprised me on my birthday with cabinet side art. Now there was a strong reason to get everything put back together. I ordered a blacklight-style rug for the grand reopening. I ended up finding an arcade repair guy who was able to replace the flyback transformer — costing more than the original CRT and sacrificing some poor Golden Tee out there somewhere — but now it's back and better than ever.
+
+## What's next
+
+The machine is running great as-is. Even trying to upgrade to Windows 10 turned out to be a mistake — XP works the best with Hyperspin and that's just the way it is.
+
+## Links
+
+- [Ultimarc](https://www.ultimarc.com/)
+- [Suzo-Happ](https://na.suzohapp.com/)
