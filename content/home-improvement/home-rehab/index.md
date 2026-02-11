@@ -9,7 +9,7 @@ showHero: true
 heroStyle: "background"
 ---
 
-A Hugo-based project tracking site for a whole-house renovation — 647 tasks across three floors, with progress indicators showing what's done, what's in progress, and what's left. Built entirely through conversation with Claude Code in under 24 hours, auto-published to GitHub Pages on every commit.
+A Hugo-based project tracking site for a whole-house renovation — hundreds of tasks across three floors, with progress indicators showing what's done, what's in progress, and what's left. Built entirely through conversation with Claude Code in under 24 hours, auto-published to GitHub Pages on every commit.
 
 ## The itch
 
@@ -17,7 +17,7 @@ Two things converged. First, I have a 1990s-era house with years of in-progress 
 
 ## What I did
 
-I started after dinner on a Sunday night and spent several hours brain-dumping every renovation task I could think of — room by room, floor by floor. Claude Code generated the Hugo site structure, organized the tasks, and published it to GitHub Pages. I'd review, suggest refactors, add more detail, and it would regenerate. The next morning I got up early and put in two more hours before work, then finished the last bits during lunch in under 30 minutes. Full site, all done — 647 tasks with clear progress tracking across the whole house, implemented in less than 24 hours total.
+I started after dinner on a Sunday night and spent several hours brain-dumping every renovation task I could think of — room by room, floor by floor. Claude Code generated the Hugo site structure, organized the tasks, and published it to GitHub Pages. I'd review, suggest refactors, add more detail, and it would regenerate. The next morning I got up early and put in two more hours before work, then finished the last bits during lunch in under 30 minutes. Full site, all done — as of the time of this writing, 647 tasks captured with clear progress tracking across the whole house, implemented in less than 24 hours total.
 
 ## What surprised me
 
@@ -25,7 +25,7 @@ Once I started the site, it became addictive. Talking to the AI and getting all 
 
 ## Result
 
-Fully working and actively used. The site tracks 647 items across first floor, second floor, and non-living spaces (garage, basement, exterior), with completion status on every task. Progress bars are nested — individual tasks roll up to progress for a room or area, rooms roll up to a floor, and floors roll up to overall renovation progress on the main landing page. Each task also carries a level-of-effort weight (not visible on the site) so the AI can calculate effort-weighted progress rather than just counting checkboxes. It auto-publishes on commit and serves as the single source of truth for what's done and what's next.
+Fully working and actively used. The site tracks hundreds of items across first floor, second floor, and non-living spaces (garage, basement, exterior), with completion status on every task. Progress bars are nested — individual tasks roll up to progress for a room or area, rooms roll up to a floor, and floors roll up to overall renovation progress on the main landing page. Each task also carries a level-of-effort weight (not visible on the site) so the AI can calculate effort-weighted progress rather than just counting checkboxes. It auto-publishes on commit and serves as the single source of truth for what's done and what's next.
 
 ## Takeaways
 
@@ -36,5 +36,5 @@ Fully working and actively used. The site tracks 647 items across first floor, s
 
 ## Links
 
-- [Documentation Site](https://cdeever.github.io/home-rehab/)
-- [GitHub Repository](https://github.com/cdeever/home-rehab)
+- [Check out the site](https://cdeever.github.io/home-rehab/)
+- [Check out the code](https://github.com/cdeever/home-rehab)
