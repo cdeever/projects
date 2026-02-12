@@ -8,6 +8,7 @@ tags: ["fireplace", "diy", "airstone", "home-improvement"]
 status: "complete"
 showHero: true
 heroStyle: "background"
+layoutBackgroundHeaderSpace: false
 ---
 
 I love a real-wood fire in the winter, but the 90s-era fireplace was dragging down the whole room. Brass doors, a stained oak mantel surround, and brick everywhere — it all screamed outdated. This project replaced the entire look with a rustic faux beam mantel, a granite hearth slab, and an AirStone surround. The result is a fireplace I actually want to sit in front of.

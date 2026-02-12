@@ -7,9 +7,8 @@ tags: ["arcade", "retro", "gaming", "restoration"]
 status: "complete"
 showHero: true
 heroStyle: "background"
+layoutBackgroundHeaderSpace: false
 ---
-
-![Planet Earth Arcade](planet-earth-arcade.jpg)
 
 A full-size upright arcade cabinet built from a North Coast Custom Ultimate Arcade II kit, themed after the Planet Earth Arcade that operated in Kenton, Ohio in the early 1980s. The machine features custom Earth and space themed artwork, RGB buttons and joysticks, a spinner, trackball, and an authentic 29" CRT. Inside, it runs Windows XP with Hyperspin as the navigator, selecting from a library of classics from the late 70s and 80s.
 
@@ -60,6 +59,10 @@ With the machine all back together and better than ever, I ordered a blacklight-
 ## What's next
 
 The machine is running great as-is. Running XP is perfect — exactly configured and ready anytime for a quick session of Galaga, Ms. Pac-Man, Tempest, or any number of other classics — transporting me right back to Planet Earth in Kenton, 1981.
+
+## The finished machine
+
+![Planet Earth Arcade](planet-earth-arcade.jpg)
 
 ## Links
 
