@@ -3,7 +3,7 @@ title: "Fireplace Facelift"
 description: "Transforming a dated 90s fireplace with a faux beam mantel, granite hearth, and AirStone surround"
 summary: "A DIY fireplace overhaul — swapping brass doors and stained oak for a rustic beam, granite slab, and stone surround"
 date: 2026-02-12
-draft: true
+draft: false
 tags: ["fireplace", "diy", "airstone", "home-improvement"]
 status: "complete"
 showHero: true
