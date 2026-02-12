@@ -49,7 +49,13 @@ Late in 2018, after about seven years and many, many hours of Millipede and othe
 
 ## Rebirth
 
-Lucky me — my girlfriend surprised me on my birthday with cabinet side art. I got the famous Apollo 8 "Earthrise" photo showing Earth from the Moon's perspective, which fit in great with the theme. Now there was a strong reason to get everything put back together. I found an arcade repair guy who was able to replace the flyback transformer. When I dropped off the monitor, I half-seriously pondered how fun it would be to shadow him as an apprentice helper and learn the tricks of the CRT trade. The repair ended up costing more than the original CRT and sacrificing some poor Golden Tee out there somewhere. I did try upgrading to Windows 10, but it dropped support for 800x600 resolution — which means it wasn't going to work with the CRT. So Windows XP is the forever OS. I have to tip my hat to Microsoft for still providing a path to activate Windows XP after a fresh install so many years after end-of-life. With the machine all back together and better than ever, I ordered a blacklight-style rug for the grand reopening and even got a cheap starfield projector for full lights-out special effects during a gaming session.
+Lucky me — my girlfriend surprised me on my birthday with cabinet side art. I got the famous Apollo 8 "Earthrise" photo showing Earth from the Moon's perspective, which fit in great with the theme. Now there was a strong reason to get everything put back together.
+
+I found an arcade repair guy who was able to replace the flyback transformer. When I dropped off the monitor, I half-seriously pondered how fun it would be to shadow him as an apprentice helper and learn the tricks of the CRT trade. The repair ended up costing more than the original CRT and sacrificing some poor Golden Tee out there somewhere.
+
+With the working CRT back home, it was time to rebuild — and while refreshing everything, why not go ahead and upgrade to Windows 10? Well, Windows 10 dropped support for 800x600 resolution — which means it wasn't going to work with the CRT. So Windows XP is the forever OS. I have to tip my hat to Microsoft for still providing a path to activate Windows XP after a fresh install so many years after end-of-life.
+
+With the machine all back together and better than ever, I ordered a blacklight-style rug for the grand reopening and even got a cheap starfield projector for full lights-out special effects during a gaming session.
 
 ## What's next
 
