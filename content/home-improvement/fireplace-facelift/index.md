@@ -38,7 +38,7 @@ The plan came together: granite slab over the brick hearth, faux beam mantel mou
 
 ### Demolition
 
-Demolition was fun, though it may have been the first time I destroyed something in perfectly good shape — just ugly. That felt a little weird. My instincts are normally around preserve, not destroy. But it had to go. Once the old surround was out, I had an empty canvas.
+Demolition was fun, though it may have been the first time I destroyed something in perfectly good shape — just ugly. That felt a little weird. My instincts are normally around preserve, not destroy. But it had to go. Once the old surround was out, I now had an empty canvas.
 
 ### Mockup and granite
 
