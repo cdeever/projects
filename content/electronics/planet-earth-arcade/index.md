@@ -49,11 +49,11 @@ Late in 2018, after about seven years and many, many hours of Millipede and othe
 
 ## Rebirth
 
-Lucky me — my girlfriend surprised me on my birthday with cabinet side art. I got the famous Apollo 8 "Earthrise" photo showing Earth from the Moon's perspective, which fit in great with the theme. Now there was a strong reason to get everything put back together. I ordered a blacklight-style rug for the grand reopening. I even got a cheap starfield projector if I want to go full on lights-out special effects for a gaming session. I ended up finding an arcade repair guy who was able to replace the flyback transformer — costing more than the original CRT and sacrificing some poor Golden Tee out there somewhere — but now it's back and better than ever.
+Lucky me — my girlfriend surprised me on my birthday with cabinet side art. I got the famous Apollo 8 "Earthrise" photo showing Earth from the Moon's perspective, which fit in great with the theme. Now there was a strong reason to get everything put back together. I ordered a blacklight-style rug for the grand reopening. I even got a cheap starfield projector if I want to go full on lights-out special effects for a gaming session. I ended up finding an arcade repair guy who was able to replace the flyback transformer — costing more than the original CRT and sacrificing some poor Golden Tee out there somewhere — but now it's back and better than ever. I did try upgrading to Windows 10, but it dropped support for 800x600 resolution — which means it wasn't going to work with the CRT. So Windows XP is the forever OS. I have to tip my hat to Microsoft for still providing a path to activate Windows XP after a fresh install so many years after end-of-life.
 
 ## What's next
 
-The machine is running great as-is. I did try upgrading to Windows 10, but it dropped support for 800x600 resolution — which means it wasn't going to work with the CRT. So Windows XP is the forever OS. I have to tip my hat to Microsoft for still providing a path to activate Windows XP after a fresh install so many years after end-of-life. Running XP is perfect — exactly configured and ready anytime for a quick session of Galaga, Ms. Pac-Man, Tempest, or a number of other classics from back in the day.
+The machine is running great as-is. Running XP is perfect — exactly configured and ready anytime for a quick session of Galaga, Ms. Pac-Man, Tempest, or any number of other classics — transporting me right back to Planet Earth in Kenton, 1981.
 
 ## Links
 
