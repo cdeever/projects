@@ -17,8 +17,6 @@ A full-size upright arcade cabinet built from a North Coast Custom Ultimate Arca
 
 As a member of Gen X growing up in the 70s and 80s, the golden age of arcades was all around — and I was old enough to ride my bike to Planet Earth Arcade with a pocket full of quarters. All the classics were there: Asteroids, Space Invaders, Pac-Man, Frogger, Donkey Kong — you name it. If current me could have told young me "One day you'll have this in your house," I might have said — Wow!! Really?!! How?!!
 
-## The idea
-
 Ever since seeing MAME running on a PC, faithfully reproducing the old games in their perfect form, I knew I needed to recreate that experience in my own cabinet — and Planet Earth, as an homage to my childhood hometown arcade, was the perfect theme. By 2010, CRT manufacturing was winding down, so if I wanted to build a new arcade cabinet with an authentic CRT, it was now or never.
 
 ## Design approach
