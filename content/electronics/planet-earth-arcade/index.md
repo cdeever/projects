@@ -35,11 +35,13 @@ I looked online and saw a lot of different cabinet designs — some were great, 
 
 **Components and wiring.** With all the buttons, plus the power on/off, volume control for the speaker system, coin door lighting, and coin activation, there was plenty to wire up. The marquee lighting also had to be tied in to the computer power supply. I found a power strip that worked by detecting power on one device — the computer — and enabling the other outlets to activate, powering the monitor, sound system, and USB distribution. That gave me single-button on/off.
 
+**Software.** Windows XP was still in support at the time and was the OS platform. I looked at a few different front-end programs, but Hyperspin was — and perhaps still is — the best one out there. It supports nice wheel art, a frame for each game when you land on it, and a movie clip of the game with sound effects. It also features an attract mode that randomly bounces between games. Hyperspin works with the light controller software to illuminate only the buttons that are functional for each game. There's a big XML "database" of all the games, so it's just a matter of editing the file to match the binaries of the games in the collection. A few Windows tweaks were needed to make it start up and go directly into Hyperspin on boot — no clicking or keyboard necessary, just power on and straight to the games.
+
 ## Challenges
 
 Finding joysticks with the RGB lights was not easy. The online suppliers were out of them and weren't getting new stock. I went back to North Coast Custom and they helped me out — they could get them custom made. They looked great, but they didn't fit exactly into the off-the-shelf joystick housings I had. I had to take the plastic washers and make them much thinner so the sticks would fit into the opening. The only way I could think to make the plastic thinner was to sand them down until they fit, which is exactly what I did. Tedious process, but in the end it worked out.
 
-## Breakthrough moment
+## First power-on
 
 With everything in the cabinet — the lights behind the marquee, coin door ready to light up, and the CRT behind the plexiglass — the machine looks legit. It looks like it would fit right in with any other early 80s cabinet. After launching MAME with one of the games — wow.
 
@@ -51,7 +53,7 @@ Lucky me — my girlfriend surprised me on my birthday with cabinet side art. No
 
 ## What's next
 
-The machine is running great as-is. Even trying to upgrade to Windows 10 turned out to be a mistake — XP works the best with Hyperspin and that's just the way it is.
+The machine is running great as-is. I did try upgrading to Windows 10, but it dropped support for 800x600 resolution — which means it wasn't going to work with the CRT. So Windows XP is the forever OS. I have to tip my hat to Microsoft for still providing a path to activate Windows XP after a fresh install so many years after end-of-life. That said, the Planet Earth will no longer be connected to the internet of Planet Earth anymore. But it doesn't need the internet — it's perfect exactly as it is, configured and ready anytime for a quick session of Galaga, Ms. Pac-Man, Tempest, or a number of other classics from back in the day.
 
 ## Links
 
