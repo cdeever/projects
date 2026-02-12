@@ -24,7 +24,7 @@ I liked the idea of a real barn beam, but after watching a few install videos, t
 
 ## Constraints
 
-Removing the brick was off the table immediately. That would mean hiring a crew to jackhammer it out and then doing a complete rebuild — potentially beyond my DIY skill set and definitely beyond my patience. Budget-wise, I wanted to keep things at or around $2,000, which meant being smart about materials and doing the labor myself.
+Removing the brick was off the table immediately. That would mean hiring a crew to jackhammer it out and then doing a complete rebuild — potentially beyond my DIY skill set and definitely beyond my patience. Budget-wise, I wanted to keep the costs reasonable, which meant being smart about materials and doing the labor myself.
 
 ## Design approach
 
