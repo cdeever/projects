@@ -30,7 +30,7 @@ Removing the brick was off the table immediately. That would mean hiring a crew 
 
 After tearing out the old wood mantel surround, I could see exactly what I was working with. The brick facing around the firebox was too narrow — proportionally it wouldn't look right with the beam I had in mind. I needed to expand outward.
 
-From researching different hearth options, I learned I could get a granite remnant slab and lay it right over the existing brick hearth. Then I'd build a wood frame out from the brick facing to widen the surround and cover it all with AirStone. I considered running the stone all the way up to the vaulted ceiling, but ruled it out — too much extra complexity, especially with the TV mount going above the mantel.
+From researching different hearth options, I learned I could get a granite remnant slab and lay it right over the existing brick hearth. Then I'd build a wood frame out from the brick facing to widen the surround and cover it all with AirStone. I'd seen AirStone in [another video](https://www.youtube.com/watch?v=c6ijbTjEWfI) and liked the look — they're lighter than regular stone, easy to cut, and come with corner pieces as part of the system, so you get clean edges without custom cuts. I considered running the stone all the way up to the vaulted ceiling, but ruled it out — too much extra complexity, especially with the TV mount going above the mantel.
 
 The plan came together: granite slab over the brick hearth, faux beam mantel mounted into the masonry, a wood-framed substrate around the brick facing, AirStone over everything, and new fireplace doors to finish it off.
 
