@@ -12,8 +12,6 @@ heroStyle: "background"
 
 I love a real-wood fire in the winter, but the 90s-era fireplace was dragging down the whole room. Brass doors, a stained oak mantel surround, and brick everywhere — it all screamed outdated. This project replaced the entire look with a rustic faux beam mantel, a granite hearth slab, and an AirStone surround. The result is a fireplace I actually want to sit in front of.
 
-![Before — brass doors, stained oak, and brick](fireplace-before.jpg) ![After — faux beam mantel, granite hearth, and AirStone surround](fireplace-after.jpg)
-
 ## The idea
 
 The fireplace worked fine — the problem was purely cosmetic. The brass fireplace doors, stained oak mantel surround, and exposed brick hearth were a time capsule from the 90s. Every time I sat in the living room it bugged me. A fresh look was long overdue.
@@ -84,6 +82,10 @@ The fireplace is fully done and I love it. The LVP flooring eventually went in a
 - Use spacers on stone installs, even if it seems like overkill. The last few pieces will thank you.
 - Consulting someone with more experience (thanks, Uncle Pete) before the hardest phase saved a lot of second-guessing.
 - A granite remnant slab is a cost-effective way to get a high-end hearth surface without paying full-slab prices.
+
+## Before and after
+
+![Before](fireplace-before.jpg) ![After](fireplace-after.jpg)
 
 ## Links
 
