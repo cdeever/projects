@@ -12,7 +12,7 @@ heroStyle: "background"
 
 I love a real-wood fire in the winter, but the 90s-era fireplace was dragging down the whole room. Brass doors, a stained oak mantel surround, and brick everywhere — it all screamed outdated. This project replaced the entire look with a rustic faux beam mantel, a granite hearth slab, and an AirStone surround. The result is a fireplace I actually want to sit in front of.
 
-<!-- TODO: Add before/after photos here -->
+![Before — brass doors, stained oak, and brick](fireplace-before.jpg) ![After — faux beam mantel, granite hearth, and AirStone surround](fireplace-after.jpg)
 
 ## The idea
 
@@ -64,7 +64,6 @@ My daughter and Sweetie worked as a team inside, handling layout and placement, 
 
 The stones looked great. Finally, I installed the new fireplace doors — a straightforward job that just screws into a mounting bar inside the firebox.
 
-<!-- TODO: Add progress photos here -->
 
 ## Challenges
 
@@ -76,7 +75,6 @@ In hindsight, we should have used cardboard spacers between the stones during th
 
 The fireplace is fully done and I love it. The LVP flooring eventually went in across the entire first floor (a project for another write-up), which completed the look. I've enjoyed many cozy fires since the install, and there's a particular satisfaction that comes from sitting in front of a fire you built the surround for yourself — mostly DIY, with a critical consult from Uncle Pete and the stone-laying crew.
 
-<!-- TODO: Add final/current photos here -->
 
 ## Lessons learned
 
