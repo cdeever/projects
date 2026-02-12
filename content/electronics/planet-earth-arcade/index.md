@@ -15,7 +15,7 @@ A full-size upright arcade cabinet built from a North Coast Custom Ultimate Arca
 
 ## The spark
 
-As a member of Gen X growing up in the 70s and 80s, the golden age of arcades was all around — and I was old enough to ride my bike to Planet Earth Arcade with a pocket full of quarters. All the classics were there: Asteroids, Space Invaders, Pac-Man, Frogger, Donkey Kong — you name it. If current me could have told young me "One day you'll have this in your house," I might have said — wow! Really! How?
+As a member of Gen X growing up in the 70s and 80s, the golden age of arcades was all around — and I was old enough to ride my bike to Planet Earth Arcade with a pocket full of quarters. All the classics were there: Asteroids, Space Invaders, Pac-Man, Frogger, Donkey Kong — you name it. If current me could have told young me "One day you'll have this in your house," I might have said — Wow!! Really?!! How?!!
 
 ## The idea
 
@@ -23,7 +23,7 @@ Ever since seeing MAME running on a PC, faithfully reproducing the old games in 
 
 ## Design approach
 
-I looked online and saw a lot of different cabinet designs — some were great, some were not so great. I wanted to build one, but I knew with my skills and tool set there was no way I was going to build one that looked like it came straight out of the arcade factory. Then I found North Coast Custom and discovered the Ultimate Arcade II was available as a kit. Perfect. The control panel layout includes a spinner, trackball, two-player joysticks and buttons — and the RGB buttons and joysticks looked cooler than even the games looked back in the day.
+I looked online and saw a lot of different cabinet designs — some were great, some were not so great. I wanted to build one, but I knew with my skills and tool set there was no way I was going to build a custom cabinet that looked like it came straight out of the arcade factory. Then I found North Coast Custom and discovered the Ultimate Arcade II was available as a kit. The UAII also featured a nice design where the keyboard and mouse slide out on a hidden drawer for configuration tasks. Perfect. The control panel layout includes a spinner, trackball, two-player joysticks and buttons — and the RGB buttons and joysticks looked cooler than even the games looked back in the day.
 
 ## Build log
 
@@ -35,7 +35,7 @@ I looked online and saw a lot of different cabinet designs — some were great, 
 
 **Components and wiring.** With all the buttons, plus the power on/off, volume control for the speaker system, coin door lighting, and coin activation, there was plenty to wire up. The marquee lighting also had to be tied in to the computer power supply. I found a power strip that worked by detecting power on one device — the computer — and enabling the other outlets to activate, powering the monitor, sound system, and USB distribution. That gave me single-button on/off.
 
-**Software.** Windows XP was still in support at the time and was the OS platform. I looked at a few different front-end programs, but Hyperspin was — and perhaps still is — the best one out there. It supports nice wheel art, a frame for each game when you land on it, and a movie clip of the game with sound effects. It also features an attract mode that randomly bounces between games. Hyperspin works with the light controller software to illuminate only the buttons that are functional for each game. There's a big XML "database" of all the games, so it's just a matter of editing the file to match the binaries of the games in the collection. A few Windows tweaks were needed to make it start up and go directly into Hyperspin on boot — no clicking or keyboard necessary, just power on and straight to the games.
+**Software.** Windows XP was still in support at the time and was the OS platform. I looked at a few different front-end programs, but Hyperspin was — and perhaps still is — the best one out there. It supports nice wheel art, a frame for each game when you land on it, and a movie clip of the game with sound effects. It also features an attract mode that randomly bounces between games. Hyperspin works with the light controller software to illuminate only the buttons that are functional for each game. There's a big XML "database" of all the games, so it's just a matter of editing the file to match the game ROMs in the collection. A few Windows tweaks were needed to make it start up and go directly into Hyperspin on boot — no clicking or keyboard necessary, just power on and straight to the games.
 
 ## Challenges
 
@@ -45,11 +45,13 @@ Finding joysticks with the RGB lights was not easy. The online suppliers were ou
 
 With everything in the cabinet — the lights behind the marquee, coin door ready to light up, and the CRT behind the plexiglass — the machine looks legit. It looks like it would fit right in with any other early 80s cabinet. After launching MAME with one of the games — wow.
 
-## Current state
+## CRT woes
 
 Late in 2018, after about seven years and many, many hours of Millipede and other games, the CRT was exhibiting no signs of life. Many life changes were also happening, and in 2019 I moved to a new house — disassembling the cabinet and getting it relocated was certainly not trivial. After settling into the new house with the CRT in a non-functional state, I had the machine rigged up in a partially assembled state with a temporary flatscreen so I could get my fix, but I dreamed of getting the cabinet restored back to its original glory.
 
-Lucky me — my girlfriend surprised me on my birthday with cabinet side art. Now there was a strong reason to get everything put back together. I ordered a blacklight-style rug for the grand reopening. I ended up finding an arcade repair guy who was able to replace the flyback transformer — costing more than the original CRT and sacrificing some poor Golden Tee out there somewhere — but now it's back and better than ever.
+## Rebirth
+
+Lucky me — my girlfriend surprised me on my birthday with cabinet side art. I got the famous Apollo 8 "Earthrise" photo showing Earth from the Moon's perspective, which fit in great with the theme. Now there was a strong reason to get everything put back together. I ordered a blacklight-style rug for the grand reopening. I even got a cheap starfield projector if I want to go full on lights-out special effects for a gaming session. I ended up finding an arcade repair guy who was able to replace the flyback transformer — costing more than the original CRT and sacrificing some poor Golden Tee out there somewhere — but now it's back and better than ever.
 
 ## What's next
 
@@ -62,4 +64,5 @@ The machine is running great as-is. I did try upgrading to Windows 10, but it dr
 - [HyperSpin](https://hyperspin-fe.com/)
 - [HyperAI Docs](https://docs.hyperai.io/)
 - [EmuMovies](https://emumovies.com/)
+- [MAME](https://www.mamedev.org/)
 - [North Coast Arcades](https://www.northcoastarcades.com/) — 😢 It appears North Coast Arcades is no longer in business, but the site is still active for reference.
