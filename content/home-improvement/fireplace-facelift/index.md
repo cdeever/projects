@@ -89,5 +89,6 @@ The fireplace is fully done and I love it. The LVP flooring eventually went in a
 
 ## Links
 
+- [Stud Pack — the inspiration video](https://www.youtube.com/watch?v=9Vc5cGQU3-4&t=1297s)
 - [AirStone](https://www.airstone.com/)
 - [Konkus Marble and Granite](https://www.konkusmarbleandgranite.com/)
