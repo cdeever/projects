@@ -91,4 +91,5 @@ The fireplace is fully done and I love it. The LVP flooring eventually went in a
 
 ## Links
 
-<!-- TODO: Add links to YouTube inspiration video, AirStone product page, or other resources -->
+- [AirStone](https://www.airstone.com/)
+- [Konkus Marble and Granite](https://www.konkusmarbleandgranite.com/)
