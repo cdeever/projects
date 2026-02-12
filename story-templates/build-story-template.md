@@ -8,10 +8,7 @@ Choose long-form for deep, multi-phase projects or short-form for focused, singl
 ## Long-form
 
 ### The spark
-What made you want this to exist?
-
-### The idea
-Early concept or vision
+What made you want this to exist? Background, motivation, and early concept or vision
 
 ### Constraints
 Time, money, space, tech limits

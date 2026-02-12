@@ -18,8 +18,6 @@ I love a real-wood fire in the winter, but the 90s-era fireplace was dragging do
 
 The fireplace worked fine — the problem was purely cosmetic. The brass fireplace doors, stained oak mantel surround, and exposed brick hearth were a time capsule from the 90s. Every time I sat in the living room it bugged me. A fresh look was long overdue.
 
-## The idea
-
 From the start I was drawn to the rustic beam mantel look. The bigger question was what to do with all that brick — remove it, cover it, or paint it? I spent a lot of time searching the internet and YouTube for inspiration and finally found an overhaul video that looked great and felt replicable. That became the blueprint.
 
 I liked the idea of a real barn beam, but after watching a few install videos, the weight and expense added unnecessary complexity. The big box stores had faux beams that would look just as good and came with a major bonus — the hollow center was perfect for hiding a center channel speaker and wiring for a clean TV mount above the mantel.
