@@ -53,7 +53,7 @@ Lucky me — my girlfriend surprised me on my birthday with cabinet side art. I 
 
 ## What's next
 
-The machine is running great as-is. I did try upgrading to Windows 10, but it dropped support for 800x600 resolution — which means it wasn't going to work with the CRT. So Windows XP is the forever OS. I have to tip my hat to Microsoft for still providing a path to activate Windows XP after a fresh install so many years after end-of-life. That said, the Planet Earth will no longer be connected to the internet of Planet Earth anymore. But it doesn't need the internet — it's perfect exactly as it is, configured and ready anytime for a quick session of Galaga, Ms. Pac-Man, Tempest, or a number of other classics from back in the day.
+The machine is running great as-is. I did try upgrading to Windows 10, but it dropped support for 800x600 resolution — which means it wasn't going to work with the CRT. So Windows XP is the forever OS. I have to tip my hat to Microsoft for still providing a path to activate Windows XP after a fresh install so many years after end-of-life. Running XP is perfect — exactly configured and ready anytime for a quick session of Galaga, Ms. Pac-Man, Tempest, or a number of other classics from back in the day.
 
 ## Links
 
