@@ -74,7 +74,7 @@ In hindsight, we should have used cardboard spacers between the stones during th
 
 ## Current state
 
-The fireplace is fully done and I love it. The LVP flooring eventually went in across the entire first floor (a project for another write-up), which completed the look. I've enjoyed many cozy fires since the install, and there's a particular satisfaction that comes from sitting in front of a fire you built the surround for yourself — mostly DIY, with a little help from Uncle Pete and the family stone-laying crew.
+The fireplace is fully done and I love it. The LVP flooring eventually went in across the entire first floor (a project for another write-up), which completed the look. I've enjoyed many cozy fires since the install, and there's a particular satisfaction that comes from sitting in front of a fire you built the surround for yourself — mostly DIY, with a critical consult from Uncle Pete and the family stone-laying crew.
 
 <!-- TODO: Add final/current photos here -->
 
