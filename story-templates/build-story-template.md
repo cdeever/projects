@@ -7,7 +7,7 @@ Choose long-form for deep, multi-phase projects or short-form for focused, singl
 
 ## Long-form
 
-### The spark
+### The idea
 What made you want this to exist? Background, motivation, and early concept or vision
 
 ### Constraints
@@ -42,7 +42,7 @@ What this taught you
 
 ## Short-form
 
-### The spark
+### The idea
 Why this needed doing (1–3 sentences)
 
 ### What I did

@@ -13,7 +13,7 @@ heroStyle: "background"
 
 A full-size upright arcade cabinet built from a North Coast Custom Ultimate Arcade II kit, themed after the Planet Earth Arcade that operated in Kenton, Ohio in the early 1980s. The machine features custom Earth and space themed artwork, RGB buttons and joysticks, a spinner, trackball, and an authentic 29" CRT. Inside, it runs Windows XP with Hyperspin as the navigator, selecting from a library of classics from the late 70s and 80s.
 
-## The spark
+## The idea
 
 As a member of Gen X growing up in the 70s and 80s, the golden age of arcades was all around — and I was old enough to ride my bike to Planet Earth Arcade with a pocket full of quarters. All the classics were there: Asteroids, Space Invaders, Pac-Man, Frogger, Donkey Kong — you name it. If current me could have told young me "One day you'll have this in your house," I might have said — Wow!! Really?!! How?!!
 

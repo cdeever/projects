@@ -10,13 +10,9 @@ showHero: true
 heroStyle: "background"
 ---
 
-## The spark
-
-<!-- What made you want this to exist? -->
-
 ## The idea
 
-<!-- Early concept or vision -->
+<!-- What made you want this to exist? Background, motivation, and early concept or vision -->
 
 ## Constraints
 

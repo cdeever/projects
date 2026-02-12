@@ -14,7 +14,7 @@ I love a real-wood fire in the winter, but the 90s-era fireplace was dragging do
 
 <!-- TODO: Add before/after photos here -->
 
-## The spark
+## The idea
 
 The fireplace worked fine — the problem was purely cosmetic. The brass fireplace doors, stained oak mantel surround, and exposed brick hearth were a time capsule from the 90s. Every time I sat in the living room it bugged me. A fresh look was long overdue.
 
