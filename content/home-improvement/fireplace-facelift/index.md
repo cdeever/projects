@@ -62,7 +62,7 @@ This was the most challenging part of the build — figuring out how to frame a 
 
 My Sweetie enjoys a good puzzle, so the night before the install we laid out stones in a pattern on the floor to plan the layout. For the actual install, we started by mounting an alignment shelf at the top of the firebox opening and built up from there. Once the top courses were set, we worked back down below.
 
-It was a family affair — my daughter and Sweetie worked as a team inside, handling layout and placement, while I ran the tile saw in the garage feeding them the cut pieces they needed. Over two days we got all the stones installed, from above the hearth up to the mantel and below the hearth down toward the floor. I had cut away the carpet and we left enough gap for the LVP flooring that would come later.
+My daughter and Sweetie worked as a team inside, handling layout and placement, while I ran the tile saw in the garage feeding them the cut pieces they needed. Over two days we got all the stones installed, from above the hearth up to the mantel and below the hearth down toward the floor. I had cut away the carpet and we left enough gap for the LVP flooring that would come later.
 
 The stones looked great. Finally, I installed the new fireplace doors — a straightforward job that just screws into a mounting bar inside the firebox.
 
