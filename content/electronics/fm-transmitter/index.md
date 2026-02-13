@@ -48,3 +48,7 @@ But alas, I have a modern use case. I scored a vintage GE ghetto blaster on eBay
 ## The rig
 
 ![Ramsey FM Transmitter](20260212_191236.jpg)
+
+## Links
+
+- [Ramsey Electronics on eBay](https://www.ebay.com/str/ramseyelectronicsdirect) — Ramsey is mostly out of business, but an eBay store does seem to live on
