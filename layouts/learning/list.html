@@ -31,7 +31,7 @@
 
   {{/* Header: title left, filter right */}}
   {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-10" }}
-  <header class="-mt-16">
+  <header class="-mt-20">
     {{ if .Params.showBreadcrumbs | default (site.Params.list.showBreadcrumbs | default false) }}
       {{ partial "breadcrumbs.html" . }}
     {{ end }}
