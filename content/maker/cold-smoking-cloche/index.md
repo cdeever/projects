@@ -10,7 +10,7 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-My Sweetie got me a cold smoker for my birthday, but it didn't come with a vessel to hold the food being smoked — so naturally I got even more excited about the prospect of making one. This is a live edge wood base with routed channels to direct smoke under a glass cloche. Still in the prototype phase after the first attempt taught me that smoke has a mind of its own.
+Sweetie got me a cold smoker for my birthday, but it didn't come with a vessel to hold the food being smoked — so naturally I got even more excited about the prospect of making one. This is a live edge wood base with routed channels to direct smoke under a glass cloche. Still in the prototype phase after the first attempt taught me that smoke has a mind of its own.
 
 ## The idea
 

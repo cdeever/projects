@@ -10,8 +10,6 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-{{< before-after before="lp-jacket-stand.jpg" after="featured.jpg" >}}
-
 LP jacket art is a huge part of the vinyl experience, and I wanted a dedicated place to display the cover while a record is spinning. This started as a cookbook holder and ended up as a custom stand built with help from my Uncle Pete — painted black with a plexiglass face and plastic moulding for a clean, finished look.
 
 ## The idea
@@ -39,3 +37,5 @@ The stand looks great and is quite functional — it almost always has a record 
 ## What's next
 
 Eventually I want to add RGB LEDs to the back of the stand that match the dominant colors of the album art on display. With digital sources this is straightforward, but detecting what LP is actually spinning on the turntable is a more complex problem. That's a future hardware/software project I'm looking forward to tackling.
+
+{{< before-after before="lp-jacket-stand.jpg" after="featured.jpg" >}}
