@@ -18,7 +18,7 @@ One day, I posted about having one AI talk to another AI in the context of my [M
 
 ## What I tried
 
-I ordered the service manual for the exact amp and fed it into ChatGPT to develop a diagnostic, test, and repair plan. From this I was able to identify two shorted MOSFET transistors in the power supply — consistent with the reported pop and burning smell. I ordered substitute transistors (all four, per recommendation) and replaced them. Before powering up, I watched quite a few repair videos from BareVids, who has explicitly stated that when power FETs fail there's usually something else going on. I tested the PWM driver circuits with my oscilloscope and confirmed — to the best of my knowledge — that they were producing the pulses the FETs needed. So I proceeded to test the amp with limited current.
+I ordered the service manual for the exact amp and fed it into ChatGPT to assemble a diagnostic, test, and repair plan. From this I was able to identify two shorted MOSFET transistors in the power supply — consistent with the reported pop and burning smell. I ordered substitute transistors (all four, per recommendation) and replaced them. Before powering up, I watched quite a few repair videos from BareVids, who has explicitly stated that when power FETs fail there's usually something else going on. I tested the PWM driver circuits with my oscilloscope and confirmed — to the best of my knowledge — that they were producing the pulses the FETs needed. So I proceeded to test the amp with limited current.
 
 ## What surprised me
 
@@ -26,16 +26,16 @@ My bench power supply immediately dropped to around 8 volts. That should have be
 
 ## Result
 
-No matter what happens with the amp in the end, I will have learned a lot. I haven't given up — this experience actually triggered a much more comprehensive diagnostic and test plan as well as a deep dive on using test equipment, which somehow resulted in writing the [EE Notebook](../../learning/ee-notebook/ee-notebook-site/). I'll pull the four FETs again, retest the PWM driver circuits, and start back at the beginning. After seeing the condition of amps repaired by BareVids, this one seems in much better shape, so I believe repair is possible given the right approach. But the challenge still feels like finding a needle in a haystack.
+No matter what happens with the amp in the end, I will have learned a lot. I haven't given up — this experience actually triggered a much more comprehensive diagnostic and test plan as well as a deep dive on using test equipment, which somehow resulted in assembling the [EE Notebook](../../learning/ee-notebook/ee-notebook-site/). I'll pull the four FETs again, retest the PWM driver circuits, and start back at the beginning. After seeing the condition of amps repaired by BareVids, this one seems in much better shape, so I believe repair is possible given the right approach. But the challenge still feels like finding a needle in a haystack.
 
 ## Takeaways
 
 - When the bench supply voltage drops unexpectedly, stop — that's the circuit telling you something is still wrong
 - Replacing the obvious failed components isn't enough; as BareVids warns, when power FETs fail there's usually an underlying cause
 - Feeding the service manual into AI to develop a diagnostic plan was a productive starting point, but no substitute for systematic fault isolation
-- This repair directly led to writing the [EE Notebook](../../learning/ee-notebook/ee-notebook-site/) and its [debugging methodology](https://applied-ee.github.io/ee-notebook/docs/debugging/) — ask better questions before taking more measurements
+- This repair directly led to assembling the [EE Notebook](../../learning/ee-notebook/ee-notebook-site/) and its [debugging methodology](https://applied-ee.github.io/ee-notebook/docs/debugging/) — ask better questions before taking more measurements
 
 ## Links
 
-- [Check out the docs](https://cdeever.github.io/repair-alpine-mrp-f250/)
+- [Diagnostic, Repair, and Verification Plan](https://cdeever.github.io/repair-alpine-mrp-f250/)
 - [BareVids on YouTube](https://www.youtube.com/@barevids)
