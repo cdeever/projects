@@ -15,7 +15,7 @@ A Raspberry Pi image purpose-built for the CaribouLite software-defined radio HA
 
 ## The idea
 
-I came across Jeff Geerling demonstrating the CaribouLite SDR HAT, and for me this was the first time seeing a software-defined radio in action. I've had an interest in radio tech and the HAT looked cool to try out. As it turned out, the setup was very complicated — kernel patches, boot configuration changes, driver builds — and I wanted to capture all those steps in code so it would be easy to rebuild if needed. Since this was a Raspberry Pi, it was a natural fit for the Deevnet image factory.
+I came across [Jeff Geerling demonstrating the CaribouLite SDR HAT](https://www.youtube.com/watch?v=Hz2WqhWmjZE), and for me this was the first time seeing a software-defined radio in action. I've had an interest in radio tech and the HAT looked cool to try out. As it turned out, the setup was very complicated — kernel patches, boot configuration changes, driver builds — and I wanted to capture all those steps in code so it would be easy to rebuild if needed. Since this was a Raspberry Pi, it was a natural fit for the Deevnet image factory.
 
 ## What I did
 
