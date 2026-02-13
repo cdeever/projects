@@ -13,14 +13,46 @@
     {{ end }}
   {{ end }}
 
-  {{/* Header */}}
-  <header>
+  {{/* Compute filter data early so we can render inline with title */}}
+  {{ $allPages := .RegularPages }}
+  {{ range .Sections }}
+    {{ $allPages = $allPages | append .RegularPages }}
+  {{ end }}
+  {{ $allTags := slice }}
+  {{ range $allPages }}
+    {{ with .Params.tags }}
+      {{ range . }}
+        {{ $allTags = $allTags | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $uniqueTags := $allTags | uniq | sort }}
+  {{ $hasFilters := and (gt (len $allPages) 0) (gt (len $uniqueTags) 0) }}
+
+  {{/* Header: title left, filter right */}}
+  {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-10" }}
+  <header style="margin-top: -3.5rem;">
     {{ if .Params.showBreadcrumbs | default (site.Params.list.showBreadcrumbs | default false) }}
       {{ partial "breadcrumbs.html" . }}
     {{ end }}
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-      {{ partial "article-meta/list.html" (dict "context" . "scope" "single") }}
+    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.5rem;">
+      <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+      {{ if $hasFilters }}
+        <div id="filter-bar" class="filter-dropdown relative print:hidden">
+          <button class="filter-dropdown-btn flex items-center px-3 py-1.5 text-sm rounded-lg border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:border-neutral-400 dark:hover:border-neutral-500 transition-colors cursor-pointer bg-neutral-50 dark:bg-neutral-700/50">
+            <span class="filter-dropdown-label" data-base-label="Filter">Filter</span>
+            <svg class="w-4 h-4 ml-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="filter-dropdown-menu hidden absolute right-0 z-50 mt-1 min-w-[10rem] rounded-lg border border-neutral-200 dark:border-neutral-600 bg-neutral-50 dark:bg-neutral-700 shadow-lg py-1 max-h-64 overflow-y-auto">
+            {{ range $uniqueTags }}
+              <label class="flex items-center px-3 py-1.5 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600 cursor-pointer">
+                <input type="checkbox" class="mr-2 rounded" data-filter-type="tag" data-filter-value="{{ . }}">
+                {{ . }}
+              </label>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
     </div>
     {{ $translations := .AllTranslations }}
     {{ with .File }}
@@ -40,84 +72,64 @@
     {{ end }}
   </header>
 
-  {{/* Description (markdown content) */}}
-  {{ $tocMargin := cond $showToc "mt-12" "mt-0" }}
-  {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-10" }}
-  <section class="{{ $tocMargin }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row mb-10">
-    {{ if $showToc }}
-      <div class="order-first lg:ms-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
-        <div class="toc ps-5 print:hidden lg:sticky {{ $topClass }}">
-          {{ partial "toc.html" . }}
+  {{/* Description (markdown content) — only render if page has body content */}}
+  {{ if .Content }}
+    {{ $tocMargin := cond $showToc "mt-6" "mt-0" }}
+    <section class="{{ $tocMargin }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row" style="margin-bottom: 1rem;">
+      {{ if $showToc }}
+        <div class="order-first lg:ms-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+          <div class="toc ps-5 print:hidden lg:sticky {{ $topClass }}">
+            {{ partial "toc.html" . }}
+          </div>
         </div>
-      </div>
-    {{ end }}
-    <div class="min-w-0 min-h-0 max-w-prose w-full">
-      {{ .Content }}
-    </div>
-  </section>
-
-  {{/* Filter Bar */}}
-  {{ if gt (len .RegularPages) 0 }}
-    {{/* Collect all tags and statuses from child pages */}}
-    {{ $allTags := slice }}
-    {{ $allStatuses := slice }}
-    {{ range .RegularPages }}
-      {{ with .Params.tags }}
-        {{ range . }}
-          {{ $allTags = $allTags | append . }}
-        {{ end }}
       {{ end }}
-      {{ with .Params.status }}
-        {{ $allStatuses = $allStatuses | append . }}
-      {{ end }}
-    {{ end }}
-    {{ $uniqueTags := $allTags | uniq | sort }}
-    {{ $uniqueStatuses := $allStatuses | uniq | sort }}
-
-    {{ if or (gt (len $uniqueTags) 0) (gt (len $uniqueStatuses) 0) }}
-      <div id="filter-bar" class="mb-6 print:hidden">
-        {{ if gt (len $uniqueStatuses) 0 }}
-          <div class="mb-3">
-            <span class="text-sm font-semibold text-neutral-600 dark:text-neutral-400 mr-2">Status:</span>
-            <div class="inline-flex flex-wrap gap-2">
-              {{ range $uniqueStatuses }}
-                <button
-                  class="filter-chip filter-status px-3 py-1 text-xs rounded-full border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:bg-primary-100 dark:hover:bg-primary-900 transition-colors cursor-pointer"
-                  data-filter-type="status"
-                  data-filter-value="{{ . }}">
-                  {{ . }}
-                </button>
-              {{ end }}
-            </div>
-          </div>
-        {{ end }}
-        {{ if gt (len $uniqueTags) 0 }}
-          <div>
-            <span class="text-sm font-semibold text-neutral-600 dark:text-neutral-400 mr-2">Tags:</span>
-            <div class="inline-flex flex-wrap gap-2">
-              {{ range $uniqueTags }}
-                <button
-                  class="filter-chip filter-tag px-3 py-1 text-xs rounded-full border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:bg-primary-100 dark:hover:bg-primary-900 transition-colors cursor-pointer"
-                  data-filter-type="tag"
-                  data-filter-value="{{ . }}">
-                  {{ . }}
-                </button>
-              {{ end }}
-            </div>
-          </div>
-        {{ end }}
+      <div class="min-w-0 min-h-0 max-w-prose w-full">
+        {{ .Content }}
       </div>
-    {{ end }}
+    </section>
   {{ end }}
 
-  {{/* Article Grid */}}
-  {{ if gt .Pages 0 }}
+  {{/* Article rendering */}}
+  {{ if gt (len $allPages) 0 }}
     {{ $cardView := .Params.cardView | default (site.Params.list.cardView | default false) }}
     {{ $cardViewScreenWidth := .Params.cardViewScreenWidth | default (site.Params.list.cardViewScreenWidth | default false) }}
     {{ $orderByWeight := .Params.orderByWeight | default (site.Params.list.orderByWeight | default false) }}
+    {{ $hasSubsections := gt (len .Sections) 0 }}
 
-    {{ if not $cardView }}
-      <section class="space-y-10 w-full" id="article-list">
+    {{ if $hasSubsections }}
+      {{/* Grouped subsection view */}}
+      <section class="space-y-8 w-full" id="article-list">
+        {{ range .Sections.ByWeight }}
+          {{ if gt (len .RegularPages) 0 }}
+            <div style="margin-bottom: 1rem;">
+              <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-200" style="margin-bottom: 0.25rem;">{{ .Title }}</h2>
+              {{ with .Description }}
+                <p class="text-sm text-neutral-500 dark:text-neutral-400" style="margin-bottom: 0.75rem;">{{ . }}</p>
+              {{ end }}
+              <div class="space-y-8">
+                {{ range .RegularPages.ByWeight }}
+                  <div class="filter-item"
+                    data-tags="{{ delimit (.Params.tags | default slice) "," }}"
+                    data-status="{{ .Params.status | default "" }}">
+                    {{ partial "article-link/simple.html" . }}
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+        {{ range .RegularPages }}
+          <div class="filter-item"
+            data-tags="{{ delimit (.Params.tags | default slice) "," }}"
+            data-status="{{ .Params.status | default "" }}">
+            {{ partial "article-link/simple.html" . }}
+          </div>
+        {{ end }}
+      </section>
+
+    {{ else if not $cardView }}
+      {{/* List view */}}
+      <section class="space-y-8 w-full" id="article-list">
         {{ if not $orderByWeight }}
           {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
             {{ range .Pages }}
@@ -138,7 +150,9 @@
           {{ end }}
         {{ end }}
       </section>
+
     {{ else }}
+      {{/* Card view */}}
       {{ if $cardViewScreenWidth }}
         <div class="relative w-screen max-w-[1600px] px-[30px] start-[calc(max(-50vw,-800px)+50%)]">
           <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5" id="article-list">
@@ -187,6 +201,7 @@
         </section>
       {{ end }}
     {{ end }}
+
   {{ else }}
     <section class="mt-10 prose dark:prose-invert">
       <p class="py-8 border-t">
