@@ -10,7 +10,7 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-Deevnet is a portable, fully rebuildable infrastructure platform — a home lab you can throw in a bag, take to a Meetup, and rebuild from scratch using nothing but code and a GitHub login. It started as a way to get a consistent network for embedded programming projects and turned into a full Infrastructure as Code ecosystem spanning two physical deployments. The automation is largely in place for the builder node and network layer, with hypervisor automation in progress.
+Deevnet is a portable, fully rebuildable infrastructure platform — a home lab you can pack up in a rolling toolbox, take to a Meetup, and rebuild from scratch using nothing but code and a GitHub login. It started as a way to get a consistent network for embedded programming projects and turned into a full Infrastructure as Code ecosystem spanning two physical deployments. The automation is largely in place for the builder node and network layer, with hypervisor automation in progress.
 
 ## The idea
 
