@@ -45,6 +45,10 @@ But alas, I have a modern use case. I scored a vintage GE ghetto blaster on eBay
 - Sometimes the best tech solutions are the ones your neighbors ask you to leave running when you go out of town
 - Good hardware outlasts the software ecosystem around it — the transmitter is still going strong nearly two decades later
 
+## What's next
+
+I have a digital tuner version of the Ramsey transmitter sitting in a box that I'll assemble one day — should be a cleaner lock on the frequency. The other enhancement is building a custom antenna size-matched to 102.7 FM for improved coverage over the generic dipole in the attic.
+
 ## The rig
 
 ![Ramsey FM Transmitter](20260212_191236.jpg)
