@@ -5,7 +5,7 @@ summary: "A DIY whole-home audio system that distributes digital audio — and l
 date: 2023-01-01
 tags: ["audio", "spdif", "vinyl", "hi-fi", "vintage"]
 status: "in progress"
-draft: true
+draft: false
 showHero: true
 heroStyle: "background"
 layoutBackgroundHeaderSpace: false
