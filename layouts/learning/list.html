@@ -76,31 +76,28 @@
   {{ $uniqueTags := $allTags | uniq | sort }}
   {{ $hasFilters := and (gt (len $allPages) 0) (gt (len $uniqueTags) 0) }}
 
-  {{/* Article list with filter in left margin */}}
-  <div class="relative">
-
-    {{/* Filter — above content on small screens, in left margin on lg+ */}}
-    {{ if $hasFilters }}
-      <aside id="filter-bar" class="mb-4 lg:absolute lg:-left-28 lg:top-0 lg:w-24 lg:mb-0 print:hidden">
-        <div class="filter-dropdown relative">
-          <button class="filter-dropdown-btn w-full flex items-center justify-between px-3 py-2 text-sm rounded-lg border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:border-neutral-400 dark:hover:border-neutral-500 transition-colors cursor-pointer bg-neutral-50 dark:bg-neutral-700/50">
-            <span class="filter-dropdown-label" data-base-label="Filter">Filter</span>
-            <svg class="w-4 h-4 ml-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="filter-dropdown-menu hidden absolute z-50 mt-1 min-w-[10rem] rounded-lg border border-neutral-200 dark:border-neutral-600 bg-neutral-50 dark:bg-neutral-700 shadow-lg py-1 max-h-64 overflow-y-auto">
-            {{ range $uniqueTags }}
-              <label class="flex items-center px-3 py-1.5 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600 cursor-pointer">
-                <input type="checkbox" class="mr-2 rounded" data-filter-type="tag" data-filter-value="{{ . }}">
-                {{ . }}
-              </label>
-            {{ end }}
-          </div>
+  {{/* Filter dropdown — inline above article list */}}
+  {{ if $hasFilters }}
+    <div id="filter-bar" class="mb-6 print:hidden">
+      <div class="filter-dropdown relative inline-block">
+        <button class="filter-dropdown-btn flex items-center justify-between px-3 py-2 text-sm rounded-lg border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:border-neutral-400 dark:hover:border-neutral-500 transition-colors cursor-pointer bg-neutral-50 dark:bg-neutral-700/50">
+          <span class="filter-dropdown-label" data-base-label="Filter">Filter</span>
+          <svg class="w-4 h-4 ml-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="filter-dropdown-menu hidden absolute z-50 mt-1 min-w-[10rem] rounded-lg border border-neutral-200 dark:border-neutral-600 bg-neutral-50 dark:bg-neutral-700 shadow-lg py-1 max-h-64 overflow-y-auto">
+          {{ range $uniqueTags }}
+            <label class="flex items-center px-3 py-1.5 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600 cursor-pointer">
+              <input type="checkbox" class="mr-2 rounded" data-filter-type="tag" data-filter-value="{{ . }}">
+              {{ . }}
+            </label>
+          {{ end }}
         </div>
-      </aside>
-    {{ end }}
+      </div>
+    </div>
+  {{ end }}
 
-    {{/* Article list — full width */}}
-    <section class="space-y-10 w-full" id="article-list">
+  {{/* Article list */}}
+  <section class="space-y-10 w-full" id="article-list">
 
       {{/* Subsection groups */}}
       {{ range .Sections.ByWeight }}
@@ -132,10 +129,8 @@
         </div>
       {{ end }}
 
-    </section>
-    {{ partial "pagination.html" . }}
-
-  </div>
+  </section>
+  {{ partial "pagination.html" . }}
 
   {{/* Load filter script */}}
   {{ $filterJS := resources.Get "js/filter.js" }}
