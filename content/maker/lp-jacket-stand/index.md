@@ -10,4 +10,4 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-{{< before-after before="lp-jacket-stand.jpg" after="featured.jpg" labelBefore="Empty" labelAfter="Full" >}}
+{{< before-after before="lp-jacket-stand.jpg" after="featured.jpg" labelBefore="Ready" labelAfter="In Action" >}}
