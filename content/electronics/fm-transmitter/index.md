@@ -52,3 +52,4 @@ But alas, I have a modern use case. I scored a vintage GE ghetto blaster on eBay
 ## Links
 
 - [Ramsey Electronics on eBay](https://www.ebay.com/str/ramseyelectronicsdirect) — Ramsey is mostly out of business, but an eBay store does seem to live on
+- [Ramsey Kits Calls It Quits (ARRL)](https://www.arrl.org/news/ramsey-kits-calls-it-quits)
