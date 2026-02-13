@@ -14,3 +14,7 @@ Story Coming Soon!
 ## Before and after
 
 {{< before-after before="seats-before.jpg" after="feature.jpg" >}}
+
+## Links
+
+- [Leather Seat Covers from Lseat.com](https://www.lseat.com/)
