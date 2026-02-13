@@ -41,3 +41,4 @@ In the end, the image builder works — albeit not exactly as originally envisio
 - [Jeff Geerling — CaribouLite SDR HAT](https://www.jeffgeerling.com/blog/2025/cariboulite-sdr-hat-sdr-on-raspberry-pi/)
 - [Check out the code](https://github.com/deevnet/deevnet-image-factory)
 - [CaribouLite](https://github.com/cariboulabs/cariboulite)
+- [CaribouLite RPi HAT on Crowd Supply](https://www.crowdsupply.com/cariboulabs/cariboulite-rpi-hat)
