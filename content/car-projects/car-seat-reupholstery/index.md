@@ -2,7 +2,7 @@
 title: "Car Seat Reupholstery"
 description: "Reupholstering car seats"
 summary: "Story Coming Soon!"
-date: 2026-02-13
+date: 2022-08-14
 tags: ["car", "upholstery", "interior"]
 showHero: true
 heroStyle: "background"
