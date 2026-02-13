@@ -13,14 +13,46 @@
     {{ end }}
   {{ end }}
 
-  {{/* Header — negative top margin to reduce gap below fixed nav spacer */}}
-  <header class="-mt-10">
+  {{/* Compute filter data early so we can render inline with title */}}
+  {{ $allPages := .RegularPages }}
+  {{ range .Sections }}
+    {{ $allPages = $allPages | append .RegularPages }}
+  {{ end }}
+  {{ $allTags := slice }}
+  {{ range $allPages }}
+    {{ with .Params.tags }}
+      {{ range . }}
+        {{ $allTags = $allTags | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $uniqueTags := $allTags | uniq | sort }}
+  {{ $hasFilters := and (gt (len $allPages) 0) (gt (len $uniqueTags) 0) }}
+
+  {{/* Header: title left, filter right */}}
+  {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-10" }}
+  <header class="-mt-16">
     {{ if .Params.showBreadcrumbs | default (site.Params.list.showBreadcrumbs | default false) }}
       {{ partial "breadcrumbs.html" . }}
     {{ end }}
-    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-      {{ partial "article-meta/list.html" (dict "context" . "scope" "single") }}
+    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+      <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+      {{ if $hasFilters }}
+        <div id="filter-bar" class="filter-dropdown relative print:hidden">
+          <button class="filter-dropdown-btn flex items-center px-3 py-1.5 text-sm rounded-lg border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:border-neutral-400 dark:hover:border-neutral-500 transition-colors cursor-pointer bg-neutral-50 dark:bg-neutral-700/50">
+            <span class="filter-dropdown-label" data-base-label="Filter">Filter</span>
+            <svg class="w-4 h-4 ml-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="filter-dropdown-menu hidden absolute right-0 z-50 mt-1 min-w-[10rem] rounded-lg border border-neutral-200 dark:border-neutral-600 bg-neutral-50 dark:bg-neutral-700 shadow-lg py-1 max-h-64 overflow-y-auto">
+            {{ range $uniqueTags }}
+              <label class="flex items-center px-3 py-1.5 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600 cursor-pointer">
+                <input type="checkbox" class="mr-2 rounded" data-filter-type="tag" data-filter-value="{{ . }}">
+                {{ . }}
+              </label>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
     </div>
     {{ $translations := .AllTranslations }}
     {{ with .File }}
@@ -41,10 +73,9 @@
   </header>
 
   {{/* Description (markdown content) — only render if page has body content */}}
-  {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-10" }}
   {{ if .Content }}
-    {{ $tocMargin := cond $showToc "mt-12" "mt-0" }}
-    <section class="{{ $tocMargin }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row mb-10">
+    {{ $tocMargin := cond $showToc "mt-6" "mt-0" }}
+    <section class="{{ $tocMargin }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row mb-4">
       {{ if $showToc }}
         <div class="order-first lg:ms-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
           <div class="toc ps-5 print:hidden lg:sticky {{ $topClass }}">
@@ -58,76 +89,38 @@
     </section>
   {{ end }}
 
-  {{/* Collect all pages across subsections for filter */}}
-  {{ $allPages := .RegularPages }}
-  {{ range .Sections }}
-    {{ $allPages = $allPages | append .RegularPages }}
-  {{ end }}
+  {{/* Article list */}}
+  <section class="space-y-8 w-full" id="article-list">
 
-  {{/* Compute unique tags */}}
-  {{ $allTags := slice }}
-  {{ range $allPages }}
-    {{ with .Params.tags }}
-      {{ range . }}
-        {{ $allTags = $allTags | append . }}
+    {{/* Subsection groups */}}
+    {{ range .Sections.ByWeight }}
+      {{ if gt (len .RegularPages) 0 }}
+        <div class="mb-4">
+          <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-1">{{ .Title }}</h2>
+          {{ with .Description }}
+            <p class="text-sm text-neutral-500 dark:text-neutral-400 mb-3">{{ . }}</p>
+          {{ end }}
+          <div class="space-y-8">
+            {{ range .RegularPages.ByWeight }}
+              <div class="filter-item"
+                data-tags="{{ delimit (.Params.tags | default slice) "," }}"
+                data-status="{{ .Params.status | default "" }}">
+                {{ partial "article-link/simple.html" . }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
       {{ end }}
     {{ end }}
-  {{ end }}
-  {{ $uniqueTags := $allTags | uniq | sort }}
-  {{ $hasFilters := and (gt (len $allPages) 0) (gt (len $uniqueTags) 0) }}
 
-  {{/* Filter dropdown — inline above article list */}}
-  {{ if $hasFilters }}
-    <div id="filter-bar" class="mb-6 print:hidden">
-      <div class="filter-dropdown relative inline-block">
-        <button class="filter-dropdown-btn flex items-center justify-between px-3 py-2 text-sm rounded-lg border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:border-neutral-400 dark:hover:border-neutral-500 transition-colors cursor-pointer bg-neutral-50 dark:bg-neutral-700/50">
-          <span class="filter-dropdown-label" data-base-label="Filter">Filter</span>
-          <svg class="w-4 h-4 ml-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-        </button>
-        <div class="filter-dropdown-menu hidden absolute z-50 mt-1 min-w-[10rem] rounded-lg border border-neutral-200 dark:border-neutral-600 bg-neutral-50 dark:bg-neutral-700 shadow-lg py-1 max-h-64 overflow-y-auto">
-          {{ range $uniqueTags }}
-            <label class="flex items-center px-3 py-1.5 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600 cursor-pointer">
-              <input type="checkbox" class="mr-2 rounded" data-filter-type="tag" data-filter-value="{{ . }}">
-              {{ . }}
-            </label>
-          {{ end }}
-        </div>
+    {{/* Ungrouped direct child pages */}}
+    {{ range .RegularPages }}
+      <div class="filter-item"
+        data-tags="{{ delimit (.Params.tags | default slice) "," }}"
+        data-status="{{ .Params.status | default "" }}">
+        {{ partial "article-link/simple.html" . }}
       </div>
-    </div>
-  {{ end }}
-
-  {{/* Article list */}}
-  <section class="space-y-10 w-full" id="article-list">
-
-      {{/* Subsection groups */}}
-      {{ range .Sections.ByWeight }}
-        {{ if gt (len .RegularPages) 0 }}
-          <div class="mb-8">
-            <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-1">{{ .Title }}</h2>
-            {{ with .Description }}
-              <p class="text-sm text-neutral-500 dark:text-neutral-400 mb-4">{{ . }}</p>
-            {{ end }}
-            <div class="space-y-10">
-              {{ range .RegularPages.ByWeight }}
-                <div class="filter-item"
-                  data-tags="{{ delimit (.Params.tags | default slice) "," }}"
-                  data-status="{{ .Params.status | default "" }}">
-                  {{ partial "article-link/simple.html" . }}
-                </div>
-              {{ end }}
-            </div>
-          </div>
-        {{ end }}
-      {{ end }}
-
-      {{/* Ungrouped direct child pages */}}
-      {{ range .RegularPages }}
-        <div class="filter-item"
-          data-tags="{{ delimit (.Params.tags | default slice) "," }}"
-          data-status="{{ .Params.status | default "" }}">
-          {{ partial "article-link/simple.html" . }}
-        </div>
-      {{ end }}
+    {{ end }}
 
   </section>
   {{ partial "pagination.html" . }}
