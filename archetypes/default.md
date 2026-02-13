@@ -8,4 +8,5 @@ tags: []
 status: ""
 showHero: true
 heroStyle: "background"
+layoutBackgroundHeaderSpace: false
 ---

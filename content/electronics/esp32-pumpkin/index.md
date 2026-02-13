@@ -7,6 +7,7 @@ tags: ["esp32", "esp-idf", "neopixel", "led", "halloween", "freertos"]
 status: "complete"
 showHero: true
 heroStyle: "background"
+layoutBackgroundHeaderSpace: false
 ---
 
 A Halloween pumpkin powered by an ESP32 — flickering flame LEDs at idle, then a strobe and evil laugh triggered by motion when trick-or-treaters walk up. Built in C with ESP-IDF and FreeRTOS, inspired by a [Bitluni YouTube video](https://youtu.be/VfbikvNPwM0?si=KBZA4zo6PuiKAc8z) that made it look easy. It was not easy, but it works great.

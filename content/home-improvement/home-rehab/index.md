@@ -7,6 +7,7 @@ tags: ["hugo", "github-pages", "project-tracking", "renovation"]
 status: "in progress"
 showHero: true
 heroStyle: "background"
+layoutBackgroundHeaderSpace: false
 ---
 
 A Hugo-based project tracking site for a whole-house renovation — scores of projects across three floors, each broken into individual tasks, resulting in hundreds of distinct work items with progress indicators showing what's done, what's in progress, and what's left. Built entirely through conversation with Claude Code in under 24 hours, auto-published to GitHub Pages on every commit.

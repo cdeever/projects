@@ -7,6 +7,7 @@ tags: ["esp32", "bluetooth", "telephony", "analog", "slic"]
 status: ""
 showHero: true
 heroStyle: "background"
+layoutBackgroundHeaderSpace: false
 ---
 
 An ESP32-based project that resurrects vintage rotary phones for modern use. The gateway emulates a telephone company's central office line and bridges classic analog phones to Bluetooth-connected devices—bringing the nostalgia of 1970s landline telephony into the modern wireless era.

@@ -6,4 +6,5 @@ weight: 60
 cascade:
   showHero: true
   heroStyle: "background"
+  layoutBackgroundHeaderSpace: false
 ---

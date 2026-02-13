@@ -7,6 +7,7 @@ tags: ["6502", "assembly", "retro", "atari", "gaming"]
 status: ""
 showHero: true
 heroStyle: "background"
+layoutBackgroundHeaderSpace: false
 ---
 
 ![Christmas Demo on TV](christmas-demo.jpg)

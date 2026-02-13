@@ -7,6 +7,7 @@ tags: ["amplifier", "repair", "electronics", "automotive", "alpine"]
 status: ""
 showHero: true
 heroStyle: "background"
+layoutBackgroundHeaderSpace: false
 ---
 
 A documentation site for repairing the Alpine MRP-F250 4-channel power amplifier. Created while troubleshooting a unit with DC/DC converter failures, the guide covers circuit theory, diagnostic procedures, common failure modes, and repair techniques.
