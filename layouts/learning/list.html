@@ -83,41 +83,21 @@
   <div class="flex flex-col lg:flex-row lg:gap-10">
 
     {{/* Filter sidebar */}}
-    {{ if $hasFilters }}
-      <aside id="filter-bar" class="shrink-0 mb-6 lg:mb-0 lg:w-48 lg:sticky lg:self-start {{ $topClass }} print:hidden">
-        <div class="flex flex-row gap-3 lg:flex-col">
-          {{ if gt (len $uniqueStatuses) 0 }}
-            <div class="filter-dropdown relative">
-              <button class="filter-dropdown-btn w-full flex items-center justify-between px-3 py-2 text-sm rounded-lg border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:border-neutral-400 dark:hover:border-neutral-500 transition-colors cursor-pointer bg-neutral-50 dark:bg-neutral-700/50">
-                <span class="filter-dropdown-label" data-base-label="Status">Status</span>
-                <svg class="w-4 h-4 ml-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-              </button>
-              <div class="filter-dropdown-menu hidden absolute z-50 mt-1 w-full min-w-[10rem] rounded-lg border border-neutral-200 dark:border-neutral-600 bg-neutral-50 dark:bg-neutral-700 shadow-lg py-1">
-                {{ range $uniqueStatuses }}
-                  <label class="flex items-center px-3 py-1.5 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600 cursor-pointer">
-                    <input type="checkbox" class="mr-2 rounded" data-filter-type="status" data-filter-value="{{ . }}">
-                    {{ . }}
-                  </label>
-                {{ end }}
-              </div>
-            </div>
-          {{ end }}
-          {{ if gt (len $uniqueTags) 0 }}
-            <div class="filter-dropdown relative">
-              <button class="filter-dropdown-btn w-full flex items-center justify-between px-3 py-2 text-sm rounded-lg border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:border-neutral-400 dark:hover:border-neutral-500 transition-colors cursor-pointer bg-neutral-50 dark:bg-neutral-700/50">
-                <span class="filter-dropdown-label" data-base-label="Tags">Tags</span>
-                <svg class="w-4 h-4 ml-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-              </button>
-              <div class="filter-dropdown-menu hidden absolute z-50 mt-1 w-full min-w-[10rem] rounded-lg border border-neutral-200 dark:border-neutral-600 bg-neutral-50 dark:bg-neutral-700 shadow-lg py-1 max-h-64 overflow-y-auto">
-                {{ range $uniqueTags }}
-                  <label class="flex items-center px-3 py-1.5 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600 cursor-pointer">
-                    <input type="checkbox" class="mr-2 rounded" data-filter-type="tag" data-filter-value="{{ . }}">
-                    {{ . }}
-                  </label>
-                {{ end }}
-              </div>
-            </div>
-          {{ end }}
+    {{ if and $hasFilters (gt (len $uniqueTags) 0) }}
+      <aside id="filter-bar" class="shrink-0 mb-6 lg:mb-0 lg:w-48 lg:mr-6 lg:sticky lg:self-start {{ $topClass }} print:hidden">
+        <div class="filter-dropdown relative">
+          <button class="filter-dropdown-btn w-full flex items-center justify-between px-3 py-2 text-sm rounded-lg border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:border-neutral-400 dark:hover:border-neutral-500 transition-colors cursor-pointer bg-neutral-50 dark:bg-neutral-700/50">
+            <span class="filter-dropdown-label" data-base-label="Filter">Filter</span>
+            <svg class="w-4 h-4 ml-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="filter-dropdown-menu hidden absolute z-50 mt-1 w-full min-w-[10rem] rounded-lg border border-neutral-200 dark:border-neutral-600 bg-neutral-50 dark:bg-neutral-700 shadow-lg py-1 max-h-64 overflow-y-auto">
+            {{ range $uniqueTags }}
+              <label class="flex items-center px-3 py-1.5 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600 cursor-pointer">
+                <input type="checkbox" class="mr-2 rounded" data-filter-type="tag" data-filter-value="{{ . }}">
+                {{ . }}
+              </label>
+            {{ end }}
+          </div>
         </div>
       </aside>
     {{ end }}
