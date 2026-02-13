@@ -37,6 +37,8 @@ Fully working and actively used. The site tracks hundreds of items across first 
 - This generic approach works for any significant project that needs to show progress — not just home renovation
 - What would have taken days of spreadsheet wrangling was done in an evening, a morning, and a lunch break
 
+![Rehab Tracker](rehab-tracker.png)
+
 ## Links
 
 - [Check out the site](https://cdeever.github.io/home-rehab/)
