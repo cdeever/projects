@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: "Planet Earth Arcade"
 description: "Full-size arcade cabinet build themed after a 1980s Ohio arcade"
 summary: "A full-size upright arcade cabinet built from a kit, themed after the Planet Earth Arcade in Kenton, Ohio — featuring a real CRT, RGB controls, and a library of late-70s and 80s classics"
