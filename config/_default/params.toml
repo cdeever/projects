@@ -33,7 +33,7 @@ enableCodeCopy = true
   excludedKinds = []
 
 [header]
-  layout = "basic"
+  layout = "fixed-fill-blur"
 
 [footer]
   showCopyright = true
