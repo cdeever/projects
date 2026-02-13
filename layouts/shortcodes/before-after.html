@@ -1,11 +1,13 @@
 {{ $before := .Get "before" }}
 {{ $after := .Get "after" }}
+{{ $labelBefore := .Get "labelBefore" | default "Before" }}
+{{ $labelAfter := .Get "labelAfter" | default "After" }}
 {{ $id := delimit (shuffle (seq 1 9)) "" | truncate 8 "" }}
 
-<div class="before-after-{{ $id }}" style="position:relative; max-width:700px; margin:1.5rem auto;">
-  <img src="{{ $before }}" alt="Before" style="display:block; width:100%; height:auto;">
-  <img src="{{ $after }}" alt="After" class="before-after-top-{{ $id }}" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
-  <span class="before-after-label-{{ $id }}" style="position:absolute; bottom:12px; left:12px; background:rgba(0,0,0,0.6); color:#fff; padding:4px 10px; border-radius:4px; font-size:0.85rem; font-weight:600;">Before</span>
+<div class="before-after-{{ $id }}" style="position:relative; max-width:700px; margin:1.5rem auto; overflow:hidden;">
+  <img src="{{ $before }}" alt="{{ $labelBefore }}" style="display:block; width:100%; height:auto;">
+  <img src="{{ $after }}" alt="{{ $labelAfter }}" class="before-after-top-{{ $id }}" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;">
+  <span class="before-after-label-{{ $id }}" style="position:absolute; bottom:12px; left:12px; background:rgba(0,0,0,0.6); color:#fff; padding:4px 10px; border-radius:4px; font-size:0.85rem; font-weight:600;">{{ $labelBefore }}</span>
 </div>
 
 <style>
@@ -24,9 +26,9 @@
     100% { opacity: 0; }  /* hold before 7.5–9s */
   }
   @keyframes label-{{ $id }} {
-    0%   { content: "Before"; }
-    33%  { content: "After"; }
-    83%  { content: "Before"; }
+    0%   { content: "{{ $labelBefore }}"; }
+    33%  { content: "{{ $labelAfter }}"; }
+    83%  { content: "{{ $labelBefore }}"; }
   }
 </style>
 
@@ -35,9 +37,11 @@
     var el = document.querySelector('.before-after-label-{{ $id }}');
     if (!el) return;
     var dur = 9000;
+    var labelBefore = "{{ $labelBefore }}";
+    var labelAfter = "{{ $labelAfter }}";
     function tick() {
       var t = (Date.now() % dur) / dur;
-      el.textContent = (t > 0.25 && t < 0.75) ? 'After' : 'Before';
+      el.textContent = (t > 0.25 && t < 0.75) ? labelAfter : labelBefore;
       requestAnimationFrame(tick);
     }
     tick();
