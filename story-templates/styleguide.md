@@ -109,6 +109,7 @@ Every post uses Blowfish front matter in YAML format. Required and optional fiel
 - The feature image for a post must be named `feature.*` (e.g., `feature.jpg`, `feature.png`) and placed inside the page bundle alongside `index.md`. Blowfish uses this for card thumbnails and hero banners automatically.
 - Keep images at a reasonable size — aim for under 500 KB per image. Resize or compress before committing.
 - Use descriptive filenames for additional images (e.g., `wiring-diagram.jpg`, `finished-build.jpg`).
+- **Always strip EXIF orientation before committing photos.** Phone cameras embed an EXIF orientation tag instead of rotating the actual pixel data. Hugo and browsers may or may not respect this tag, causing images to appear sideways or upside-down. Run `mogrify -auto-orient <file>` (ImageMagick) on every new photo to bake the rotation into the pixels and reset the tag to normal. Never manually rotate without also stripping the EXIF orientation — that causes double-rotation.
 
 ---
 
