@@ -1,8 +1,8 @@
 ---
 title: "EE Notebook"
-description: "A learning journal and reference manual covering electronics engineering techniques and reusable hardware patterns."
-summary: "Documents practical knowledge gained through repair work, circuit analysis, and prototyping — organized for quick lookup and future project reuse."
+description: "Reference manual covering electronics engineering techniques and reusable hardware patterns — organized for quick lookup and project reuse."
 externalUrl: "https://applied-ee.github.io/ee-notebook/"
 icon: "book-open"
+tags: ["electronics", "circuits", "repair", "prototyping"]
 weight: 10
 ---
