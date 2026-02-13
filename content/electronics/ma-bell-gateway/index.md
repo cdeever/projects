@@ -37,6 +37,7 @@ Still in progress. I've settled on the HC-5504B SLIC as the core analog interfac
 - The Bell System's engineering standards are remarkably well-documented — decades-old specs for voltages, timing, and tone frequencies are still precise enough to build against today
 - BORSCHT isn't just an acronym to memorize — each function represents a real engineering problem that the SLIC chip has to solve
 - Bridging analog telephony to digital Bluetooth means working across very different signal domains — DC loop current on one side, HFP codec negotiation on the other
+- Sweetie's Uncle Ronnie gifted me a 1930s-era phone and ringer — and because the Bell System kept its subscriber line specs remarkably stable for decades, it should work with the same gateway as the '70s rotary phone. A working demo with both is now mandatory
 
 ## Links
 
