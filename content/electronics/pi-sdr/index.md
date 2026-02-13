@@ -5,7 +5,7 @@ summary: "A reproducible, Packer-built Raspberry Pi image pre-configured for the
 date: 2026-02-10
 draft: false
 tags: ["raspberry-pi", "sdr", "cariboulite", "packer", "ansible", "deevnet"]
-status: "in progress"
+status: "complete"
 showHero: true
 heroStyle: "background"
 layoutBackgroundHeaderSpace: false

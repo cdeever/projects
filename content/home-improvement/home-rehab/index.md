@@ -4,7 +4,7 @@ description: "Hugo-based renovation tracker for a whole-house rehab project"
 summary: "A static site tracking 647 renovation tasks across a 1990s-era house — built in under 24 hours with AI-assisted development"
 date: 2026-01-05
 tags: ["hugo", "github-pages", "project-tracking", "renovation"]
-status: "in progress"
+status: "complete"
 showHero: true
 heroStyle: "background"
 layoutBackgroundHeaderSpace: false

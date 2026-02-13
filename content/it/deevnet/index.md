@@ -1,5 +1,5 @@
 ---
-title: "Deevnet"
+title: "Deevnet Mobile Lab"
 description: "Infrastructure automation ecosystem using IaC and CaC"
 summary: "A fully rebuildable infrastructure platform — all hosts are stateless, all configuration lives in code"
 date: 2025-09-04
@@ -75,6 +75,8 @@ This project has been a crash course in when to use which tool. Ansible, Terrafo
 Setting up Hugo-based documentation that publishes to GitHub Pages has been an unexpectedly efficient mechanism for keeping docs current. The docs explain exactly how the system works in a format that's understandable by both humans and AI agents — which matters when you're using agentic AI as a development partner.
 
 And the AI-assisted workflow itself has been a revelation. The combination of using one tool to think through architecture and another to implement it has fundamentally changed what's possible for a solo builder with limited evening and weekend hours.
+
+![Deevnet Mobile Lab](deevnet-mobile.jpg)
 
 ## Links
 
