@@ -113,7 +113,27 @@
                   <div class="filter-item"
                     data-tags="{{ delimit (.Params.tags | default slice) "," }}"
                     data-status="{{ .Params.status | default "" }}">
-                    {{ partial "article-link/simple.html" . }}
+                    {{ if .Params.icon }}
+                      {{ $href := .RelPermalink }}
+                      {{ $target := "" }}
+                      {{ $rel := "" }}
+                      {{ with .Params.externalUrl }}
+                        {{ $href = . }}
+                        {{ $target = "_blank" }}
+                        {{ $rel = "noopener" }}
+                      {{ end }}
+                      <a href="{{ $href }}" {{ with $target }}target="{{ . }}"{{ end }} {{ with $rel }}rel="{{ . }}"{{ end }} style="display:flex; align-items:flex-start; gap:1rem; border:1px solid rgba(var(--color-neutral-400),0.3); border-radius:0.5rem; padding:1.5rem; text-decoration:none; color:inherit; transition:border-color 0.2s, box-shadow 0.2s; cursor:pointer;" onmouseover="this.style.borderColor='rgb(var(--color-primary-500))'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';" onmouseout="this.style.borderColor='rgba(var(--color-neutral-400),0.3)'; this.style.boxShadow='none';">
+                        <span style="width:2rem; height:2rem; flex-shrink:0; margin-top:0.15rem; color:rgb(var(--color-primary-500));">
+                          {{ partial "icon.html" .Params.icon }}
+                        </span>
+                        <div>
+                          <h3 style="margin-top:0;" class="text-xl font-bold text-neutral-800 dark:text-neutral">{{ .Title }}{{ with .Params.externalUrl }}<span class="align-top text-xs text-neutral-400 dark:text-neutral-500"> &#8599;</span>{{ end }}</h3>
+                          {{ with .Params.description }}<p style="margin-bottom:0;" class="text-sm text-neutral-500 dark:text-neutral-400">{{ . }}</p>{{ end }}
+                        </div>
+                      </a>
+                    {{ else }}
+                      {{ partial "article-link/simple.html" . }}
+                    {{ end }}
                   </div>
                 {{ end }}
               </div>
