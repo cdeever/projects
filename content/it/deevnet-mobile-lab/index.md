@@ -76,6 +76,8 @@ Setting up Hugo-based documentation that publishes to GitHub Pages has been an u
 
 And the AI-assisted workflow itself has been a revelation. The combination of using one tool to think through architecture and another to implement it has fundamentally changed what's possible for a solo builder with limited evening and weekend hours.
 
+## The rig
+
 ![Deevnet Mobile Lab](deevnet-mobile.jpg)
 
 ## Links
