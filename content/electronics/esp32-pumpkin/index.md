@@ -37,8 +37,8 @@ Fully working. The pumpkin looks fantastic at idle with the flickering flame, an
 - The I2S board and small speaker aren't loud enough — the next version needs a sound upgrade
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
-  <img src="pumpkin-glow.jpg" alt="Pumpkin glowing" style="max-width: 250px;">
-  <img src="pumpkin-strobe.jpg" alt="Pumpkin strobing" style="max-width: 250px;">
+  <img src="pumpkin-glow-v2.jpg" alt="Pumpkin glowing" style="max-width: 250px;">
+  <img src="pumpkin-strobe-v2.jpg" alt="Pumpkin strobing" style="max-width: 250px;">
 </div>
 
 ## Links

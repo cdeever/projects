@@ -110,6 +110,7 @@ Every post uses Blowfish front matter in YAML format. Required and optional fiel
 - Keep images at a reasonable size — aim for under 500 KB per image. Resize or compress before committing.
 - Use descriptive filenames for additional images (e.g., `wiring-diagram.jpg`, `finished-build.jpg`).
 - **Always strip EXIF orientation before committing photos.** Phone cameras embed an EXIF orientation tag instead of rotating the actual pixel data. Hugo and browsers may or may not respect this tag, causing images to appear sideways or upside-down. Run `mogrify -auto-orient <file>` (ImageMagick) on every new photo to bake the rotation into the pixels and reset the tag to normal. Never manually rotate without also stripping the EXIF orientation — that causes double-rotation.
+- **Rename re-processed images to bust browser caches.** If you re-orient or otherwise re-process an image that has already been published, rename the file (e.g. append `-v2`) and update the markdown reference. Browsers cache by URL, so the old filename will keep serving the stale version until the cache expires. A new filename forces a fresh load immediately.
 
 ---
 
