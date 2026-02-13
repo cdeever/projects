@@ -1,6 +1,6 @@
 baseURL = 'https://cdeever.github.io/projects/'
 languageCode = 'en-us'
-title = 'Projects'
+title = 'Home'
 theme = 'blowfish'
 
 enableGitInfo = true
