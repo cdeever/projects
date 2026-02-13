@@ -36,6 +36,10 @@ In the end, the image builder works — albeit not exactly as originally envisio
 - Baking a readme and validation tests into the image itself is a pattern worth reusing — the image becomes self-documenting.
 - Kernel module builds across Linux versions are a moving target. Protecting patches with `git update-index --skip-worktree` keeps upstream pulls from clobbering your fixes.
 
+## The rig
+
+![Raspberry Pi with CaribouLite SDR HAT](20260210_160129.jpg)
+
 ## Links
 
 - [Jeff Geerling — CaribouLite SDR HAT](https://www.jeffgeerling.com/blog/2025/cariboulite-sdr-hat-sdr-on-raspberry-pi/)
