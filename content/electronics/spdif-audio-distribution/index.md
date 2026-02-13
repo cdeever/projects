@@ -4,7 +4,7 @@ description: "Whole-home digital audio distribution using SPDIF over repurposed 
 summary: "A DIY whole-home audio system that distributes digital audio — and live vinyl — to vintage hi-fi gear in multiple rooms using SPDIF over existing coax"
 date: 2023-01-01
 tags: ["audio", "spdif", "vinyl", "hi-fi", "vintage"]
-status: "in progress"
+status: "complete"
 draft: false
 showHero: true
 heroStyle: "background"
