@@ -26,7 +26,7 @@ I went in eyes wide open to the concept of "racing the beam" — on the Atari VC
 
 ## Result
 
-For last Christmas, I wanted the demo running on a real Atari. I haven't yet nailed down the EPROM programming workflow, so for now I copied the binary to an SD card running through a Harmony cartridge to get it on real hardware. It's a bit of a cheat, but it's a stepping stone toward the ultimate goal of burning the ROM onto an actual EPROM chip. I'll be back to elaborate on the EPROM side of things once I have the whole story.
+For last Christmas, I wanted the demo running on a real Atari. I haven't yet nailed down the EPROM programming workflow, so for now I copied the binary to an SD card running through a Harmony cartridge to get it on real hardware. It's a bit of a cheat, but it's a stepping stone toward the ultimate goal of burning the ROM onto an actual EPROM chip. I'll be back to elaborate on the EPROM side of things once I have the whole story. But for now, I'll relish in the satisfaction of seeing my code running on the VCS and showing on the Trinitron!
 
 ![Christmas Demo on TV](christmas-demo.jpg)
 
