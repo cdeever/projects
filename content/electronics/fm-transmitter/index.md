@@ -22,7 +22,7 @@ For my home music server I was running WinAmp, and it supported a skinnable plug
 
 Over the course of several sessions I worked to get all the components soldered onto the board. I hadn't done that much soldering since the time I was a kid in my basement messing around with random parts from Radio Shack — not really accomplishing much other than making a mess. But I carefully soldered all the components in place and then came the moment of truth: apply power and test it out.
 
-I connected the transmitter to a source, powered it on, then powered on the radio. Adjusting the built-in tuner on the transmitter side, I started moving across the FM spectrum and then — much to my surprise — it actually worked. Boom. My stuff coming through crystal clear on the radio.
+I connected the transmitter to a source and powered it on. On the radio, I scanned the dial and found an empty slot — 102.7 FM, nothing but static. Then I started turning the transmitter's tuner toward that spot on the dial, and — much to my surprise — it actually worked. Boom. My stuff coming through crystal clear on 102.7.
 
 I ran coax cable all the way to the attic and put a simple dipole antenna up there, with the transmitter connected to my audio system in the basement.
 
@@ -38,7 +38,7 @@ It worked great. The whole setup — WinAmp with BrowseAmp, the flip phone as a 
 
 When Bluetooth speakers became all the rage and anyone with Spotify could play any song, my FM rig sadly became obsolete. No one needed it anymore — they had the same function in their pocket, and my giant MP3 collection wasn't as complete as the online streaming services.
 
-But alas, I have a modern use case. I scored a vintage GE ghetto blaster on eBay nicknamed "The Judge," and the FM transmitter now supplies my home music collection to The Judge when I'm either in the garage or playing games on the [Planet Earth Arcade](../planet-earth-arcade/) machine.
+But alas, I have a modern use case. I scored a vintage GE ghetto blaster on eBay nicknamed "The Judge," and the FM transmitter now supplies my home music collection to The Judge when I'm either in the garage or playing games on the [Planet Earth Arcade](../planet-earth-arcade/) machine. There's something about 80s music coming through a real 80s boombox over FM that a Bluetooth speaker just can't replicate — it sounds exactly the way it was meant to be heard. The combo is also a hit on Halloween — The Judge blasting Halloween-themed songs from the driveway during trick-or-treat. My fellow Gen X parents love it. The transmitter has been powered on for most of its life and it still works as good as the day I first assembled it.
 
 ## Takeaways
 
