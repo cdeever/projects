@@ -48,7 +48,7 @@ Late in 2018, after about seven years and many, many hours of Millipede and othe
 
 ## Rebirth
 
-Lucky me — my girlfriend surprised me on my birthday with cabinet side art. I got the famous Apollo 8 "Earthrise" photo showing Earth from the Moon's perspective, which fit in great with the theme. Now there was a strong reason to get everything put back together.
+Lucky me — my Sweetie surprised me on my birthday with cabinet side art. I got the famous Apollo 8 "Earthrise" photo showing Earth from the Moon's perspective, which fit in great with the theme. Now there was a strong reason to get everything put back together.
 
 I found an arcade repair guy who was able to replace the flyback transformer. When I dropped off the monitor, I half-seriously pondered how fun it would be to shadow him as an apprentice helper and learn the tricks of the CRT trade. The repair ended up costing more than the original CRT and sacrificing some poor Golden Tee out there somewhere.
 
