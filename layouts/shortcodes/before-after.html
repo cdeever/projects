@@ -1,0 +1,45 @@
+{{ $before := .Get "before" }}
+{{ $after := .Get "after" }}
+{{ $id := delimit (shuffle (seq 1 9)) "" | truncate 8 "" }}
+
+<div class="before-after-{{ $id }}" style="position:relative; max-width:700px; margin:1.5rem auto;">
+  <img src="{{ $before }}" alt="Before" style="display:block; width:100%; height:auto;">
+  <img src="{{ $after }}" alt="After" class="before-after-top-{{ $id }}" style="position:absolute; top:0; left:0; width:100%; height:auto;">
+  <span class="before-after-label-{{ $id }}" style="position:absolute; bottom:12px; left:12px; background:rgba(0,0,0,0.6); color:#fff; padding:4px 10px; border-radius:4px; font-size:0.85rem; font-weight:600;">Before</span>
+</div>
+
+<style>
+  .before-after-top-{{ $id }} {
+    animation: crossfade-{{ $id }} 9s ease-in-out infinite;
+  }
+  .before-after-label-{{ $id }} {
+    animation: label-{{ $id }} 9s ease-in-out infinite;
+  }
+  @keyframes crossfade-{{ $id }} {
+    0%   { opacity: 0; }
+    17%  { opacity: 0; }  /* hold before 0–1.5s */
+    33%  { opacity: 1; }  /* fade to after 1.5–3s */
+    67%  { opacity: 1; }  /* hold after 3–6s */
+    83%  { opacity: 0; }  /* fade back 6–7.5s */
+    100% { opacity: 0; }  /* hold before 7.5–9s */
+  }
+  @keyframes label-{{ $id }} {
+    0%   { content: "Before"; }
+    33%  { content: "After"; }
+    83%  { content: "Before"; }
+  }
+</style>
+
+<script>
+  (function() {
+    var el = document.querySelector('.before-after-label-{{ $id }}');
+    if (!el) return;
+    var dur = 9000;
+    function tick() {
+      var t = (Date.now() % dur) / dur;
+      el.textContent = (t > 0.25 && t < 0.75) ? 'After' : 'Before';
+      requestAnimationFrame(tick);
+    }
+    tick();
+  })();
+</script>

@@ -86,7 +86,7 @@ The fireplace is fully done and I love it. The LVP flooring eventually went in a
 
 ## Before and after
 
-![Before](fireplace-before.jpg) ![After](fireplace-after-v2.jpg)
+{{< before-after before="fireplace-before.jpg" after="fireplace-after-v2.jpg" >}}
 
 ## Links
 
