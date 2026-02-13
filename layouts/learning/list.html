@@ -1,0 +1,160 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+  {{ $enableToc := .Params.showTableOfContents | default (site.Params.list.showTableOfContents | default false) }}
+  {{ $showToc := and $enableToc (in .TableOfContents "<ul") }}
+
+  {{/* Hero */}}
+  {{ if site.Params.list.showHero | default false }}
+    {{ $heroStyle := print "hero/" site.Params.list.heroStyle ".html" }}
+    {{ if templates.Exists ( printf "partials/%s" $heroStyle ) }}
+      {{ partial $heroStyle . }}
+    {{ else }}
+      {{ partial "hero/basic.html" . }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Header */}}
+  <header>
+    {{ if .Params.showBreadcrumbs | default (site.Params.list.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      {{ partial "article-meta/list.html" (dict "context" . "scope" "single") }}
+    </div>
+    {{ $translations := .AllTranslations }}
+    {{ with .File }}
+      {{ $path := .Path }}
+      {{ range $translations }}
+        {{ $lang := print "."  .Lang  ".md" }}
+        {{ $path = replace $path $lang ".md" }}
+      {{ end }}
+      {{ $jsPage := resources.Get "js/page.js" }}
+      {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") }}
+      <script
+        type="text/javascript"
+        src="{{ $jsPage.RelPermalink }}"
+        integrity="{{ $jsPage.Data.Integrity }}"
+        data-oid="views_{{ $path }}"
+        data-oid-likes="likes_{{ $path }}"></script>
+    {{ end }}
+  </header>
+
+  {{/* Description (markdown content) */}}
+  {{ $tocMargin := cond $showToc "mt-12" "mt-0" }}
+  {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-10" }}
+  <section class="{{ $tocMargin }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row mb-10">
+    {{ if $showToc }}
+      <div class="order-first lg:ms-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+        <div class="toc ps-5 print:hidden lg:sticky {{ $topClass }}">
+          {{ partial "toc.html" . }}
+        </div>
+      </div>
+    {{ end }}
+    <div class="min-w-0 min-h-0 max-w-prose w-full">
+      {{ .Content }}
+    </div>
+  </section>
+
+  {{/* Collect all pages across subsections for filter bar */}}
+  {{ $allPages := .RegularPages }}
+  {{ range .Sections }}
+    {{ $allPages = $allPages | append .RegularPages }}
+  {{ end }}
+
+  {{/* Filter Bar */}}
+  {{ if gt (len $allPages) 0 }}
+    {{ $allTags := slice }}
+    {{ $allStatuses := slice }}
+    {{ range $allPages }}
+      {{ with .Params.tags }}
+        {{ range . }}
+          {{ $allTags = $allTags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ with .Params.status }}
+        {{ $allStatuses = $allStatuses | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $uniqueTags := $allTags | uniq | sort }}
+    {{ $uniqueStatuses := $allStatuses | uniq | sort }}
+
+    {{ if or (gt (len $uniqueTags) 0) (gt (len $uniqueStatuses) 0) }}
+      <div id="filter-bar" class="mb-6 print:hidden">
+        {{ if gt (len $uniqueStatuses) 0 }}
+          <div class="mb-3">
+            <span class="text-sm font-semibold text-neutral-600 dark:text-neutral-400 mr-2">Status:</span>
+            <div class="inline-flex flex-wrap gap-2">
+              {{ range $uniqueStatuses }}
+                <button
+                  class="filter-chip filter-status px-3 py-1 text-xs rounded-full border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:bg-primary-100 dark:hover:bg-primary-900 transition-colors cursor-pointer"
+                  data-filter-type="status"
+                  data-filter-value="{{ . }}">
+                  {{ . }}
+                </button>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+        {{ if gt (len $uniqueTags) 0 }}
+          <div>
+            <span class="text-sm font-semibold text-neutral-600 dark:text-neutral-400 mr-2">Tags:</span>
+            <div class="inline-flex flex-wrap gap-2">
+              {{ range $uniqueTags }}
+                <button
+                  class="filter-chip filter-tag px-3 py-1 text-xs rounded-full border border-neutral-300 dark:border-neutral-600 text-neutral-600 dark:text-neutral-400 hover:bg-primary-100 dark:hover:bg-primary-900 transition-colors cursor-pointer"
+                  data-filter-type="tag"
+                  data-filter-value="{{ . }}">
+                  {{ . }}
+                </button>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+
+  {{/* Grouped article list */}}
+  <section class="space-y-10 w-full" id="article-list">
+
+    {{/* Subsection groups */}}
+    {{ range .Sections.ByWeight }}
+      {{ if gt (len .RegularPages) 0 }}
+        <div class="mb-8">
+          <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-1">{{ .Title }}</h2>
+          {{ with .Description }}
+            <p class="text-sm text-neutral-500 dark:text-neutral-400 mb-4">{{ . }}</p>
+          {{ end }}
+          <div class="space-y-10">
+            {{ range .RegularPages.ByWeight }}
+              <div class="filter-item"
+                data-tags="{{ delimit (.Params.tags | default slice) "," }}"
+                data-status="{{ .Params.status | default "" }}">
+                {{ partial "article-link/simple.html" . }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+
+    {{/* Ungrouped direct child pages */}}
+    {{ range .RegularPages }}
+      <div class="filter-item"
+        data-tags="{{ delimit (.Params.tags | default slice) "," }}"
+        data-status="{{ .Params.status | default "" }}">
+        {{ partial "article-link/simple.html" . }}
+      </div>
+    {{ end }}
+
+  </section>
+  {{ partial "pagination.html" . }}
+
+  {{/* Load filter script */}}
+  {{ $filterJS := resources.Get "js/filter.js" }}
+  {{ if $filterJS }}
+    {{ $filterJS = $filterJS | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") }}
+    <script type="text/javascript" src="{{ $filterJS.RelPermalink }}" integrity="{{ $filterJS.Data.Integrity }}" defer></script>
+  {{ end }}
+{{ end }}
