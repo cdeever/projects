@@ -1,0 +1,14 @@
+{{- $status := . -}}
+{{- if eq $status "complete" -}}
+  <span class="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium
+    bg-green-100 text-green-800 border-green-300
+    dark:bg-green-900 dark:text-green-300 dark:border-green-700">
+    <span aria-hidden="true">&#10003;</span> Complete
+  </span>
+{{- else if eq $status "in progress" -}}
+  <span class="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium
+    bg-amber-100 text-amber-800 border-amber-300
+    dark:bg-amber-900 dark:text-amber-300 dark:border-amber-700">
+    <span aria-hidden="true">&#9684;</span> In Progress
+  </span>
+{{- end -}}

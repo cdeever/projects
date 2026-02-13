@@ -4,7 +4,7 @@ description: "ESP32-based vintage rotary phone to Bluetooth bridge"
 summary: "Resurrects vintage rotary phones for modern use by bridging analog telephony to Bluetooth"
 date: 2024-11-02
 tags: ["esp32", "bluetooth", "telephony", "analog", "slic"]
-status: ""
+status: "in progress"
 showHero: true
 heroStyle: "background"
 layoutBackgroundHeaderSpace: false

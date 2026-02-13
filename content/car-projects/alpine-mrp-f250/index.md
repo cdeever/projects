@@ -4,7 +4,7 @@ description: "Electronics repair documentation for the Alpine MRP-F250 4-channel
 summary: "Repair guide covering circuit theory, diagnostics, and repair techniques for the Alpine MRP-F250 car amplifier"
 date: 2026-01-27
 tags: ["amplifier", "repair", "electronics", "automotive", "alpine"]
-status: ""
+status: "in progress"
 showHero: true
 heroStyle: "background"
 layoutBackgroundHeaderSpace: false
