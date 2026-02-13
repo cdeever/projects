@@ -98,7 +98,13 @@
         {{ range .Sections.ByWeight }}
           {{ if gt (len .RegularPages) 0 }}
             <div style="margin-bottom: 1rem;">
-              <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-200" style="margin-bottom: 0.25rem;">{{ .Title }}</h2>
+              <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-200" style="margin-bottom: 0.25rem;">
+                {{- with .Params.externalUrl -}}
+                  <a href="{{ . }}" target="_blank" rel="noopener" class="decoration-primary-500 hover:underline hover:underline-offset-2">{{ $.Title }}<span class="align-top text-xs text-neutral-400 dark:text-neutral-500"> &#8599;</span></a>
+                {{- else -}}
+                  {{ .Title }}
+                {{- end -}}
+              </h2>
               {{ with .Description }}
                 <p class="text-sm text-neutral-500 dark:text-neutral-400" style="margin-bottom: 0.75rem;">{{ . }}</p>
               {{ end }}
