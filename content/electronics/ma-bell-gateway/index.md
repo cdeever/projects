@@ -22,7 +22,7 @@ I wanted to build a device that would let this phone do what it was made to do: 
 
 The gateway is built around an ESP32-WROVER-IE for its Bluetooth HFP support and real-time GPIO control. The analog side centers on an HC-5504B SLIC (Subscriber Line Interface Circuit) — a telecom chip that handles the BORSCHT functions the Bell System's central offices provided to every subscriber line: Battery feed, Overvoltage protection, Ringing, Supervision, Codec, Hybrid, and Test.
 
-I designed custom PCBs covering power management, signal conditioning, audio routing, and isolation. The system implements proper Bell System electrical standards: −48 VDC idle voltage, 70–90 V AC ringing at 20 Hz, loop current between 23–35 mA, and the correct supervisory tones — dial tone at 350 + 440 Hz, ringback at 440 + 480 Hz, busy at 480 + 620 Hz, and the howler off-hook warning using four frequencies. The firmware handles a state machine for call flow, rotary pulse decoding, tone generation, and the Bluetooth audio bridge.
+The firmware handles a state machine for call flow, rotary pulse decoding, tone generation, and the Bluetooth audio bridge. The system targets proper Bell System electrical standards: −48 VDC idle voltage, 70–90 V AC ringing at 20 Hz, loop current between 23–35 mA, and the correct supervisory tones — dial tone at 350 + 440 Hz, ringback at 440 + 480 Hz, busy at 480 + 620 Hz, and the howler off-hook warning using four frequencies.
 
 ## What surprised me
 
@@ -30,7 +30,7 @@ Until you really dissect what happens when someone picks up a phone, it seems si
 
 ## Result
 
-Still in progress. I've settled on the HC-5504B SLIC as the core analog interface and the firmware is fairly far along — Bluetooth HFP pairing and call detection are working. The next step is building a breadboard prototype around the SLIC and prototyping the other hardware functions: ring generation, audio path, and power supply. The firmware will need the real hardware underneath it to bring everything to the finish line. The end goal is a clean enclosure with standard RJ-11 ports — pick up the handset, hear a dial tone, pulse dial a number, and make a call over Bluetooth. Incoming calls ring the actual bell.
+Still in progress. I've settled on the HC-5504B SLIC as the core analog interface and the firmware is fairly far along — Bluetooth HFP pairing and call detection are working. The next step is building a breadboard prototype around the SLIC and prototyping the other hardware functions: ring generation, audio path, and power supply. The firmware will need the real hardware underneath it to bring everything to the finish line. Once the prototype is validated, the plan is to design custom PCBs covering power management, signal conditioning, audio routing, and isolation — and package it all in a clean enclosure with standard RJ-11 ports. Pick up the handset, hear a dial tone, pulse dial a number, and make a call over Bluetooth. Incoming calls ring the actual bell.
 
 ## Takeaways
 
