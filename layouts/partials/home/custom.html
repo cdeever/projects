@@ -1,8 +1,19 @@
 <div class="max-w-6xl mx-auto px-4 py-6">
-  <div class="mb-6 text-center">
-    <h1 class="text-4xl font-bold mb-3">{{ .Site.Title }}</h1>
+  <div class="mb-6 rounded-lg px-8 py-10 text-center"
+       style="background-color: #1e3a5f;
+              background-image:
+                linear-gradient(rgba(255,255,255,0.15) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.15) 1px, transparent 1px),
+                linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+              background-size:
+                80px 80px,
+                80px 80px,
+                16px 16px,
+                16px 16px;">
+    <h1 class="text-4xl font-bold mb-3" style="color: #e8f0fe;">{{ .Site.Title }}</h1>
     {{ with .Content }}
-      <div class="prose dark:prose-invert mx-auto">
+      <div class="mx-auto" style="color: #b8d4f0; max-width: 65ch;">
         {{ . }}
       </div>
     {{ end }}
