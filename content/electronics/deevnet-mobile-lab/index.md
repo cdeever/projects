@@ -30,7 +30,7 @@ The physical hardware stack is compact: a travel router on the edge to interface
 
 ## Current state
 
-The rig is built and functional. The platform exists in two deployments: Deevnet Mobile (the portable lab) and Deevnet Home (permanent home infrastructure), both managed from the same codebase. The automation that makes the whole thing rebuildable from code is its own project — see [Deevnet Mobile Substrate Automation]({{< ref "it/infrastructure-automation/deevnet-mobile-substrate-automation" >}}).
+The rig is built and functional. The platform exists in two deployments: Deevnet Mobile (the portable lab) and Deevnet Home (permanent home infrastructure), both managed from the same codebase. The automation that makes the whole thing rebuildable from code is its own project — see [Deevnet Build Automation](https://deevnet.github.io/deevnet-docs/).
 
 ## Links
 
