@@ -64,6 +64,16 @@
         loading="lazy"
         decoding="async"
         class="not-prose absolute inset-0 w-full h-full object-cover">
+      {{ if eq ($.Params.status) "coming soon" }}
+        <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/50">
+          <span class="inline-flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-sm font-semibold
+            bg-amber-100 text-amber-800 border-amber-300
+            dark:bg-amber-900 dark:text-amber-200 dark:border-amber-700
+            shadow-lg">
+            <span aria-hidden="true">&#9684;</span> Story Coming Soon
+          </span>
+        </div>
+      {{ end }}
     </div>
   {{ end }}
   {{ if and .Draft .Site.Params.article.showDraftLabel }}
@@ -72,16 +82,7 @@
     </span>
   {{ end }}
   {{ with .Params.status }}
-    {{ if eq . "coming soon" }}
-      <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/50">
-        <span class="inline-flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-sm font-semibold
-          bg-amber-100 text-amber-800 border-amber-300
-          dark:bg-amber-900 dark:text-amber-200 dark:border-amber-700
-          shadow-lg">
-          <span aria-hidden="true">&#9684;</span> Story Coming Soon
-        </span>
-      </div>
-    {{ else }}
+    {{ if ne . "coming soon" }}
       <span class="absolute top-0 left-0 m-2 z-10">
         {{ partial "status-badge.html" . }}
       </span>
