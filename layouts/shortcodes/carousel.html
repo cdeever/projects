@@ -105,3 +105,16 @@
     >
   </button>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var el = document.getElementById("{{ $id }}");
+    if (el && typeof twe !== "undefined" && twe.Carousel) {
+      var instance = twe.Carousel.getOrCreateInstance(el, {
+        interval: {{ $interval }},
+        wrap: true,
+        ride: "carousel"
+      });
+      instance.cycle();
+    }
+  });
+</script>
