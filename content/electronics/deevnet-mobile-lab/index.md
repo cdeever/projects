@@ -26,17 +26,21 @@ I wanted to keep the build reasonably inexpensive and physically lightweight. Th
 
 The physical hardware stack is compact: a travel router on the edge to interface with whatever upstream internet is available, a dual-NIC Zimaboard configured as the gateway handling DNS, DHCP, NAT, and Wake-on-LAN for easy startup, a 16-port smart switch, and two refurbished small-form-factor desktop PCs running Proxmox — one for the management plane, one for tenant applications.
 
-{{< carousel images="{deevnet-mobile-v2.jpg,zeke-mobile-lab.jpg}" >}}
-
 ## What surprised me
 
+<img src="zeke-mobile-lab.jpg" alt="Zeke the cat riding the mobile lab" style="float:right; width:40%; margin:0 0 1em 1.5em; border-radius:8px;" />
+
 It turns out my Sweetie's cat likes to jump on top of the rolling kit and ride around. You'd think a cat would be afraid of this kind of thing, but not Zeke — he jumps on and goes for a ride almost every time I bring it over.
+
+<div style="clear:both"></div>
 
 ## Current state
 
 The mobile lab is functional and ready for portable development. It also serves as a development platform for my home infrastructure, which I'll eventually build out as another automation platform — both managed from the same codebase. The automation that makes the whole thing rebuildable from code is its own project — see [Deevnet Build Automation](https://deevnet.github.io/deevnet-docs/).
 
 The rolling toolbox has an interchangeable tool kit design — I have several component layers for different projects, and a crate module that can bring more extensive tooling like a portable oscilloscope, meter, and soldering gear.
+
+![Deevnet Mobile Lab](deevnet-mobile-v2.jpg)
 
 ## Future ideas
 
