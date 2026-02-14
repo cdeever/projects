@@ -3,7 +3,7 @@ title: "Deevnet Mobile Lab"
 description: "A portable electronics development lab built for Meetups and on-the-go projects"
 summary: "A portable home lab in a rolling toolbox — real networking for embedded projects, anywhere"
 date: 2025-09-04
-tags: ["electronics", "home-lab", "portable", "meetup", "iot", "zimaboard"]
+tags: ["electronics", "home-lab", "portable", "meetup", "iot", "zimaboard", "zeke"]
 status: "complete"
 showHero: true
 heroStyle: "background"

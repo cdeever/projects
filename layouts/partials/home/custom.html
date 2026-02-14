@@ -2,7 +2,7 @@
 <div class="max-w-6xl mx-auto px-4 py-6" style="margin-top: -3.5rem;">
 
   {{/* --- Personal intro --- */}}
-  <div class="mb-8 flex flex-col md:flex-row md:items-start items-center gap-8">
+  <div class="mb-8 flex flex-col md:flex-row md:items-start items-center gap-8" style="gap: 2rem;">
     {{ with .Site.Params.Author.image }}
       {{ $authorImage := "" }}
       {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
@@ -16,7 +16,7 @@
           {{ $final = $authorImage.Fill (print "480x480 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
         {{ end }}
         <img
-          class="shrink-0 w-48 h-48 md:mr-4 rounded-lg border-2 border-neutral-200 dark:border-neutral-700 object-cover"
+          class="shrink-0 w-48 h-48 rounded-lg border-2 border-neutral-200 dark:border-neutral-700 object-cover"
           width="192"
           height="192"
           alt="{{ $.Site.Params.Author.name | default `Author` }}"
@@ -33,7 +33,7 @@
         </h2>
       {{ end }}
       <p class="mt-1 text-sm italic text-neutral-500 dark:text-neutral-500">
-        Permanently enrolled in YouTube University and partnering with AI and others to get it done.
+        Permanently enrolled in YouTube University and partnering with AI, Sweetie and others to get it done.
       </p>
       {{ with .Content }}
         <div class="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
