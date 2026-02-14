@@ -72,9 +72,20 @@
     </span>
   {{ end }}
   {{ with .Params.status }}
-    <span class="absolute top-0 left-0 m-2 z-10">
-      {{ partial "status-badge.html" . }}
-    </span>
+    {{ if eq . "coming soon" }}
+      <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/50">
+        <span class="inline-flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-sm font-semibold
+          bg-amber-100 text-amber-800 border-amber-300
+          dark:bg-amber-900 dark:text-amber-200 dark:border-amber-700
+          shadow-lg">
+          <span aria-hidden="true">&#9684;</span> Story Coming Soon
+        </span>
+      </div>
+    {{ else }}
+      <span class="absolute top-0 left-0 m-2 z-10">
+        {{ partial "status-badge.html" . }}
+      </span>
+    {{ end }}
   {{ end }}
   <div class="p-4">
     <header>

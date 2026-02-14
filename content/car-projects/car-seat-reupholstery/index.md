@@ -4,6 +4,7 @@ description: "Reupholstering car seats"
 summary: "Story Coming Soon!"
 date: 2022-08-14
 tags: ["car", "upholstery", "interior"]
+status: "coming soon"
 showHero: true
 heroStyle: "background"
 layoutBackgroundHeaderSpace: false
