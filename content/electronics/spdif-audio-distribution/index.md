@@ -11,7 +11,7 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-A whole-home digital audio system built on S/PDIF (Sony/Philips Digital Interface) over repurposed CATV coax. S/PDIF carries digital audio over a single cable — it's the orange RCA jack on the back of most receivers. A basement media server streams to vintage hi-fi systems in multiple rooms, and when a record drops on the turntable, it automatically takes over every zone. Every room in the house has noise-free digital high-fidelity audio on tap — powered by vintage gear, a media server, and a few dollars' worth of repurposed coax.
+A whole-home digital audio system built on S/PDIF (Sony/Philips Digital Interface) over repurposed CATV coax. S/PDIF carries digital audio over a single cable — it's the orange RCA jack on the back of most receivers. A basement media server streams to vintage hi-fi systems in multiple rooms, and when a record drops on the turntable, it automatically takes over every zone. Every room in the house has noise-free digital high-fidelity audio on tap — powered by vintage gear, a media server, and a few dollars' worth of gear and repurposed coax.
 
 ## The idea
 
