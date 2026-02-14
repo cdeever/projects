@@ -4,7 +4,7 @@ description: "A portable electronics development lab built for Meetups and on-th
 summary: "A portable home lab in a rolling toolbox — real networking for embedded projects, anywhere"
 date: 2025-09-04
 tags: ["electronics", "home-lab", "portable", "meetup", "iot", "zimaboard"]
-status: "in progress"
+status: "complete"
 showHero: true
 heroStyle: "background"
 layoutBackgroundHeaderSpace: false
@@ -33,6 +33,10 @@ The physical hardware stack is compact: a travel router on the edge to interface
 The mobile lab is functional and ready for portable development. It also serves as a development platform for my home infrastructure, which I'll eventually build out as another automation platform — both managed from the same codebase. The automation that makes the whole thing rebuildable from code is its own project — see [Deevnet Build Automation](https://deevnet.github.io/deevnet-docs/).
 
 The rolling toolbox has an interchangeable tool kit design — I have several component layers for different projects, and a crate module that can bring more extensive tooling like a portable oscilloscope, meter, and soldering gear.
+
+## Future ideas
+
+Version 2 would make the compute portion more modular — keep the travel router, core router, switch, and wireless as a "LAN to go" base layer, then mix and match what rides along: add in the hypervisors when needed, or swap in a bank of Pis instead. A common AC-to-DC power supply would also be a nice upgrade over the current power strip and wall wart mess. Just ideas for now — it's working great as is.
 
 ## Links
 
