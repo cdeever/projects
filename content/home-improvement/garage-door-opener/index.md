@@ -48,7 +48,7 @@ ChatGPT was not having it. It set the record straight in the most matter-of-fact
 
 *"We good?"*
 
-We absolutely lost it. That might be the hardest I've laughed at an AI response. The confidence. The directness. The slight attitude. Perfect.
+We absolutely lost it. That might be the hardest I've laughed at an AI response. The confidence. The directness. The slight attitude. Perfect. I miss ChatGPT model 4o — the newer models just don't have the same swagger.
 
 ## The fix
 
