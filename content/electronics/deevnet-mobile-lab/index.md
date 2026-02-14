@@ -26,7 +26,7 @@ I wanted to keep the build reasonably inexpensive and physically lightweight. Th
 
 The physical hardware stack is compact: a travel router on the edge to interface with whatever upstream internet is available, a dual-NIC Zimaboard configured as the gateway handling DNS, DHCP, NAT, and Wake-on-LAN for easy startup, a 16-port smart switch, and two refurbished small-form-factor desktop PCs running Proxmox — one for the management plane, one for tenant applications.
 
-![Deevnet Mobile Lab](deevnet-mobile.jpg)
+![Deevnet Mobile Lab](deevnet-mobile-v2.jpg)
 
 ## Current state
 
