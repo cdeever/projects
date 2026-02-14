@@ -16,7 +16,7 @@
           {{ $final = $authorImage.Fill (print "480x480 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
         {{ end }}
         <img
-          class="shrink-0 w-48 h-48 rounded-lg border-2 border-neutral-200 dark:border-neutral-700 object-cover"
+          class="shrink-0 w-48 h-48 md:mr-4 rounded-lg border-2 border-neutral-200 dark:border-neutral-700 object-cover"
           width="192"
           height="192"
           alt="{{ $.Site.Params.Author.name | default `Author` }}"
