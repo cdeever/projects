@@ -58,9 +58,15 @@ Here's lesson number one that we learned the hard way: if your old opener's bran
 
 ### Assembly and the first surprise
 
+<img src="zeke-on-instructions.jpg" alt="Zeke the cat lying on the opener instructions" style="float:right; width:40%; margin:0 0 1em 1.5em; border-radius:8px;" />
+
+As with many of our projects, Zeke was right in the middle of things — in this case, literally lying on the instruction manual while Sweetie was trying to read it. Helpful as always.
+
 We assembled the new opener and immediately noticed the problem — the rail was noticeably shorter than the old one. That's when the after-the-fact research began. Turns out Sweetie's garage door is an 8-footer, not the standard 7-foot door. The opener we bought was spec'd for a 7-foot door.
 
 No big deal, right? They sell extension kits for exactly this situation. Order the extension piece, bolt it on, and the rail will reach. Simple.
+
+<div style="clear:both"></div>
 
 Right?
 
@@ -106,9 +112,11 @@ Button pressed — and boom. The door rolled up perfectly on the first try.
 
 Sweetie cried. Not a little misty-eyed moment — she was genuinely overwhelmed with emotion. A month of frustration and inconvenience, all the setbacks, all the "just one more thing" moments — and then it just worked. I never would have thought a garage door going up could move someone like that, but here we are. It was beautiful.
 
+{{< carousel images="{sweetie-reading-instructions.jpg,zeke-wall-bracket.jpg,laser-level-alignment.jpg}" aspectRatio="9-16" interval="3000" >}}
+
 ## Result
 
-The new opener works great. It's quieter than the old one and the built-in features are a nice upgrade. Sweetie has her garage door back after more than a month without one, and it works perfectly every time.
+The new opener is working great — and because it's a more modern unit, it came with some nice upgrades. It has online capability to open and close the door remotely, and there's a built-in lock feature that lets us easily disable the door so Zeke doesn't get let out accidentally. In the end, the lock feature we wanted is back and better than before — even if the old remote-disable approach might have been what killed the original opener in the first place.
 
 ## Lessons learned
 
