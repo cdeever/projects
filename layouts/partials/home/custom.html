@@ -1,24 +1,44 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 <div class="max-w-6xl mx-auto px-4 py-6" style="margin-top: -3.5rem;">
-  <div class="mb-6 rounded-lg px-8 py-10 text-center"
-       style="background-color: #1e3a5f;
-              background-image:
-                linear-gradient(rgba(255,255,255,0.15) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255,255,255,0.15) 1px, transparent 1px),
-                linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
-              background-size:
-                80px 80px,
-                80px 80px,
-                16px 16px,
-                16px 16px;">
-    <h1 class="text-4xl font-bold mb-3" style="color: #e8f0fe;">{{ .Site.Title }}</h1>
+
+  {{/* --- Personal intro --- */}}
+  <div class="mb-8 flex flex-col items-center text-center">
+    {{ with .Site.Params.Author.image }}
+      {{ $authorImage := "" }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $authorImage = resources.GetRemote . }}
+      {{ else }}
+        {{ $authorImage = resources.Get . }}
+      {{ end }}
+      {{ if $authorImage }}
+        {{ $final := $authorImage }}
+        {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
+          {{ $final = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+        {{ end }}
+        <img
+          class="mb-4 h-36 w-36 rounded-full"
+          width="144"
+          height="144"
+          alt="{{ $.Site.Params.Author.name | default `Author` }}"
+          src="{{ $final.RelPermalink }}">
+      {{ end }}
+    {{ end }}
+    <h1 class="text-4xl font-extrabold">
+      {{ .Site.Params.Author.name | default .Site.Title }}
+    </h1>
+    {{ with .Site.Params.Author.headline }}
+      <h2 class="mt-1 text-xl text-neutral-500 dark:text-neutral-400">
+        {{ . | markdownify }}
+      </h2>
+    {{ end }}
     {{ with .Content }}
-      <div class="mx-auto" style="color: #b8d4f0; max-width: 65ch;">
+      <div class="mt-4 mx-auto text-neutral-600 dark:text-neutral-400" style="max-width: 65ch;">
         {{ . }}
       </div>
     {{ end }}
   </div>
 
+  {{/* --- Section cards grid --- */}}
   <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
     {{ range where .Site.Sections "Kind" "section" }}
       {{ if ne .Params.hidden true }}
