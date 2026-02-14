@@ -42,7 +42,7 @@ That's when I had my moment.
 
 ## The turning point
 
-I accused ChatGPT of deliberately giving me the wrong answer so it could swoop in with the right one for Sweetie. I told it that it was putting the moves on my girlfriend — feeding me bad info so it could be the hero when she asked.
+I accused ChatGPT of deliberately giving me the wrong answer so it could swoop in as the right one for Sweetie. I told it that it was putting the moves on my girlfriend — feeding me bad info so it could be the hero when she asked.
 
 ChatGPT was not having it. It set the record straight in the most matter-of-fact way possible, explained exactly why the two recommendations were different based on the different information each of us had provided, and then ended its response with:
 
