@@ -28,7 +28,7 @@ The physical hardware stack is compact: a travel router on the edge to interface
 
 ## What surprised me
 
-<img src="zeke-mobile-lab.jpg" alt="Zeke the cat riding the mobile lab" style="float:right; width:40%; margin:0 0 1em 1.5em; border-radius:8px;" />
+<img src="zeke-mobile-lab-v2.jpg" alt="Zeke the cat riding the mobile lab" style="float:right; width:40%; margin:0 0 1em 1.5em; border-radius:8px;" />
 
 It turns out my Sweetie's cat likes to jump on top of the rolling kit and ride around. You'd think a cat would be afraid of this kind of thing, but not Zeke — he jumps on and goes for a ride almost every time I bring it over.
 
