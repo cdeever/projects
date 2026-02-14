@@ -16,7 +16,7 @@
           {{ $final = $authorImage.Fill (print "480x480 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
         {{ end }}
         <img
-          class="shrink-0 w-48 h-48 rounded-lg object-cover"
+          class="shrink-0 w-48 h-48 rounded-lg border-2 border-neutral-200 dark:border-neutral-700 object-cover"
           width="192"
           height="192"
           alt="{{ $.Site.Params.Author.name | default `Author` }}"
@@ -32,6 +32,9 @@
           {{ . | markdownify }}
         </h2>
       {{ end }}
+      <p class="mt-1 text-sm italic text-neutral-500 dark:text-neutral-500">
+        Permanently enrolled in YouTube University and partnering with AI and others to get it done.
+      </p>
       {{ with .Content }}
         <div class="mt-3 text-neutral-600 dark:text-neutral-400">
           {{ . }}
