@@ -16,7 +16,7 @@ Sweetie's garage door opener died out of nowhere — working fine one day, compl
 
 One day Sweetie's garage door just stopped. No warning signs, no weird noises leading up to it — just fine one day and nothing the next. The opener wouldn't respond to the wall button or the remote. Completely dead.
 
-I had set her up with a remote control system so she could disable the door when needed. Her cat Zeke likes to hang out in the garage, and if someone comes home and hits the opener, Zeke could be out and long gone before anyone notices. The remote let her lock out the door when Zeke was doing his garage thing. In hindsight, though, I'm not sure that approach was great for the motor — all that extra cycling of the enable/disable might have contributed to its demise.
+I had set her up with a remote control system so she could disable the door when needed. Her cat Zeke likes to hang out in the garage, and if someone comes home and hits the opener, Zeke could be out and long gone before anyone notices. The remote let her lock out the door when Zeke was doing his garage thing. In hindsight, though, putting the opener's power through a remote switch may not have been the best idea. The switch was rated at 15 amps, so on paper it should have been fine. But garage door openers are motor loads — inductive, not resistive. Every time you break the circuit on a motor, the collapsing magnetic field produces a voltage spike that arcs across the switch contacts. And every time the motor starts back up, the inrush current can be five to eight times the running current. A 15-amp resistive rating doesn't mean much when you're switching an inductive load hundreds of times. Over months of daily enable/disable cycles, that kind of abuse pits and degrades the contacts until something gives. That may well be what killed it.
 
 ## Why it mattered
 
@@ -122,7 +122,7 @@ The new opener is working great — and because it's a more modern unit, it came
 
 If the same brand and model of opener is still available — just buy it again. You'll save yourself a world of compatibility headaches. We didn't do this and it cost us time, extra parts, and a lot of improvisation.
 
-The remote-disable approach for Zeke might not have been the best idea for the motor's longevity. Constantly cycling the enable/disable on the opener probably put extra wear on components that weren't designed for that kind of use. Next time I'd look at a smarter approach — maybe a sensor-based solution that doesn't put extra strain on the motor itself.
+Switching an inductive motor load through a remote relay hundreds of times is rough on the contacts, even if the amp rating looks fine on paper. The remote-disable approach for Zeke may well have been what killed the opener. Next time I'd look at a smarter approach — maybe a sensor-based solution that doesn't put the motor's power path through extra switching hardware.
 
 Also, ChatGPT is a solid troubleshooting partner, but it's not infallible — and it will absolutely check you if you come at it sideways. Respect.
 
