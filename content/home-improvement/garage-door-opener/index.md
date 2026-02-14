@@ -112,7 +112,7 @@ Button pressed — and boom. The door rolled up perfectly on the first try.
 
 Sweetie cried. Not a little misty-eyed moment — she was genuinely overwhelmed with emotion. A month of frustration and inconvenience, all the setbacks, all the "just one more thing" moments — and then it just worked. I never would have thought a garage door going up could move someone like that, but here we are. It was beautiful.
 
-{{< carousel images="{sweetie-reading-instructions.jpg,zeke-wall-bracket.jpg,laser-level-alignment.jpg}" aspectRatio="3-4" interval="3000" >}}
+{{< carousel images="{sweetie-reading-instructions.jpg,zeke-wall-bracket.jpg,laser-level-alignment.jpg}" aspectRatio="16-9" interval="3000" >}}
 
 ## Result
 
