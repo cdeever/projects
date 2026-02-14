@@ -33,7 +33,7 @@ When I first tried splitting the S/PDIF signal, I didn't expect it to reach mult
 
 ## Result
 
-The system works and it's highly convenient. I can have a record playing, move on to tasks around the house, and just turn on the system in whatever room I'm in — the music is never far away. Cleaning to '80s hair metal happens at double speed. For Dark Side of the Moon night listening in the bedroom, there's zero static from the high-fidelity streaming. It just works.
+The system works and it's highly convenient. I can have a record playing, move on to tasks around the house, and just turn on the system in whatever room I'm in — the music is never far away. Cleaning to '80s hair metal happens at double speed. For Dark Side of the Moon headphone listening in the bedroom, there's zero static from the high-fidelity streaming. It just works.
 
 ## Takeaways
 
