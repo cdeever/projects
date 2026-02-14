@@ -60,7 +60,7 @@ Here's lesson number one that we learned the hard way: if your old opener's bran
 
 <img src="zeke-on-instructions.jpg" alt="Zeke the cat lying on the opener instructions" style="float:right; width:40%; margin:0 0 1em 1.5em; border-radius:8px;" />
 
-As with many of our projects, Zeke was right in the middle of things — in this case, literally lying on the instruction manual while Sweetie was trying to read it. Helpful as always.
+As with many of our projects, Zeke was right in the middle of things. Helpful as always.
 
 We assembled the new opener and immediately noticed the problem — the rail was noticeably shorter than the old one. That's when the after-the-fact research began. Turns out Sweetie's garage door is an 8-footer, not the standard 7-foot door. The opener we bought was spec'd for a 7-foot door.
 
