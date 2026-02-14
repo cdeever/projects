@@ -10,7 +10,7 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-Deevnet Mobile is a portable electronics development lab — a home lab you can pack up in a rolling toolbox and take to a Meetup. It started as a way to get a consistent network for embedded programming projects and turned into a compact, fully functional infrastructure platform that goes wherever I do.
+Deevnet Mobile is my portable electronics development lab — where I can pack up the home lab and take it to a Meetup or over to my Sweetie's house for my nerding adventures. It started as a way to get a consistent network for my embedded programming projects and turned into a compact, fully functional infrastructure platform that can go wherever I go.
 
 ## The idea
 
@@ -30,9 +30,13 @@ The physical hardware stack is compact: a travel router on the edge to interface
 
 ## Current state
 
-The rig is built and functional. The platform exists in two deployments: Deevnet Mobile (the portable lab) and Deevnet Home (permanent home infrastructure), both managed from the same codebase. The automation that makes the whole thing rebuildable from code is its own project — see [Deevnet Build Automation](https://deevnet.github.io/deevnet-docs/).
+The mobile lab is functional and ready for portable development. It also serves as a development platform for my home infrastructure, which I'll eventually build out as another automation platform — both managed from the same codebase. The automation that makes the whole thing rebuildable from code is its own project — see [Deevnet Build Automation](https://deevnet.github.io/deevnet-docs/).
+
+The rolling toolbox has an interchangeable tool kit design — I have several component layers for different projects, and a crate module that can bring more extensive tooling like a portable oscilloscope, meter, and soldering gear.
 
 ## Links
 
 - [Check out the docs](https://deevnet.github.io/deevnet-docs/)
 - [Check out the code](https://github.com/deevnet)
+- [Harbor Freight Modular Rolling Toolbox](https://www.harborfreight.com/modular-rolling-toolbox-58512.html)
+- [GL.iNet Travel Routers](https://store-us.gl-inet.com/collections/travel-routers)
