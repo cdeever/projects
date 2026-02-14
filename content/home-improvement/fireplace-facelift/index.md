@@ -67,7 +67,7 @@ The stones looked great. Finally, I installed the new fireplace doors — a stra
 
 ## Challenges
 
-The masonry mounting threw a small curveball. There was a lot of sloppy mortar on the bricks behind the old oak surround. I had to chisel it away to get a smooth surface for the mounting rig. Not super difficult, but it was an unexpected task — you never quite know what's behind the wall until you open it up.
+The masonry mounting threw a small curveball. There was a lot of sloppy mortar on the bricks behind the old oak surround. I had to chisel it away to get a smooth surface for the mounting rig. Not super difficult, but it was an unexpected task — you never quite know what's behind until you open it up.
 
 In hindsight, we should have used cardboard spacers between the stones during the AirStone install. We skipped that step to save time, and while the result isn't noticeably off, the grout lines would be more even and the last few stones would have been easier to fit with a little more breathing room. Several years in, it's held up fine — but I'd take the extra time if I did it again.
 
