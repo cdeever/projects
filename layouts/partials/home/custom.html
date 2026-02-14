@@ -2,7 +2,7 @@
 <div class="max-w-6xl mx-auto px-4 py-6" style="margin-top: -3.5rem;">
 
   {{/* --- Personal intro --- */}}
-  <div class="mb-8 flex flex-col items-center text-center">
+  <div class="mb-8 flex flex-col md:flex-row items-center gap-6">
     {{ with .Site.Params.Author.image }}
       {{ $authorImage := "" }}
       {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
@@ -13,29 +13,31 @@
       {{ if $authorImage }}
         {{ $final := $authorImage }}
         {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
-          {{ $final = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+          {{ $final = $authorImage.Fill (print "480x480 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
         {{ end }}
         <img
-          class="mb-4 h-36 w-36 rounded-full"
-          width="144"
-          height="144"
+          class="shrink-0 w-48 h-48 rounded-lg object-cover"
+          width="192"
+          height="192"
           alt="{{ $.Site.Params.Author.name | default `Author` }}"
           src="{{ $final.RelPermalink }}">
       {{ end }}
     {{ end }}
-    <h1 class="text-4xl font-extrabold">
-      {{ .Site.Params.Author.name | default .Site.Title }}
-    </h1>
-    {{ with .Site.Params.Author.headline }}
-      <h2 class="mt-1 text-xl text-neutral-500 dark:text-neutral-400">
-        {{ . | markdownify }}
-      </h2>
-    {{ end }}
-    {{ with .Content }}
-      <div class="mt-4 mx-auto text-neutral-600 dark:text-neutral-400" style="max-width: 65ch;">
-        {{ . }}
-      </div>
-    {{ end }}
+    <div>
+      <h1 class="text-4xl font-extrabold">
+        {{ .Site.Params.Author.name | default .Site.Title }}
+      </h1>
+      {{ with .Site.Params.Author.headline }}
+        <h2 class="mt-1 text-xl text-neutral-500 dark:text-neutral-400">
+          {{ . | markdownify }}
+        </h2>
+      {{ end }}
+      {{ with .Content }}
+        <div class="mt-3 text-neutral-600 dark:text-neutral-400">
+          {{ . }}
+        </div>
+      {{ end }}
+    </div>
   </div>
 
   {{/* --- Section cards grid --- */}}
