@@ -1,7 +1,7 @@
 ---
 title: "Garage Door Opener"
-description: "When Sweetie's garage door died overnight, ChatGPT joined the troubleshooting team — and things got entertaining"
-summary: "A dead garage door, two wrong capacitors, and an AI that had to set the record straight"
+description: "A simple garage door opener replacement turned into a multi-session adventure we didn't see coming"
+summary: "What should have been a straightforward swap gave us way more adventure than we bargained for"
 date: 2026-02-13
 tags: ["garage", "home-improvement", "repair", "chatgpt"]
 status: "complete"
@@ -10,7 +10,7 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-Sweetie's garage door opener died out of nowhere — working fine one day, completely dead the next. What followed was a troubleshooting adventure with ChatGPT that included two wrong capacitor replacements, an accusation that the AI was putting the moves on my girlfriend, and ultimately a full opener replacement. The door works great now, and the story is better than the repair.
+Sweetie's garage door opener died out of nowhere — working fine one day, completely dead the next. What should have been a simple opener replacement turned into a multi-session adventure involving wrong-sized rails, a full remount, missing attic access, and wire splices. The door works great now, and the story is better than the repair.
 
 ## The situation
 
