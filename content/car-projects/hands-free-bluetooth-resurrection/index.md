@@ -37,7 +37,7 @@ A kitchen oven is a blunt instrument for something that needs surgical precision
 
 The professional approach would be a reflow oven ($200–300 range) with a programmable profile, or better yet a hot air rework station ($50–150) that can target the suspect BGA chip directly without cooking the entire board. The real fix for BGA failures is often removing the chip entirely, reballing it with fresh solder, and reflowing it back down — something that requires the right equipment and a steady hand.
 
-Here's the detail that makes you think: the sellers offering replacement modules will give you 50% credit if you send your dead unit back as a "core." That implies someone on the other end has a routine process for bringing these boards back to life — probably exactly the kind of professional rework described above. These aren't going in the trash. Someone is fixing them and reselling them, which tells you the repair is very doable with the right setup.
+Here's the detail that makes you think: the sellers offering replacement modules will give you $50 credit if you send your dead unit back as a "core." That implies someone on the other end has a routine process for bringing these boards back to life — probably exactly the kind of professional rework described above. These aren't going in the trash. Someone is fixing them and reselling them, which tells you the repair is very doable with the right setup.
 
 One more thing worth mentioning — I've since heard from someone more knowledgeable that baking circuit boards in a food-prep oven is not a great idea. Solder flux and component coatings can off-gas stuff you don't want anywhere near where you cook. Even if the reflow had been permanent, I wouldn't recommend this approach going forward.
 
