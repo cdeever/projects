@@ -23,7 +23,7 @@ In 2008, "Touring Luxury" meant you could talk to your car — albeit through a 
 
 Searching the Acura forums turned up posts from people who had success with an oven reflow — the idea being that cracked solder joints on the board could be re-melted by baking the whole thing at a controlled temperature. I pulled the HandsFreeLink module out of the car, opened it up, removed the circuit board, and put it in the oven at around 385°F for about 30 minutes. Let it cool slowly, reassembled everything, and reinstalled it in the car.
 
-{{< carousel images="{bluetooth-module.jpg,feature.jpg}" aspectRatio="16-9" interval="3000" >}}
+{{< carousel images="{bluetooth-module.jpg,oven-reflow.jpg}" aspectRatio="16-9" interval="3000" >}}
 
 ## What surprised me
 
