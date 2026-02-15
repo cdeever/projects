@@ -31,9 +31,19 @@ Drum roll — it worked. The system booted all the way up for the first time in 
 
 Two days later, it was back to "Booting Up" and staying there. The reflow had worked long enough to prove the module was still in there — still capable of doing its job — but the solder joints (or whatever the underlying failure is) couldn't hold. It was a bittersweet outcome. On one hand, the experiment confirmed the diagnosis and gave me a brief taste of success. On the other hand, a temporary fix on something like this is basically the same as no fix at all.
 
+## Why it didn't last
+
+A kitchen oven is a blunt instrument for something that needs surgical precision. Consumer ovens are easily 20–50°F off from what they display, they have no programmable thermal profile, and they heat unevenly. A proper reflow follows a specific curve — gradual preheat, a soak phase to equalize temperature across the board, a controlled ramp to peak, and then a controlled cool-down. My oven likely only *partially* reflowed the joints: enough heat to make temporary contact, but not enough to form solid metallurgical bonds. Two days of thermal cycling in the car and they cracked right back open. That tracks.
+
+The professional approach would be a reflow oven ($200–300 range) with a programmable profile, or better yet a hot air rework station ($50–150) that can target the suspect BGA chip directly without cooking the entire board. The real fix for BGA failures is often removing the chip entirely, reballing it with fresh solder, and reflowing it back down — something that requires the right equipment and a steady hand.
+
+Here's the detail that makes you think: the sellers offering replacement modules will give you 50% credit if you send your dead unit back as a "core." That implies someone on the other end has a routine process for bringing these boards back to life — probably exactly the kind of professional rework described above. These aren't going in the trash. Someone is fixing them and reselling them, which tells you the repair is very doable with the right setup.
+
+One more thing worth mentioning — I've since heard from someone more knowledgeable that baking circuit boards in a food-prep oven is not a great idea. Solder flux and component coatings can off-gas stuff you don't want anywhere near where you cook. Even if the reflow had been permanent, I wouldn't recommend this approach going forward.
+
 ## Takeaways
 
-- Oven reflow can absolutely work on failing BGA or fine-pitch solder joints — but it may only be temporary. That said, I've since heard from someone more knowledgeable that baking circuit boards in a food-prep oven is not a great idea — solder flux and component coatings can off-gas stuff you don't want near where you cook. I wouldn't recommend it going forward
+- Oven reflow can absolutely work on failing BGA or fine-pitch solder joints — but without proper equipment and a controlled thermal profile, the results may only be temporary
 - The fact that it booted at all confirmed the module's electronics were still functional, just mechanically failing at the solder level
 - At $500 for a replacement on an aging car, sometimes the right answer is to just live without it
 - There was genuinely nothing to lose by trying — the module was already dead
