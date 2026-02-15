@@ -11,15 +11,13 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-<img src="booting-up.jpg" alt="Hands Free Link display stuck on Booting Up" style="float:right; width:40%; margin:0 0 1em 1.5em; border-radius:8px;" />
-
 The HandsFreeLink Bluetooth module in my 2008 Acura had been dead for years — permanently stuck on "Booting Up" with no sign of life beyond that. Replacement modules run around $500, which is hard to justify on a car this age. I found forum posts about baking the circuit board in the oven to reflow the solder joints, and figured there was nothing to lose.
-
-<div style="clear:both"></div>
 
 ## The situation
 
 In 2008, "Touring Luxury" meant you could talk to your car — albeit through a highly structured dance of button presses and voice commands so the system knew when you were talking. Press the talk button on the steering wheel, say "Call," and the car would respond: *"What name or number would you like to call?"* Say "Mom," hear "Calling..." and the Bluetooth would do its thing. No touch screen, no music streaming — just plain old phone integration. Primitive by today's standards, but it felt like the future at the time.
+
+<img src="booting-up.jpg" alt="Hands Free Link display stuck on Booting Up" style="float:right; width:25%; margin:0 0 1em 1.5em; border-radius:8px;" />
 
 At some point the HandsFreeLink just stopped working. Press the button and the display would say "Booting Up" and then... nothing. It would sit there forever. This is apparently a well-known failure on these Acuras — something goes wrong on the circuit board inside the module, and the system never finishes initializing. The dealer fix is a new module, and aftermarket replacements aren't much cheaper. For a car pushing close to 20 years old, $500 for hands-free calling felt like a tough sell.
 
