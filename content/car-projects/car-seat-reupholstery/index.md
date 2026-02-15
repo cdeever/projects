@@ -18,17 +18,27 @@ The leather on my seats had been tearing for a while — ugly, but mostly cosmet
 
 That changed one evening taking my Sweetie on a date. A ripped piece of leather on the back of the passenger seat was poking her in the back. Just like that, this went from "I'll get to it eventually" to the number one priority.
 
-## What I tried
+## What I did
 
-<!-- Diagnosis and fix attempt, high-level. How'd you approach the install? Did you pull the seats out of the car? How long did it take? -->
+We set aside a weekend and were ready to dive into this project head first. This had to succeed — driving without a seat would not be easy (or safe!) — so we tackled the driver's seat first. Out came the seat, then we separated the seatback from the bottom cushion.
+
+We used beefy metal cutters to clip out the old hog rings — and a word of advice: wear eye protection, because there will be flying shrapnel.
+
+With the covers off and the foam fully exposed, it was the point of no return. The project is essentially four recovering jobs: seat bottom, seat back, and repeat for the passenger seat. The foam has embedded wires for the hog rings to crimp onto, so it's a matter of getting the new cover lined up the best you can and clamping it down.
+
+The hardest part of the whole exercise? Running out of strength in your hands from crimping so many rings.
+
+Eventually, the time came to transplant the side airbag from the old cover to the new one. From the outset this part was a little scary — I sort of felt like we were handling a bomb — but it turned out to be pretty straightforward.
 
 ## What surprised me
 
-<!-- The interesting part. You mentioned the quality of the Lseat covers — what stood out? -->
+From the outside looking in, this project seemed like it would be very difficult. I was pleasantly surprised that it was pretty straightforward. The leather was hard to stretch sometimes, but it was always clear how the cover was supposed to be aligned. Perhaps if this were custom upholstery it might have been way more difficult, but the Lseat kit was designed exactly for this model.
 
 ## Result
 
-<!-- Good but not perfect — minor wrinkles. How does it look day-to-day? Worth it? -->
+It took the whole day to do one seat. The next day we did the passenger seat, and while the seats were out it was a good chance to deep clean the carpet and really bring the car back to newish looking. I was hoping the seats would bring back the "new car smell," but that didn't quite happen.
+
+I was ecstatic about the outcome, though my Sweetie said "That was too much work, I'll never do that again." But pretty much before the ink was dry, so to speak, I ordered the rear seat covers so it would all match perfectly. And Sweetie helped on those anyway ❤️
 
 ## Before and after
 
