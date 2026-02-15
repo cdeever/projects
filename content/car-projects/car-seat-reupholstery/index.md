@@ -2,7 +2,7 @@
 title: "Car Seat Reupholstery"
 description: "Replacing worn leather seat covers with new ones from Lseat.com"
 date: 2022-08-14
-draft: true
+draft: false
 tags: ["car", "upholstery", "interior"]
 status: "complete"
 showHero: true
