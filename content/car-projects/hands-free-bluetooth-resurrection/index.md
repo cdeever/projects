@@ -11,7 +11,11 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
+<img src="booting-up.jpg" alt="Hands Free Link display stuck on Booting Up" style="float:right; width:40%; margin:0 0 1em 1.5em; border-radius:8px;" />
+
 The HandsFreeLink Bluetooth module in my 2008 Acura had been dead for years — permanently stuck on "Booting Up" with no sign of life beyond that. Replacement modules run around $500, which is hard to justify on a car this age. I found forum posts about baking the circuit board in the oven to reflow the solder joints, and figured there was nothing to lose.
+
+<div style="clear:both"></div>
 
 ## The situation
 
@@ -22,6 +26,8 @@ At some point the HandsFreeLink just stopped working. Press the button and the d
 ## What I tried
 
 Searching the Acura forums turned up posts from people who had success with an oven reflow — the idea being that cracked solder joints on the board could be re-melted by baking the whole thing at a controlled temperature. I pulled the HandsFreeLink module out of the car, opened it up, removed the circuit board, and put it in the oven at around 385°F for about 30 minutes. Let it cool slowly, reassembled everything, and reinstalled it in the car.
+
+{{< carousel images="{bluetooth-module.jpg,feature.jpg}" aspectRatio="16-9" interval="3000" >}}
 
 ## What surprised me
 
