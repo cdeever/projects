@@ -20,7 +20,7 @@ That changed one evening taking my Sweetie on a date. A ripped piece of leather 
 
 ## What I did
 
-We set aside a weekend and were ready to dive into this project head first. This had to succeed — driving without a seat would not be easy (or safe!) — so we tackled the driver's seat first. Out came the seat, then we separated the seatback from the bottom cushion.
+We set aside a weekend and were ready to dive into this project head first. We tackled the passenger seat first — we didn't know how long the project might take, and I didn't want to risk being without the car. Out came the seat, then we separated the seatback from the bottom cushion.
 
 We used beefy metal cutters to clip out the old hog rings — and a word of advice: wear eye protection, because there will be flying shrapnel.
 
@@ -36,7 +36,7 @@ From the outside looking in, this project seemed like it would be very difficult
 
 ## Result
 
-It took the whole day to do one seat. The next day we did the passenger seat, and while the seats were out it was a good chance to deep clean the carpet and really bring the car back to newish looking. I was hoping the newly refreshed leather seats would bring back the "new car smell," but that didn't quite happen.
+It took the whole day to do one seat. The next day we did the driver's seat, and while the seats were out it was a good chance to deep clean the carpet and really bring the car back to newish looking. I was hoping the newly refreshed leather seats would bring back the "new car smell," but that didn't quite happen.
 
 I was ecstatic about the outcome, though my Sweetie said "That was too much work, I'll never do that again." But sure enough, a few days later I ordered the rear seat covers anyway so it would all match perfectly. And Sweetie helped on those anyway ❤️
 
