@@ -10,7 +10,7 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-The leather on my seats was cracking and worn out, so I ordered replacement covers from Lseat.com and installed them myself. The covers themselves were impressive quality — getting them stretched tight was the real challenge.
+The leather on my seats was cracking and worn out, so I ordered replacement covers from Lseat.com and installed them with the help of my Sweetie. The covers themselves were impressive quality — getting them stretched tight was the real challenge.
 
 ## The situation
 
@@ -28,11 +28,11 @@ With the covers off and the foam fully exposed, it was the point of no return. T
 
 The hardest part of the whole exercise? Running out of strength in your hands from crimping so many rings.
 
-Eventually, the time came to transplant the side airbag from the old cover to the new one. From the outset this part was a little scary — I sort of felt like we were handling a bomb — but it turned out to be no big deal.
+Eventually, the time came to transplant the side airbag from the old cover to the new one. At first, it felt like we were handling a bomb — but it turned out to be no big deal.
 
 ## What surprised me
 
-From the outside looking in, this project seemed like it would be very difficult. I was pleasantly surprised that it was pretty straightforward. The leather was hard to stretch sometimes, but it was always clear how the cover was supposed to be aligned. Perhaps if this were custom upholstery it might have been way more difficult, but the Lseat kit was designed exactly for this model.
+From the outside looking in, this project seemed like it would be very difficult. I was pleasantly surprised that it was actually straightforward. The leather was hard to stretch sometimes, but it was always clear how the cover was supposed to be aligned. Perhaps if this were custom upholstery it might have been way more difficult, but the Lseat kit was designed exactly for this model.
 
 ## Result
 
