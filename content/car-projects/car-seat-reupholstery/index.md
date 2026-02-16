@@ -28,7 +28,7 @@ With the covers off and the foam fully exposed, it was the point of no return. T
 
 The hardest part of the whole exercise? Running out of strength in your hands from crimping so many rings.
 
-Eventually, the time came to transplant the side airbag from the old cover to the new one. From the outset this part was a little scary — I sort of felt like we were handling a bomb — but it turned out to be pretty straightforward.
+Eventually, the time came to transplant the side airbag from the old cover to the new one. From the outset this part was a little scary — I sort of felt like we were handling a bomb — but it turned out to be no big deal.
 
 ## What surprised me
 
@@ -36,9 +36,9 @@ From the outside looking in, this project seemed like it would be very difficult
 
 ## Result
 
-It took the whole day to do one seat. The next day we did the passenger seat, and while the seats were out it was a good chance to deep clean the carpet and really bring the car back to newish looking. I was hoping the seats would bring back the "new car smell," but that didn't quite happen.
+It took the whole day to do one seat. The next day we did the passenger seat, and while the seats were out it was a good chance to deep clean the carpet and really bring the car back to newish looking. I was hoping the newly refreshed leather seats would bring back the "new car smell," but that didn't quite happen.
 
-I was ecstatic about the outcome, though my Sweetie said "That was too much work, I'll never do that again." But pretty much before the ink was dry, so to speak, I ordered the rear seat covers so it would all match perfectly. And Sweetie helped on those anyway ❤️
+I was ecstatic about the outcome, though my Sweetie said "That was too much work, I'll never do that again." But sure enough, a few days later I ordered the rear seat covers anyway so it would all match perfectly. And Sweetie helped on those anyway ❤️
 
 ## Before and after
 
