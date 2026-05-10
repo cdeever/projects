@@ -18,7 +18,7 @@ When I moved into the house in 2019, the originally builder-grade flooring — a
 
 The house has a fairly open floor plan, and I wanted to avoid having transitions. From the front-door entrance you would look in and just see a continuous floor to the right into the living room and straight back to the kitchen. Another option would have been to do LVP only where the linoleum was and replace the carpet, but I wanted LVP everywhere with area rugs to demark several key areas.
 
-## What I did
+## The project
 
 When it was time to get started, I recruited my daughter and Sweetie, and "Team Fireplace" was back. The plan was to knock the bulk of the work out in about a month — I didn't want my furniture sitting in storage any longer than that. We moved my functioning home office down to the basement and the rest of the furniture out to storage. My extensive vinyl record collection got relocated upstairs — a job in and of itself: unload the shelf, move the shelf, reload the shelf.
 
@@ -60,5 +60,5 @@ Once the rugs were down and the spaces got reset, the house transitioned from "a
 ## Links
 
 - [Related project — Fireplace Facelift](../fireplace-facelift/)
-- [So That's How You Do That on YouTube](https://www.youtube.com/@sothatshowyoudothat) — most of the install how-to came from here
+- [So That's How You Do That on YouTube](https://www.youtube.com/@sothatshowyoudothat)
 - [Vancouver Carpenter on YouTube](https://www.youtube.com/@vancouvercarpenter)
