@@ -10,7 +10,7 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-The first floor of the house had been stuck with builder-grade flooring since I moved in — beige carpet in the living, dining, and family rooms, and linoleum running from the front door back through the kitchen. The plan was to rip it all out and replace it with one continuous run of LVP, no doorway transitions, so the open floor plan would read as a single connected space with area rugs defining the zones. Fall 2023 project — about a month of weekend and evening sessions with Team Fireplace reunited, and after a setback at 80% done it all came together.
+The first floor of the house had been stuck with builder-grade flooring since I moved in — beige carpet in the living, dining, and family rooms, and linoleum running from the front door back through the kitchen. The plan was to rip it all out and replace it with one continuous run of LVP, no doorway transitions, so the open floor plan would read as a single connected space with area rugs defining the zones. Fall 2023 project — about three months end to end, with the bulk of the install in a one-month push, Team Fireplace reunited, and after a setback at 80% done it all came together.
 
 ## The idea
 
