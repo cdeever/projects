@@ -44,7 +44,7 @@ The first version was just the tree. Since then I've given it the holiday touche
 
 ## Still ahead
 
-The bigger goals are still out in front of me: burning the ROM onto a real EPROM chip instead of leaning on the Harmony cartridge, and eventually turning all of this into a complete homebrew game with a proper cartridge and hand-made label art.
+The bigger goals are still out in front of me: burning the ROM onto a real EPROM chip instead of leaning on the Harmony cartridge, and building on these skills to eventually make fun homebrew games — complete with proper cartridges and hand-made label art.
 
 ## Takeaways
 
