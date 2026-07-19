@@ -46,17 +46,17 @@ The first version was just the tree. Since then I've given it the holiday touche
 
 The bigger goals are still out in front of me: burning the ROM onto a real EPROM chip instead of leaning on the Harmony cartridge, and building on these skills to eventually make fun homebrew games — complete with proper cartridges and hand-made label art.
 
-## Takeaways
-
-- "Racing the beam" isn't just a concept — until your logically correct code fails because of scanline timing, you don't truly feel it
-- The Harmony cartridge is a great intermediate step for testing on real hardware while the EPROM workflow is still in progress
-- Having access to an experienced assembly programmer saved hours of frustration — some bugs only make sense to someone who's seen them before
-
 ## Try it yourself
 
 Want to see the tree run? You don't need an Atari — you can do it right in your browser. Open the [demo's source code on GitHub](https://github.com/cdeever/atari-vcs/blob/main/xmas/xmas.asm), copy the raw file, and paste it into [8bitworkshop](https://8bitworkshop.com/), a free Atari programming environment that runs entirely in the browser. It'll assemble and play the demo with no setup at all. Fair warning, though: 8bitworkshop's sound and timing aren't as faithful as a dedicated emulator, so the song and a few of the beam-timing tricks won't come out quite right.
 
 For the accurate version — the way it actually sounds and looks on hardware — assemble it with DASM and run it in the Stella emulator. My notebook walks through [installing and using both tools](https://cdeever.github.io/atari-vcs/docs/getting-started/toolchain/) step by step.
+
+## Takeaways
+
+- "Racing the beam" isn't just a concept — until your logically correct code fails because of scanline timing, you don't truly feel it
+- The Harmony cartridge is a great intermediate step for testing on real hardware while the EPROM workflow is still in progress
+- Having access to an experienced assembly programmer saved hours of frustration — some bugs only make sense to someone who's seen them before
 
 ## Links
 
