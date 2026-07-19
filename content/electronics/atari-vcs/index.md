@@ -30,13 +30,6 @@ For last Christmas, I wanted the demo running on a real Atari. I haven't yet nai
 
 ![Christmas Demo on TV](christmas-demo.jpg)
 
-## Takeaways
-
-- "Racing the beam" isn't just a concept — until your logically correct code fails because of scanline timing, you don't truly feel it
-- The Harmony cartridge is a great intermediate step for testing on real hardware while the EPROM workflow is still in progress
-- Having access to an experienced assembly programmer saved hours of frustration — some bugs only make sense to someone who's seen them before
-- 8bitworkshop's interactive browser environment is invaluable for quick iteration
-
 ## Enhancements
 
 The first version was just the tree. Since then I've given it the holiday touches it was missing — a star, lights, and a song — and this is what it looks like now running in Stella:
@@ -45,13 +38,20 @@ The first version was just the tree. Since then I've given it the holiday touche
 
 **The star.** A little starburst sits on top of the tree and twinkles, changing color every frame so it shimmers instead of sitting there as a flat yellow blob.
 
-**The lights.** Twenty colored bulbs blink on and off across the tree. Getting them there was the fun part: my first attempt nearly filled the entire cartridge, because each bulb was positioned by hand with a long run of do-nothing filler instructions — page after page of code whose only job was to waste a precise sliver of time. Working through it with Claude, we replaced all that repetition with one small routine and a short table listing each bulb's position and color. Same twenty blinking lights, but it freed up about a quarter of the whole cartridge. The lesson stuck with me: when you see the same thing copied over and over, it usually wants to be *data*, not code.
+**The lights.** Twenty colored bulbs blink on and off across the tree. Getting them there was the fun part: my first attempt nearly filled the entire cartridge, because each bulb was positioned by hand with a long run of do-nothing filler instructions — page after page of code whose only job was to waste a precise sliver of time. Working through it with Claude, we replaced all that repetition with one small routine and a short table listing each bulb's position and color. Same twenty blinking lights, but it freed up about a quarter of the whole cartridge.
 
 **The song.** The tree now plays a carol — and if your ear tells you it's a little out of tune, your ear is right. That one isn't on me; it's the Atari's sound chip. The TIA can only produce 32 fixed pitches, and they're spaced unevenly — bunched close together down low and spread nearly an octave apart up high — nothing like the even steps of a piano keyboard. So for most notes the closest the hardware can get is a bit sharp or a bit flat. That slightly-wrong, slightly-charming sound is baked into the machine; it physically cannot play a proper musical scale. You can pick the least-wrong pitch for each note, but you can't make it perfect — and honestly, that wobble is a big part of why old Atari games sound the way they do.
 
 ## Still ahead
 
 The bigger goals are still out in front of me: burning the ROM onto a real EPROM chip instead of leaning on the Harmony cartridge, and eventually turning all of this into a complete homebrew game with a proper cartridge and hand-made label art.
+
+## Takeaways
+
+- "Racing the beam" isn't just a concept — until your logically correct code fails because of scanline timing, you don't truly feel it
+- The Harmony cartridge is a great intermediate step for testing on real hardware while the EPROM workflow is still in progress
+- Having access to an experienced assembly programmer saved hours of frustration — some bugs only make sense to someone who's seen them before
+- 8bitworkshop's interactive browser environment is invaluable for quick iteration
 
 ## Links
 
