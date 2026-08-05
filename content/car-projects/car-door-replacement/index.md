@@ -19,7 +19,7 @@ Sweetie's CR-V was parked in the driveway at the wrong place at the wrong time. 
 
 The original door still worked fine, but post-crunch it came with two new features. The first was a whirring sound at about 40 MPH. The second was complimentary air conditioning — in the wintertime. The dent was well past what a quick pull was going to fix.
 
-## What I did
+## What we did
 
 There were three ways to go about this.
 
