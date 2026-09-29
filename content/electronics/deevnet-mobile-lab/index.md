@@ -16,7 +16,11 @@ The Mobile Factory started as my portable home lab — a way to pack up a real n
 
 Working with microcontrollers and IoT devices that need to talk to each other or reach the internet means you need a real, consistent network — not just your laptop's hotspot. I'm a member of the [Columbus Arduino and Raspberry Pi Enthusiasts](https://carpe-tech.org), and I wanted to build things on site at meetups. That meant bringing my own network, so I bundled a portable home lab into a toolkit alongside my breadboards and microcontrollers.
 
-That was version one, and it was just for me. Then I started thinking about everyone else at the table. Everybody wiring up sensors spends the first chunk of the evening on the same plumbing — where do the messages go, where do the logs go, how do I see what my device is doing. I built the thing for my own projects, and then I wanted to make it something everyone else could use too.
+That was version one, and it was just for me. As it grew, I realized I didn't want my application code mingled with the infrastructure code. The hardware, the configuration that turns it into a substrate, and the code that deploys onto it should each stand on their own. So my projects became "tenants": each tenant is a collection of applications, treated as its own unit in a monorepo. Those boundaries keep the applications easier to understand and less dependent on the infrastructure they run on.
+
+My first tenant was EdS, a voice-assistant-meets-vinyl project that's still incubating (more on that someday). Once I was heading in that direction, it clicked that the rig could be a shared service, and a hands-on way to demonstrate cloud techniques right there on the table.
+
+With tenants working, the next realization was that a tenant's deployment could be packaged as an image and flashed to a microSD card, so the tenant's code and the shared services would both run on a single Pi. That's what made the factory shareable: build your project on the rig at a meetup, then take it home on a Pi.
 
 ## Constraints
 
@@ -39,7 +43,7 @@ I made the messaging and logging decisions up front on purpose. The point is to 
 
 Like a typical engineer, I couldn't just build the thing. First I had to build the thing that builds the thing. The network, the services and the OS images the factory runs are all automated and built from code — Ansible, Packer, Terraform and PXE — and everything can be rebuilt from scratch. That's why I call it a factory. Somewhere along the way it also became a reference implementation for infrastructure automation, with docs written to be read by people and AI agents alike.
 
-It also produces things people take away. Its address space and DNS zone travel with the toolkit, so it's the same factory wherever I set it up — no renumbering. And it builds a take-home kit: bring a microSD card, and you can walk out with your backend running on a Raspberry Pi of your own.
+It also travels well. Its address space and DNS zone move with the toolkit, so it's the same factory wherever I set it up — no renumbering. And the take-home Pi images come out of the same build as everything else.
 
 ## The rig
 
