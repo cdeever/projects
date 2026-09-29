@@ -2,7 +2,7 @@
 title: "Deevnet IoTaaS Mobile Factory"
 description: "A portable IoT platform in a rolling toolkit — a device network, MQTT, logs and dashboards for everyone at a meetup, with no public cloud"
 summary: "A cloud you can carry — IoT as a Service for a meetup room, rolled in on a toolkit"
-date: 2025-09-04
+date: 2026-09-29
 tags: ["electronics", "home-lab", "portable", "meetup", "iot", "iotaas", "mqtt", "terraform", "carpe", "zimaboard", "zeke"]
 status: "in progress"
 showHero: true
