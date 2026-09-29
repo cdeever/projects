@@ -1,16 +1,16 @@
 ---
 title: "Cold-Smoking Cloche"
 description: "A DIY cold-smoking cloche base built from live edge wood for infusing foods and cocktails with smoke"
-summary: "A live edge wood base for a cold-smoking cloche — still prototyping the smoke routing"
-date: 2026-02-13
-tags: ["woodworking", "food", "smoking", "diy"]
+summary: "A live edge wood base for a cold-smoking cloche — version two is piped in copper and almost to the finish line"
+date: 2026-09-29
+tags: ["woodworking", "food", "smoking", "diy", "copper"]
 status: "in progress"
 showHero: true
 heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-Sweetie got me a cold smoker for my birthday, but it didn't come with a vessel to hold the food being smoked — so naturally I got even more excited about the prospect of making one. This is a live edge wood base with routed channels to direct smoke under a glass cloche. Still in the prototype phase after the first attempt taught me that smoke has a mind of its own.
+Sweetie got me a cold smoker for my birthday, but it didn't come with a vessel to hold the food being smoked — so naturally I got even more excited about the prospect of making one. This is a live edge wood base that pipes smoke up under a glass cloche. The first prototype taught me that smoke has a mind of its own; version two, with a copper smoke line and a round channel for the cloche, is far ahead of it. Almost to the finish line, but not quite — it still leaks a little under pressure.
 
 ## The idea
 
@@ -20,16 +20,26 @@ We both like to experiment with food and flavors, so a cold smoker was a perfect
 
 Birthday night, we headed to Lowe's. I was thinking butcher's block for the base, but when we hit the lumber section we found live edge wood — even better. The long piece gave me multiple attempts to get it right, which turned out to be important. That same night I made a quick cut on the rough end and drilled two holes — one on top with a hole saw and one in the side — a super-quick first prototype.
 
+![The first prototype — raw live edge with two drilled holes](first-prototype.jpg)
+
+For version two, I cut a few practice pieces off the long board first. Then, when I got to the section with the good bark, I measured and found it wasn't wide enough for the cloche — so back to the store for another long piece of live edge. Measure twice, cut once! On the new board, I used a circle jig on the router to cut a perfectly round 1/4" channel for the cloche to sit in. Then, instead of trusting the wood to carry the smoke, I fed a 1/2" copper pipe in from the back to the center of the base, where it meets a 1" copper end cap with a 1/2" hole in it for the lead-in pipe. The cap turns the smoke upward and out through the top, right in the middle under the glass, so it comes up exactly where the food is.
+
+Then the finishing work. The live edge got shellac to protect the bark, and the top got three coats of butcher block stain. An antique brass grommet buttons up the hole on the top surface where the smoke comes out.
+
 ## What surprised me
 
-In my mind, the smoke would travel through the side hole and up into the bowl placed on top. In reality, the smoke went everywhere *except* into the target bowl. Smoke follows the path of least resistance, and an open channel through porous wood gives it plenty of places to escape.
+In my mind, the first prototype's smoke would travel through the side hole and up into the bowl placed on top. In reality, the smoke went everywhere *except* into the target bowl. Smoke follows the path of least resistance, and an open channel through porous wood gives it plenty of places to escape.
+
+The copper line fixed that — now the smoke goes where it's supposed to. But once the cloche fills and there's a little pressure behind it, the smoke finds the next path of least resistance: out through the round channel under the rim.
 
 ## Result
 
-The first prototype proved the concept but exposed the smoke routing problem. The next version will include proper piping to reduce resistance, with a side port and top hole that don't drill all the way through — lined with something to keep smoke from seeping into the wood. I'm also planning to rig up a router jig to cut a channel for the cloche to seat into. Some nice stain and it should look great and function well. For now, still in the prototype phase.
+The new design is far ahead of the original, and the live edge looks great with the shellac and stain. One more enhancement to go: lining the channel with silicone so the cloche seals against something softer than wood. Almost to the finish line, but not quite.
 
 ## Takeaways
 
-- Smoke follows the path of least resistance — an unlined hole through wood doesn't create a directed channel
+- Smoke follows the path of least resistance — an unlined hole through wood doesn't create a directed channel, and once you pipe it properly, it will go looking for the next leak
 - A long piece of live edge was a smart buy — multiple attempts built into one board
+- Measure twice, cut once — check that the good-looking section is actually wide enough before you fall in love with it
 - Quick birthday-night prototypes are great for validating (or invalidating) assumptions before committing to a finished build
+- A circle jig makes a perfectly round channel easy — glass on wood still needs a gasket to seal
