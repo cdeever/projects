@@ -1,4 +1,4 @@
-baseURL = 'https://cdeever.github.io/projects/'
+baseURL = 'https://chrisdeever.com/'
 languageCode = 'en-us'
 title = 'Project Portfolio'
 theme = 'blowfish'

@@ -8,7 +8,7 @@ html: ## Build the site to public/
 	hugo --minify
 
 server: ## Run local dev server with live reload
-	hugo server --bind 0.0.0.0 --baseURL http://localhost:1313/projects/
+	hugo server --bind 0.0.0.0 --baseURL http://localhost:1313/
 
 serve-static: html ## Serve the built site with Python (no live reload)
 	cd public && python3 -m http.server 8000
