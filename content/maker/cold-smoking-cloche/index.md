@@ -18,7 +18,7 @@ We both like to experiment with food and flavors, so a cold smoker was a perfect
 
 ## What I did
 
-Birthday night, we headed to Lowe's. I was thinking butcher's block for the base, but when we hit the lumber section we found live edge wood — even better. The long piece gave me multiple attempts to get it right, which turned out to be important. That same night I made a quick cut on the rough end and drilled two holes — one on top with a hole saw and one in the side — a super-quick first prototype. We set a bowl upside down over the top hole and fired up the smoker. In my mind, the smoke would travel through the side hole and up into the bowl. In reality, the smoke went everywhere *except* under the bowl.
+Birthday night, we headed to Lowe's. I was thinking butcher's block for the base, but when we hit the lumber section we found live edge wood — even better. The long piece gave me multiple attempts to get it right, which turned out to be important. That same night I made a quick cut on the rough end and drilled two holes — one on top with a hole saw and one in the side — a super-quick first prototype. I figured out right away that a hole saw is only the right tool if you intend to go all the way through the board, but for the prototype it was good enough: it made a pathway for the smoke. We set a bowl upside down over the top hole and fired up the smoker. In my mind, the smoke would travel through the side hole and up into the bowl. In reality, the smoke went everywhere *except* under the bowl.
 
 That's when the cloche came in. Prior to my 55 years of living, I didn't know the word "cloche" — but after describing what I wanted to my GPT friend, it knew exactly what I was after: a glass dome you can see through, with a proper rim to sit on the base.
 
@@ -30,7 +30,7 @@ Next came two practice pieces off the long board. The goals were to try a circle
 
 After all that practice cutting a smooth router circle and drilling to the right depths, I was ready to cut the final candidate from the end with the nice bark. There was one major issue: at that end, the board wasn't wide enough for the cloche. So it was back to the store for another long piece of live edge. Measure twice, cut once!
 
-On the new board, I used the circle jig to cut a perfectly round 1/4" channel for the cloche to sit in. Then, instead of trusting the wood to carry the smoke, I fed a 1/2" copper pipe in from the back to the center of the base, where it meets a 1" copper end cap with a 1/2" hole in it for the lead-in pipe. The cap turns the smoke upward and out through the top, right in the middle under the glass, so it comes up exactly where the food is.
+On the new board, I used the circle jig to cut a perfectly round 1/4" channel for the cloche to sit in. Then, instead of trusting the wood to carry the smoke, I fed a 1/2" copper pipe in from the back to the center of the base, where it meets a 1" copper end cap. The 1" auger bit had left the center hole rough, so the cap sits inside it to fill it in, with a 1/2" hole I drilled in it with a step bit for the lead-in pipe. The cap turns the smoke upward and out through the top, right in the middle under the glass, so it comes up exactly where the food is.
 
 Then the finishing work. The live edge got shellac to protect the bark, and the top got three coats of butcher block stain. And the center hole finally got its answer: an antique brass grommet buttons up the hole on the top surface where the smoke comes out.
 
