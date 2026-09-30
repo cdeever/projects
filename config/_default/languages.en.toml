@@ -6,6 +6,10 @@ weight = 1
   name = "Chris Deever"
   image = "img/author.jpg"
   headline = "Builder, Fixer & Learner"
+  links = [
+    { linkedin = "https://www.linkedin.com/in/chris-deever/" },
+    { github = "https://github.com/cdeever" },
+  ]
 
 [params]
   description = "Personal portfolio of Chris Deever: electronics, software, home improvement, car, and maker projects, written up as build and repair stories."
