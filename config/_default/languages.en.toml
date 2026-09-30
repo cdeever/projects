@@ -6,3 +6,6 @@ weight = 1
   name = "Chris Deever"
   image = "img/author.jpg"
   headline = "Builder, Fixer & Learner"
+
+[params]
+  description = "Personal portfolio of Chris Deever: electronics, software, home improvement, car, and maker projects, written up as build and repair stories."

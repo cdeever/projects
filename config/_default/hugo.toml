@@ -1,6 +1,6 @@
 baseURL = 'https://chrisdeever.com/'
 languageCode = 'en-us'
-title = 'Project Portfolio'
+title = 'Chris Deever — Projects & Portfolio'
 theme = 'blowfish'
 
 enableGitInfo = true
