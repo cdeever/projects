@@ -4,12 +4,12 @@
   weight = 10
 
 [[main]]
-  name = "Home Improvement"
+  name = "House"
   pageRef = "home-improvement"
   weight = 20
 
 [[main]]
-  name = "Car Projects"
+  name = "Car"
   pageRef = "car-projects"
   weight = 30
 
