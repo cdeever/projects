@@ -26,9 +26,13 @@ That's when the cloche came in. Prior to my 55 years of living, I didn't know th
 
 That was version one. It looked the part, but the smoke still mostly went everywhere else rather than under the cloche. There was still no real channel for it — just holes through the wood — and wood is porous, so the smoke had plenty of places to escape.
 
-For version two, I cut a few practice pieces off the long board first. Then, when I got to the section with the good bark, I measured and found it wasn't wide enough for the cloche — so back to the store for another long piece of live edge. Measure twice, cut once! On the new board, I used a circle jig on the router to cut a perfectly round 1/4" channel for the cloche to sit in. Then, instead of trusting the wood to carry the smoke, I fed a 1/2" copper pipe in from the back to the center of the base, where it meets a 1" copper end cap with a 1/2" hole in it for the lead-in pipe. The cap turns the smoke upward and out through the top, right in the middle under the glass, so it comes up exactly where the food is.
+Next came two practice pieces off the long board. The goals were to try a circle jig on the router, sized to match the cloche's diameter, to improve the center hole, and to experiment with copper pipe for the smoke line. With the cloche sitting in the trench, there was still some smoke leaking out, but it was an improvement over the original. The center hole where the smoke comes out also needed something to finish its look, though I wasn't sure what yet.
 
-Then the finishing work. The live edge got shellac to protect the bark, and the top got three coats of butcher block stain. An antique brass grommet buttons up the hole on the top surface where the smoke comes out.
+After all that practice cutting a smooth router circle and drilling to the right depths, I was ready to cut the final candidate from the end with the nice bark. There was one major issue: at that end, the board wasn't wide enough for the cloche. So it was back to the store for another long piece of live edge. Measure twice, cut once!
+
+On the new board, I used the circle jig to cut a perfectly round 1/4" channel for the cloche to sit in. Then, instead of trusting the wood to carry the smoke, I fed a 1/2" copper pipe in from the back to the center of the base, where it meets a 1" copper end cap with a 1/2" hole in it for the lead-in pipe. The cap turns the smoke upward and out through the top, right in the middle under the glass, so it comes up exactly where the food is.
+
+Then the finishing work. The live edge got shellac to protect the bark, and the top got three coats of butcher block stain. And the center hole finally got its answer: an antique brass grommet buttons up the hole on the top surface where the smoke comes out.
 
 ## What surprised me
 
