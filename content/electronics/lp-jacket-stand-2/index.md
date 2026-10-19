@@ -31,7 +31,7 @@ Two extras came along for the ride. A web console shows what the system is doing
 
 ## What surprised me
 
-It mostly just worked. Since the audio chain already existed, this was mostly a software project. The refinements came later, album by album. Pink Floyd's *Dark Side of the Moon* got its own special handling: instead of lifting the top colors from the jacket, it gets a rainbow pattern. Some albums just deserve it.
+It mostly just worked. Since the audio chain already existed, this was mostly a software project. The refinements came later, album by album. Pink Floyd's *Dark Side of the Moon* got its own special handling: instead of lifting the top colors from the jacket, it gets a rainbow pattern. Some albums deserve a little more time and effort.
 
 ## Result
 
