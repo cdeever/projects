@@ -14,7 +14,7 @@ The [LP Jacket Stand](../../maker/lp-jacket-stand/) now lights up in the colors 
 
 ## The idea
 
-A color display was always the plan. I had the idea of lighting the stand in the album's colors before I built 1.0, and the plain stand was just the first step. The hard part was figuring out which LP is actually on the turntable. My first thought was some kind of camera that would capture the jacket, but I liked the idea of getting song detection working right here at home, from the audio itself. That seemed out of reach at first. It turns out it isn't.
+A color display was always the plan. I had the idea of lighting the stand in the album's colors before I built 1.0, and the plain stand was just the first step. The hard part was figuring out which LP is actually on the turntable. My first thought was some kind of camera that would capture the jacket, but I liked the idea of getting song detection, like a smartphone does it, working right here at home. That seemed out of reach at first. It turns out it isn't.
 
 ## What I did
 
