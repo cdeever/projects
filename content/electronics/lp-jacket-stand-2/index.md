@@ -31,7 +31,7 @@ Two extras came along for the ride. A web console shows what the system is doing
 
 ## What surprised me
 
-It mostly just worked. Since the audio chain already existed, this was mostly a software project. The refinements came later, album by album. Pink Floyd's *Dark Side of the Moon* got its own special handling: instead of lifting the top colors from the jacket, it gets a rainbow pattern. Some albums deserve a little more time and effort.
+It mostly just worked. The existing infrastructure enabled this project to be mostly a software effort. The refinements came later, album by album. Pink Floyd's *Dark Side of the Moon* got its own special handling: instead of lifting the top colors from the jacket, it gets a rainbow pattern. Some albums deserve a little more time and effort.
 
 ## Result
 
@@ -39,7 +39,7 @@ It's working, and I'm still tweaking it. The Discogs matching helps a lot, but I
 
 ## Takeaways
 
-- Reuse the infrastructure you already have. The existing audio distribution made this mostly software.
+- Reuse the infrastructure you already have
 - MQTT keeps the Pi and the ESP32 decoupled, so each side stays simple
 - Some albums need hand tuning. No color algorithm was going to come up with the *Dark Side of the Moon* rainbow.
 - Single-color covers, especially all black or all white, need special treatment to keep the display interesting
