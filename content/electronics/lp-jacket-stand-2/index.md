@@ -10,7 +10,7 @@ heroStyle: "background"
 layoutBackgroundHeaderSpace: false
 ---
 
-The [LP Jacket Stand](../../maker/lp-jacket-stand/) now lights up in the colors of whatever album is playing. A Raspberry Pi listens to the record, identifies the album, pulls the cover art, and sends the colors over MQTT to an ESP32 on the stand. It's working, and I'm still tweaking it. It's also the first piece of EdS, a bigger project that ties the music into the rest of the house.
+The [LP Jacket Stand](../../maker/lp-jacket-stand/) now lights up in the colors of whatever album is playing. A Raspberry Pi listens to the record, identifies the song, works out which album it's from, pulls the cover art, and sends the colors over MQTT to an ESP32 on the stand. It's working, and I'm still tweaking it. It's also the first piece of EdS, a bigger project that ties the music into the rest of the house.
 
 ## The idea
 
@@ -22,8 +22,8 @@ The audio was already flowing around the house. My [S/PDIF Audio Distribution](.
 
 From there:
 
-- The Pi sends a sample to a Shazam-style recognition service to identify the album
-- My Discogs collection steers the match toward albums I actually own, with less curated sources as the fallback
+- The Pi sends a short sample to Shazam to identify the song. Shazam only knows the song, and its album guess is often a greatest-hits compilation.
+- My Discogs collection works out which album the song is from, so the match lands on the record I actually own. Less curated catalogs are the fallback.
 - The cover art gets broken down into its dominant colors
 - The colors go out over MQTT to an ESP32 on the stand, which drives an addressable RGB strip
 
@@ -46,7 +46,7 @@ It's working, and I'm still tweaking it. The Discogs matching helps a lot, but I
 
 ## What's next
 
-Some of the default cover images on Discogs aren't great. Hype stickers show up a lot. A simple way to pin a better image, or a local cache of improved images, is likely next. On the hardware side, the stand's ESP32 controller needs to move off the breadboard and onto a proper circuit board in a mounted enclosure. After that, the stand is just the first of several projects that will tie into the music, covering both control and visuals.
+Some of the default cover images on Discogs aren't great. Hype stickers show up a lot. A simple way to pin a better image, or a local cache of improved images, is likely next. Song recognition currently depends on an unofficial Shazam API that could stop working at any moment, so a local song fingerprinting solution should be put in place. On the hardware side, the stand's ESP32 controller needs to move off the breadboard and onto a proper circuit board in a mounted enclosure. After that, the stand is just the first of several projects that will tie into the music, covering both control and visuals.
 
 ![Dark Side of the Moon playing: the stand's LED strip and the console both showing the rainbow, with the 2-inch cover screen on the desk](dark-side-rainbow.jpg)
 
