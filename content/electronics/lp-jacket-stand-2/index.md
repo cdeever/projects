@@ -46,7 +46,10 @@ It's working, and I'm still tweaking it. The Discogs matching helps a lot, but I
 
 ## What's next
 
-Some of the default cover images on Discogs aren't great. Hype stickers show up a lot. A simple way to pin a better image, or a local cache of improved images, is likely next. Song recognition currently depends on an unofficial Shazam API that could stop working at any moment, so a local song fingerprinting solution should be put in place. On the hardware side, the stand's ESP32 controller needs to move off the breadboard and onto a proper circuit board in a mounted enclosure. After that, the stand is just the first of several projects that will tie into the music, covering both control and visuals.
+- **Better cover images.** Some of the default cover images on Discogs aren't great, and hype stickers show up a lot. A simple way to pin a better image, or a local cache of improved images, is likely next.
+- **Local song fingerprinting.** Song recognition currently depends on an unofficial Shazam API that could stop working at any moment, so a local song fingerprinting solution should be put in place.
+- **A real circuit board.** The stand's ESP32 controller needs to move off the breadboard and onto a proper circuit board in a mounted enclosure.
+- **More music projects.** The stand is just the first of several projects that will tie into the music, covering both control and visuals.
 
 ![Dark Side of the Moon playing: the stand's LED strip and the console both showing the rainbow, with the 2-inch cover screen on the desk](dark-side-rainbow.jpg)
 
