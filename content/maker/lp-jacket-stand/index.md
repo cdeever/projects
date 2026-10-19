@@ -1,5 +1,5 @@
 ---
-title: "LP Jacket Stand"
+title: "LP Jacket Stand 1.0"
 description: "A handmade display stand for showcasing vinyl record jacket art while the record spins"
 summary: "A modified cookbook holder turned LP jacket display, built with help from Uncle Pete"
 date: 2026-02-13
@@ -36,6 +36,10 @@ The stand looks great and is quite functional — it almost always has a record 
 
 ## What's next
 
-Eventually I want to add RGB LEDs to the back of the stand that match the dominant colors of the album art on display. With digital sources this is straightforward, but detecting what LP is actually spinning on the turntable is a more complex problem. That's a future hardware/software project I'm looking forward to tackling.
+Eventually I wanted to add RGB LEDs to the back of the stand that match the dominant colors of the album art on display. With digital sources this is straightforward, but detecting what LP is actually spinning on the turntable seemed like a more complex problem. It turned out the answer was to listen to it. That became [LP Jacket Stand 2.0](../../electronics/lp-jacket-stand-2/).
 
 {{< before-after before="lp-jacket-stand.jpg" after="featured.jpg" >}}
+
+## Links
+
+- [LP Jacket Stand 2.0](../../electronics/lp-jacket-stand-2/)
