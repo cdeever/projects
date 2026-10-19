@@ -36,7 +36,7 @@ The stand looks great and is quite functional — it almost always has a record 
 
 ## What's next
 
-Eventually I wanted to add RGB LEDs to the back of the stand that match the dominant colors of the album art on display. With digital sources this is straightforward, but detecting what LP is actually spinning on the turntable seemed like a more complex problem. It turned out the answer was to listen to it. That became [LP Jacket Stand 2.0](../../electronics/lp-jacket-stand-2/).
+Colors were always the plan. Even before building the stand, I wanted RGB LEDs on the back that match the dominant colors of the album art on display. With digital sources this is straightforward, but detecting what LP is actually spinning on the turntable seemed like a more complex problem. It turned out the answer was to listen to it, the way a smartphone identifies a song. That became [LP Jacket Stand 2.0](../../electronics/lp-jacket-stand-2/).
 
 {{< before-after before="lp-jacket-stand.jpg" after="featured.jpg" >}}
 
