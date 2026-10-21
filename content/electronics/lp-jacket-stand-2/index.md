@@ -18,7 +18,7 @@ A color display was always the plan. I had the idea of lighting the stand in the
 
 ## What I did
 
-The audio was already flowing around the house. My [S/PDIF Audio Distribution](../spdif-audio-distribution/) setup has an analog conversion and distribution stage, the same one that feeds the [FM Transmitter](../fm-transmitter/). I tapped a line-level analog signal off that, ran it into a passive USB capture device, and let a Raspberry Pi sample it.
+The audio was already flowing around the house. My [S/PDIF Audio Distribution](../spdif-audio-distribution/) setup has an analog conversion and distribution stage, the same one that feeds the [FM Transmitter](../fm-transmitter/). I tapped a line-level analog signal off that, ran it into a Behringer UFO202 USB audio interface, and let a Raspberry Pi sample it.
 
 From there:
 
